@@ -408,6 +408,16 @@ class DescriptiveDetail
     {
         return $this->Measure;
     }
+    
+    /**
+     * Get all Measures
+     *
+     * @return array
+     */
+    public function getMeasures()
+    {
+    	return $this->Measure;
+    }
 
     /**
      * Get CountryOfManufacture
@@ -581,6 +591,74 @@ class DescriptiveDetail
      */
     public function removeProductFormFeature(ProductFormFeature $ProductFormFeature)
     {
+    }
+    
+    /**
+     * Get the height measure of the product, if set
+     *
+     * @return Measure
+     */
+    public function getHeight()
+    {
+    	foreach ($this->Measure as $measure) {
+    		if ($measure->isHeight()) {
+    			return $measure;
+    		}
+    	}    
+    }
+    
+    /**
+     * Get the width measure of the product, if set
+     *
+     * @return Measure
+     */
+    public function getWidth()
+    {
+    	foreach ($this->Measure as $measure) {
+    		if ($measure->isWidth()) {
+    			return $measure;
+    		}
+    	}    
+    }
+    
+    /**
+     * Get the thickness measure of the product, if set
+     *
+     * @return Measure
+     */
+    public function getThickness()
+    {
+    	foreach ($this->Measure as $measure) {
+    		if ($measure->isThickness()) {
+    			return $measure;
+    		}
+    	}    
+    }
+    
+    /**
+     * Get the weight measure of the product, if set
+     *
+     * @return Measure
+     */
+    public function getWeight()
+    {
+    	foreach ($this->Measure as $measure) {
+    		if ($measure->isWeight()) {
+    			return $measure;
+    		}
+    	}    
+    }
+    
+    /**
+     * Get all contributors marked as authors
+     *
+     * @return array
+     */
+    public function getAuthors()
+    {
+    	return array_filter($this->Contributor, function ($contributor) {
+    		return $contributor->isAuthor();
+    	});
     }
 
 }

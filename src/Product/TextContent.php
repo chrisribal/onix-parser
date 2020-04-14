@@ -10,6 +10,8 @@ use Ribal\Onix\TextNode;
 class TextContent
 {
 
+	private const CODE_MAINDESCRIPTION = '03';
+
     /**
      * Type of the Text
      *
@@ -110,6 +112,26 @@ class TextContent
     public function getSourceTitle()
     {
         return $this->SourceTitle;
+    }
+    
+    /**
+     * Get the actual Text
+     *
+     * @return Text
+     */
+    public function getText()
+    {
+    	return $this->Text;
+    }
+    
+    /**
+     * Determines if the current TextContent is the product description
+     *
+     * @return boolean
+     */
+    public function isDescription()
+    {
+    	return $this->getTextType()->getCode() === self::CODE_MAINDESCRIPTION;
     }
 
 }

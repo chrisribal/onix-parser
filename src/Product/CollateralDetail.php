@@ -68,6 +68,16 @@ class CollateralDetail
     {
         return $this->TextContent;
     }
+    
+    /**
+     * Get TextContents
+     *
+     * @return array
+     */
+    public function getTextContents()
+    {
+    	return $this->TextContent;
+    }
 
     /**
      * Get CitedContents
@@ -117,6 +127,20 @@ class CollateralDetail
      */
     public function removeSupportingResource(SupportingResource $SupportingResource)
     {
+    }
+    
+    /**
+     * Get the product description text, if set
+     *
+     * @return TextContent|null
+     */
+    public function getDescriptionText()
+    {
+    	foreach ($this->TextContent as $textContent) {
+    		if ($textContent->isDescription()) {
+    			return $textContent;
+    		}
+    	}
     }
 
 }

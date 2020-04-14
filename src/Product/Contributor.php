@@ -8,6 +8,8 @@ use Ribal\Onix\Text;
 class Contributor
 {
 
+	private const CODE_AUTHOR = 'A01';
+
     /**
      * SequenceNumber
      *
@@ -203,7 +205,7 @@ class Contributor
      */
     public function isAuthor()
     {
-        return $this->ContributorRole->getCode() === "A01";
+        return $this->ContributorRole->getCode() === self::CODE_AUTHOR;
     }
 
 }

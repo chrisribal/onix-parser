@@ -7,6 +7,11 @@ use Ribal\Onix\CodeList\CodeList50;
 
 class Measure
 {
+
+	private const CODE_HEIGHT = '01';
+	private const CODE_WIDTH = '02';
+	private const CODE_THICKNESS = '03';
+	private const CODE_WEIGHT = '08';
     
     /**
      * MeasureType
@@ -91,4 +96,45 @@ class Measure
     {
         return $this->MeasureUnitCode;
     }
+    
+    /**
+     * Check if the current Measure represents the height
+     *
+     * @return boolean
+     */
+    public function isHeight()
+    {
+    	return $this->MeasureType->getCode() === self::CODE_HEIGHT;
+    }
+    
+    /**
+     * Check if the current Measure represents the width
+     *
+     * @return boolean
+     */
+    public function isWidth()
+    {
+    	return $this->MeasureType->getCode() === self::CODE_WIDTH;
+    }
+    
+    /**
+     * Check if the current Measure represents the thickness
+     *
+     * @return boolean
+     */
+    public function isThickness()
+    {
+    	return $this->MeasureType->getCode() === self::CODE_THICKNESS;
+    }
+    
+    /**
+     * Check if the current Measure represents the weight
+     *
+     * @return boolean
+     */
+    public function isWeight()
+    {
+    	return $this->MeasureType->getCode() === self::CODE_WEIGHT;
+    }
+    
 }
