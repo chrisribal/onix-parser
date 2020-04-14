@@ -42,15 +42,23 @@ class Parser
      * 
      * Initializes the needed libraries and classes to work with
      * 
-     * @return void
+     * @param string $language
+     * @return Parser
      */
-    public function __construct()
+    public function __construct(string $language = 'en')
     {
+
+		$supportedLanguages = ['en', 'es', 'de', 'fr', 'it', 'nb', 'tr'];
+		
+    	if (!in_array($language, $supportedLanguages)) {
+    		throw new \InvalidArgumentException('Language must be one of ' . join(', ', $supportedLanguages));
+    	}
+    
         $this->encoder = new ONIXEncoder();
 
         $this->normalizers = [
             new ArrayDenormalizer(),
-            new CodeListNormalizer(),
+            new CodeListNormalizer($language),
             new DateNormalizer(),
             new TextNormalizer(),
             new ObjectNormalizer(

@@ -75,5 +75,15 @@ class Message
     {
         return $this->Product;
     }
+    
+    /**
+     * Get the products
+     *
+     * @return array
+     */
+    public function getProducts()
+    {
+    	return $this->Product;
+    }
 
 }
