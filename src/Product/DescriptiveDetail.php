@@ -28,9 +28,9 @@ class DescriptiveDetail
     /**
      * ProductFormDetail
      *
-     * @var CodeList
+     * @var CodeList[]
      */
-    protected $ProductFormDetail;
+    protected $ProductFormDetail = [];
 
     /**
      * ProductFormFeature
@@ -155,12 +155,12 @@ class DescriptiveDetail
     /**
      * Set ProductFormDetail
      *
-     * @param string $ProductFormDetail
+     * @param CodeList $ProductFormDetail
      * @return void
      */
-    public function setProductFormDetail(CodeList175 $ProductFormDetail)
+    public function addProductFormDetail(CodeList175 $ProductFormDetail)
     {
-        $this->ProductFormDetail = $ProductFormDetail;
+        $this->ProductFormDetail[] = $ProductFormDetail;
     }
 
     /**
@@ -382,11 +382,21 @@ class DescriptiveDetail
     /**
      * Get ProductFormDetail
      *
-     * @return CodeList
+     * @return array
      */
     public function getProductFormDetail()
     {
         return $this->ProductFormDetail;
+    }
+    
+    /**
+     * Remove ProductFormDetail
+     *
+     * @return void
+     */
+    public function removeProductFormDetail(CodeList175 $ProductFormDetail)
+    {
+
     }
 
     /**
@@ -492,11 +502,21 @@ class DescriptiveDetail
     /**
      * Get all Subjects
      *
-     * @return array
+     * @return Subject[]
      */
     public function getSubject()
     {
         return $this->Subject;
+    }
+    
+    /**
+     * Get all Subjects
+     *
+     * @return Subject[]
+     */
+    public function getSubjects()
+    {
+    	return $this->Subject;
     }
 
     /**

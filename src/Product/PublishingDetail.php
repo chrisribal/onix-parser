@@ -68,10 +68,10 @@ class PublishingDetail
     /**
      * Set CityOfPublication
      *
-     * @param string $CityOfPublication
+     * @param string|array $CityOfPublication
      * @return void
      */
-    public function setCityOfPublication(string $CityOfPublication)
+    public function setCityOfPublication($CityOfPublication)
     {
         $this->CityOfPublication = $CityOfPublication;
     }

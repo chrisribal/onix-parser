@@ -3,6 +3,7 @@
 namespace Ribal\Onix\Product;
 
 use Ribal\Onix\CodeList\CodeList22;
+use Ribal\Onix\CodeList\CodeList74;
 
 class Language
 {
@@ -17,14 +18,14 @@ class Language
     /**
      * LanguageCode
      *
-     * @var string
+     * @var CodeList
      */
     protected $LanguageCode;
 
     /**
      * Set LanguageRole
      *
-     * @param string $LanguageRole
+     * @param CodeList $LanguageRole
      * @return void
      */
     public function setLanguageRole(CodeList22 $LanguageRole)
@@ -35,10 +36,10 @@ class Language
     /**
      * Set LanguageCode
      *
-     * @param string $LanguageCode
+     * @param CodeList $LanguageCode
      * @return void
      */
-    public function setLanguageCode(string $LanguageCode)
+    public function setLanguageCode(CodeList74 $LanguageCode)
     {
         $this->LanguageCode = $LanguageCode;
     }
@@ -56,7 +57,7 @@ class Language
     /**
      * Get LanguageCode
      *
-     * @return string
+     * @return CodeList
      */
     public function getLanguageCode()
     {

@@ -98,6 +98,16 @@ class CollateralDetail
     {
         return $this->SupportingResource;
     }
+    
+    /**
+     * Get all SupportingResources
+     *
+     * @return SupportingResource[]
+     */
+    public function getSupportingResources()
+    {
+    	return $this->SupportingResource;
+    }
 
     /**
      * Remove TextContent
@@ -142,5 +152,31 @@ class CollateralDetail
     		}
     	}
     }
+    
+    /**
+     * Get the front cover resource, if set
+     *
+     * @return SupportingResource
+     */
+	public function getFrontCover()
+	{
+		foreach ($this->SupportingResource as $resource) {
+			if ($resource->isFrontCover()) {
+				return $resource;
+			}
+		}
+	}
+	
+	/**
+	 * Get all image resources
+	 *
+	 * @return SupportingResource[]|array
+	 */
+	public function getImageResources()
+	{	
+		return array_filter($this->SupportingResource, function($resource) {
+			return $resource->isImage();
+		});
+	}
 
 }

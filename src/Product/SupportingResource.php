@@ -9,6 +9,12 @@ use Ribal\Onix\CodeList\CodeList159;
 class SupportingResource
 {
 
+	private const TYPE_FRONTCOVER = '01';
+	private const TYPE_BACKCOVER = '02';
+	
+	private const MODE_IMAGE = '03';
+	
+
     /**
      * ResourceContentType
      *
@@ -119,6 +125,48 @@ class SupportingResource
     public function getResourceVersion()
     {
         return $this->ResourceVersion;
+    }
+    
+    /**
+     * Check, if the Resource is a book front cover
+     *
+     * @return boolean
+     */
+    public function isFrontCover()
+    {
+   		return $this->ResourceContentType->getCode() == self::TYPE_FRONTCOVER;
+    }
+    
+    /**
+     * Check, if the Resource is a book front cover
+     *
+     * @return boolean
+     */
+    public function isBackCover()
+    {
+   		return $this->ResourceContentType->getCode() == self::TYPE_BACKCOVER;
+    }
+    
+    /**
+     * Check, if the Resource is an image
+     *
+     * @return boolean
+     */
+    public function isImage()
+    {
+    	return $this->ResourceMode->getCode() === self::MODE_IMAGE;
+    }
+    
+    /**
+     * Get the link to a file or resource
+     *
+     * @return string
+     */
+    public function getLink()
+    {
+    	if ($this->ResourceVersion && $this->ResourceVersion->hasLink()) {
+    		return $this->ResourceVersion->getResourceLink();
+    	}
     }
 
 }

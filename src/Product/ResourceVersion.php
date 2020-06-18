@@ -62,5 +62,14 @@ class ResourceVersion
     {
         return $this->ResourceLink;
     }
+    
+    /**
+     * Check if the resource has a link set
+     */
+    public function hasLink()
+    {
+    	return $this->ResourceLink !== null;
+    }
+    
 
 }
