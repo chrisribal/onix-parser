@@ -146,6 +146,26 @@ class Date
         return $class;
 
     }
+    
+    /**
+     * Format the dates with the given date format
+     *
+     * @param string $dateFormat Date format according to DateTime::format()
+     * @return string
+     */
+    public function format(string $dateFormat)
+    {
+    	$output = '';
+    	
+    	foreach ($this->dates as $i => $date) {
+			if ($i > 0) {
+				$output .= ' – ';
+			}
+			$output .= $date->format($dateFormat);
+    	}
+    	
+    	return $output;
+    }
 
     /**
      * Format the given date object to valid ONIX format
