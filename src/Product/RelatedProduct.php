@@ -29,13 +29,6 @@ class RelatedProduct
      */
     public function addProductRelationCode(CodeList51 $ProductRelationCode)
     {
-        /*if (is_array($ProductRelationCode)) {
-            foreach ($ProductRelationCode as $code) {
-                $this->ProductRelationCode[] = Code::find(51, $code);
-            }
-        } else {
-            $this->ProductRelationCode[] = Code::find(51, $ProductRelationCode);
-        }*/
         $this->ProductRelationCode[] = $ProductRelationCode;
     }
 
@@ -70,7 +63,7 @@ class RelatedProduct
         return $this->ProductIdentifier;
     }
 
-    public function removeProductRelationCode(string $ProductRelationCode)
+    public function removeProductRelationCode(CodeList51 $ProductRelationCode)
     {
     }
 
