@@ -133,6 +133,14 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Key place names',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 
 	/**
@@ -257,6 +265,14 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Nombres de lugares clave',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 
 	/**
@@ -381,6 +397,14 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Key place names',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 
 	/**
@@ -505,6 +529,14 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Noms de lieux clé',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 
 	/**
@@ -629,6 +661,14 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Luoghi come parole chiave',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 
 	/**
@@ -753,6 +793,14 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Nøkkelord – steder',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 
 	/**
@@ -877,5 +925,13 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'B5' => 'Key place names',
 		'B6' => 'FAST',
 		'B7' => 'NGSS',
+		'B8' =>	'MVB-Lesemotive',
+		'B9' =>	'LOPS21 Subject module',
+		'C0' => 'Læreplaner-LK20',
+		'C1' => 'Kompetansemål-LK20',
+		'C2' =>	'Kompetansemålsett-LK20',
+		'C3' => 'Tverrfaglige temaer-LK20',
+		'C4' =>	'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 	];
 }
