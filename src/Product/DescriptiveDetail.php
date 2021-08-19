@@ -42,9 +42,9 @@ class DescriptiveDetail
     /**
      * ProductContentType
      *
-     * @var array|ProductContentType
+     * @var ProductContentType[]
      */
-    protected $ProductContentType;
+    protected $ProductContentType = [];
 
     /**
      * Measure
@@ -119,9 +119,9 @@ class DescriptiveDetail
     /**
      * Array of Collections
      *
-     * @var array|Collection
+     * @var Collection[]
      */
-    protected $Collections;
+    protected $Collection = [];
 
     /**
      * Array of Audiences
@@ -180,10 +180,10 @@ class DescriptiveDetail
      * @param string $ProductContentType
      * @return void
      */
-    public function setProductContentType(CodeList81 $ProductContentType)
+    /*public function addProductContentType(CodeList81 $ProductContentType)
     {
         $this->ProductContentType[] = $ProductContentType;
-    }
+    }*/
 
     /**
      * PrimaryContentType
@@ -332,9 +332,20 @@ class DescriptiveDetail
      * @param Collection $Collection
      * @return void
      */
-    public function setCollection(Collection $Collection)
+    public function addCollection(Collection $Collection)
     {
-        $this->Collections[] = $Collection;
+        $this->Collection[] = $Collection;
+    }
+    
+    /**
+     * Remove Collection
+     *
+     * @param Collection $Collection
+     * @return void
+     */
+    public function removeCollection(Collection $Collection)
+    {
+        // void
     }
 
     /**
@@ -544,9 +555,9 @@ class DescriptiveDetail
      *
      * @return array
      */
-    public function getCollections()
+    public function getCollection()
     {
-        return $this->Collections;
+        return $this->Collection;
     }
 
     /**
@@ -599,7 +610,7 @@ class DescriptiveDetail
     {
     }
 
-    public function removeProductContentType(string $ProductContentType)
+    public function removeProductContentType(CodeList81 $ProductContentType)
     {
     }
 
