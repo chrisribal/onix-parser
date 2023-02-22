@@ -116,7 +116,9 @@ class Date
             } else {
 
                 $dateString = implode('-', [
-                    $year, $month ?? 1, $day ?? 1
+                    $year,
+                    empty($month) ? 1 : $month,
+                    empty($day) ? 1 : $day
                 ]);
 
                 $dateString .= 'T' . $time ?? '00:00:00';
