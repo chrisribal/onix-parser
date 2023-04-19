@@ -206,17 +206,6 @@ class Product
         $this->RelatedMaterial = $RelatedMaterial;
     }
 
-    // /**
-    //  * Set ProductSupply
-    //  *
-    //  * @param ProductSupply $ProductSupply
-    //  * @return void
-    //  */
-    // public function setProductSupply(ProductSupply $ProductSupply)
-    // {
-    //     $this->ProductSupply = $ProductSupply;
-    // }
-
     /**
      * Add a new Product Supply
      *
