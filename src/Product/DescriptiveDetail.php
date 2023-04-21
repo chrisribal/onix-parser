@@ -75,11 +75,11 @@ class DescriptiveDetail
     protected $Contributor = [];
 
     /**
-     * ContributorStatement
+     * Array of ContributorStatements
      *
      * @var string
      */
-    protected $ContributorStatement;
+    protected $ContributorStatement = [];
 
     /**
      * EditionNumber
@@ -272,14 +272,14 @@ class DescriptiveDetail
     }
 
     /**
-     * Set ContributorStatement
+     * Add ContributorStatement
      *
      * @param string $ContributorStatement
      * @return void
      */
-    public function setContributorStatement(string $ContributorStatement)
+    public function addContributorStatement(string $ContributorStatement)
     {
-        $this->ContributorStatement = $ContributorStatement;
+        $this->ContributorStatement[] = $ContributorStatement;
     }
 
     /**
