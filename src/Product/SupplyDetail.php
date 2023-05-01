@@ -29,6 +29,13 @@ class SupplyDetail
     protected $ProductAvailability;
 
     /**
+     * Stock
+     *
+     * @var Stock
+     */
+    protected $Stock;
+
+    /**
      * PackQuantity
      *
      * @var int
@@ -142,6 +149,27 @@ class SupplyDetail
     public function getProductAvailability()
     {
         return $this->ProductAvailability;
+    }
+
+    /**
+     * Get Stock
+     *
+     * @return Stock
+     */
+    public function getStock()
+    {
+        return $this->Stock;
+    }
+
+    /**
+     * Set Stock
+     *
+     * @param Stock $Stock
+     * @return void
+     */
+    public function setStock(Stock $Stock)
+    {
+        $this->Stock = $Stock;
     }
 
     /**
