@@ -10,7 +10,7 @@ use Ribal\Onix\TextNode;
 class TextContent
 {
 
-	private const CODE_MAINDESCRIPTION = '03';
+    private const CODE_MAINDESCRIPTION = '03';
 
     /**
      * Type of the Text
@@ -32,6 +32,13 @@ class TextContent
      * @var string
      */
     protected $SourceTitle;
+
+    /**
+     * TextAuthor
+     *
+     * @var string
+     */
+    protected $TextAuthor;
 
     /**
      * Text
@@ -71,6 +78,27 @@ class TextContent
     public function setSourceTitle(string $SourceTitle)
     {
         $this->SourceTitle = $SourceTitle;
+    }
+
+    /**
+     * Set TextAuthor
+     *
+     * @param string $TextAuthor
+     * @return void
+     */
+    public function setTextAuthor(string $TextAuthor)
+    {
+        $this->TextAuthor = $TextAuthor;
+    }
+
+    /**
+     * Get TextAuthor
+     *
+     * @return string $TextAuthor
+     */
+    public function getTextAuthor()
+    {
+        return $this->TextAuthor;
     }
 
     /**
