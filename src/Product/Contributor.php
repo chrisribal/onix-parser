@@ -82,7 +82,6 @@ class Contributor
      */
     public function addNameIdentifier(NameIdentifier $NameIdentifier)
     {
-        echo "Hitting addNameIdentifier\n";
         $this->NameIdentifier[] = $NameIdentifier;
     }
 
