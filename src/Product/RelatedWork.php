@@ -15,11 +15,11 @@ class RelatedWork
     protected $WorkRelationCode;
 
     /**
-     * WorkIdentifier
+     * Array of WorkIdentifiers
      *
-     * @var WorkIdentifier
+     * @var arrayWorkIdentifier
      */
-    protected $WorkIdentifier;
+    protected $WorkIdentifier = [];
 
     /**
      * Set WorkRelationCode
@@ -33,14 +33,14 @@ class RelatedWork
     }
 
     /**
-     * Set WorkIdentifier
+     * Add a new WorkIdentifier
      *
      * @param WorkIdentifier $WorkIdentifier
      * @return void
      */
-    public function setWorkIdentifier(WorkIdentifier $WorkIdentifier)
+    public function addWorkIdentifier(WorkIdentifier $WorkIdentifier)
     {
-        $this->WorkIdentifier = $WorkIdentifier;
+        $this->WorkIdentifier[] = $WorkIdentifier;
     }
 
     /**
@@ -56,11 +56,21 @@ class RelatedWork
     /**
      * WorkIdentifier
      *
-     * @return WorkIdentifier
+     * @return array
      */
     public function getWorkIdentifier()
     {
         return $this->WorkIdentifier;
+    }
+
+     /**
+     * Remove WorkIdentifier
+     *
+     * @param WorkIdentifier $WorkIdentifier
+     * @return void
+     */
+    public function removeWorkIdentifier(WorkIdentifier $WorkIdentifier)
+    {
     }
 
 }
