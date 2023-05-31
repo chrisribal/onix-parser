@@ -35,6 +35,16 @@ class ProductIdentifier
     }
 
     /**
+     * Get ProductIDType
+     *
+     * @return string
+     */
+    public function getProductIDType()
+    {
+        return $this->ProductIDType;
+    }
+
+    /**
      * Set IDValue
      *
      * @param string $value
