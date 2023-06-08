@@ -28,7 +28,7 @@ $products = $message->getProducts();
 ```
 
 ## Code Lists
-The library contains all current code lists in __issue 49__. Codes that are specified in the ONIX file are automatically read out, so that you receive a readable version of the codes.
+The library contains all current code lists in __issue 61__. Codes that are specified in the ONIX file are automatically read out, so that you receive a readable version of the codes.
 
 Let's say, you have a product in your message showing a specific NotificationType:
 
