@@ -26,6 +26,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
 	];
 
@@ -44,6 +45,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'Número de identificación fiscal (NIF) europeo («VAT Id number»)',
 	];
 
@@ -62,6 +64,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
 	];
 
@@ -80,6 +83,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'Numéro d’identification TVA',
 	];
 
@@ -98,6 +102,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'Numero di partita IVA',
 	];
 
@@ -116,6 +121,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
 	];
 
@@ -134,6 +140,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
+		'16' => 'ISNI',
 		'23' => 'KDV Kimlik Numarası',
 	];
 }

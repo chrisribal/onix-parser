@@ -27,11 +27,12 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'MARC organization code',
 		'10' => 'Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
 		'17' => 'PND',
-		'18' => 'LCCN',
+		'18' => 'NACO',
 		'19' => 'Japanese Publisher identifier',
 		'20' => 'GKD',
 		'21' => 'ORCID',
@@ -51,6 +52,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDRef',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 
 	/**
@@ -69,11 +74,12 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'Código MARC de organismo',
 		'10' => 'Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
 		'17' => 'PND',
-		'18' => 'LCCN',
+		'18' => 'NACO',
 		'19' => 'Identificador japonés de editorial',
 		'20' => 'GKD',
 		'21' => 'ORCID',
@@ -93,6 +99,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDref',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 
 	/**
@@ -111,11 +121,12 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'MARC organization code',
 		'10' => 'Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
 		'17' => 'PND',
-		'18' => 'LCCN',
+		'18' => 'NACO',
 		'19' => 'Japanese Publisher identifier',
 		'20' => 'GKD',
 		'21' => 'ORCID',
@@ -135,6 +146,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDRef',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 
 	/**
@@ -153,11 +168,12 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'MARC organization code',
 		'10' => 'Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
 		'17' => 'PND',
-		'18' => 'LCCN',
+		'18' => 'NACO',
 		'19' => 'Identifiant éditeur japonais',
 		'20' => 'GKD',
 		'21' => 'ORCID',
@@ -177,6 +193,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDRef',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 
 	/**
@@ -195,6 +215,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'MARC organization code',
 		'10' => 'Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
@@ -219,6 +240,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDRef',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 
 	/**
@@ -237,11 +262,12 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'MARC organization code',
 		'10' => 'Nederlandsk Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
 		'17' => 'PND',
-		'18' => 'LCCN',
+		'18' => 'NACO',
 		'19' => 'Japanese Publisher identifier',
 		'20' => 'GKD',
 		'21' => 'ORCID',
@@ -257,10 +283,14 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
 		'33' => 'BNE CN',
-		'34' => 'BNF Control number',
+		'34' => 'BNF Control Number',
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDRef',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 
 	/**
@@ -279,6 +309,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'07' => 'SAN',
 		'08' => 'MARC kuruluş kodu',
 		'10' => 'Centraal Boekhuis Relatie ID',
+		'12' => 'Distributeurscode Boekenbank',
 		'13' => 'Fondscode Boekenbank',
 		'15' => 'Y-tunnus',
 		'16' => 'ISNI',
@@ -303,5 +334,9 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',
+		'38' => 'IDRef',
+		'39' => 'IPI',
+		'40' => 'ROR',
+		'41' => 'EORI',
 	];
 }

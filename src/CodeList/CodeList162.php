@@ -26,6 +26,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'MD5 hash value',
 		'07' => 'Exact download file size in bytes',
 		'08' => 'SHA-256 hash value',
+		'09' => 'ISCC',
 	];
 
 	/**
@@ -43,6 +44,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'Valor del «hash» MD5',
 		'07' => 'Tamaño exacto del archivo («peso») en bytes, para la descarga',
 		'08' => 'Valor «hash» SHA-256',
+		'09' => 'ISCC',
 	];
 
 	/**
@@ -60,6 +62,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'MD5 hash value',
 		'07' => 'Exact download file size in bytes',
 		'08' => 'SHA-256 hash value',
+		'09' => 'ISCC',
 	];
 
 	/**
@@ -77,6 +80,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'Valeur de hachage MD5',
 		'07' => 'Taille exacte du fichier téléchargeable en octets',
 		'08' => 'Valeur de hachage SHA-256',
+		'09' => 'ISCC',
 	];
 
 	/**
@@ -94,6 +98,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'Valore di hash MD5',
 		'07' => 'Dimensioni esatte del file in byte (download)',
 		'08' => 'Valore di hash SHA-256',
+		'09' => 'ISCC',
 	];
 
 	/**
@@ -111,6 +116,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'MD5 hash value',
 		'07' => 'Nedlastbar fil: eksakt størrelse i bytes',
 		'08' => 'SHA-256 hash value',
+		'09' => 'ISCC',
 	];
 
 	/**
@@ -128,5 +134,6 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'06' => 'MD5 hash değeri',
 		'07' => 'Bayt olarak indirilecek tam dosya boyutu',
 		'08' => 'SHA-256 karma değeri',
+		'09' => 'ISCC',
 	];
 }

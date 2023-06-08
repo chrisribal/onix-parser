@@ -198,7 +198,7 @@ class CodeList65 extends CodeList implements CodeListInterface
 		'47' => 'Passato al mercato remainder',
 		'48' => 'Non disponibile, sostituito da prodotto su richiesta',
 		'49' => 'Richiamato',
-		'50' => 'Venduto separatamente',
+		'50' => 'Non venduto come insieme',
 		'51' => 'Non disponibile, dichiarato fuori catalogo',
 		'52' => 'Non disponibile, fuori mercato',
 		'97' => 'Nessun nuovo aggiornamento',

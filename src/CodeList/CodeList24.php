@@ -18,6 +18,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/24
 	 */
 	protected static $en = [
+		'00' => 'Physical pieces',
 		'01' => 'Characters',
 		'02' => 'Words',
 		'03' => 'Pages',
@@ -41,7 +42,8 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/24
 	 */
 	protected static $es = [
-		'01' => 'Characters',
+		'00' => 'Número de elementos físicos',
+		'01' => 'Caracteres',
 		'02' => 'Palabras',
 		'03' => 'Páginas',
 		'04' => 'Horas (número entero y decimales)',
@@ -64,17 +66,18 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/24
 	 */
 	protected static $de = [
-		'01' => 'Zeichen',
-		'02' => 'Wörter',
-		'03' => 'Seiten',
-		'04' => 'Stunden (Ganzzahl und Dezimalstellen)',
-		'05' => 'Minuten (Ganzzahl und Dezimalstellen)',
-		'06' => 'Sekunden (nur Ganzzahl)',
+		'00' => 'Physical pieces',
+		'01' => 'Characters',
+		'02' => 'Words',
+		'03' => 'Pages',
+		'04' => 'Hours (integer and decimals)',
+		'05' => 'Minutes (integer and decimals)',
+		'06' => 'Seconds (integer only)',
 		'11' => 'Tracks',
 		'12' => 'Discs',
-		'14' => 'Stunden HHH',
-		'15' => 'Stunden und Minuten HHHMM',
-		'16' => 'Stunden Minuten Sekunden HHHMMSS',
+		'14' => 'Hours HHH',
+		'15' => 'Hours and minutes HHHMM',
+		'16' => 'Hours minutes seconds HHHMMSS',
 		'17' => 'Bytes',
 		'18' => 'Kbytes',
 		'19' => 'Mbytes',
@@ -87,7 +90,8 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/24
 	 */
 	protected static $fr = [
-		'01' => 'Characters',
+		'00' => 'Eléments physiques',
+		'01' => 'Signes',
 		'02' => 'Mots',
 		'03' => 'Pages',
 		'04' => 'Heures (valeurs entières et décimales)',
@@ -110,7 +114,8 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/24
 	 */
 	protected static $it = [
-		'01' => 'Characters',
+		'00' => 'Pezzi fisici',
+		'01' => 'Caratteri',
 		'02' => 'Parole',
 		'03' => 'Pagine',
 		'04' => 'Ore (numeri interi e decimali)',
@@ -133,7 +138,8 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/24
 	 */
 	protected static $nb = [
-		'01' => 'Characters',
+		'00' => 'Antall fysiske enheter',
+		'01' => 'Tegn',
 		'02' => 'Ord',
 		'03' => 'Sider',
 		'04' => 'Timer (heltall og desimaler)',
@@ -156,6 +162,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/tr/24
 	 */
 	protected static $tr = [
+		'00' => 'Physical pieces',
 		'01' => 'Characters',
 		'02' => 'Kelime',
 		'03' => 'Sayfa',

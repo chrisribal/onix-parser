@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 66
  *
- * Used with <ReturnsCode> <j269>From BISAC Implementation Guideline for EDI, Version 3, Release 6, Section 832: Price/Sales Catalog
+ * Used with <ReturnsCode> <j269>See BISAC Implementation Guideline for EDI, Version 3, Release 6, Section 832: Price/Sales Catalog
  *
  * @see https://ns.editeur.org/onix/en/66
  */

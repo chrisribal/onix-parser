@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 238
  *
- * Used with <AudienceRangeValue> <b076>
+ * Used with <AudienceRangeValue> <b076>See List 30
  *
  * @see https://ns.editeur.org/onix/en/238
  */
@@ -65,7 +65,7 @@ class CodeList238 extends CodeList implements CodeListInterface
 		'14' => 'Ensino Técnico Concomitante',
 		'15' => 'Ensino Técnico Subsequente',
 		'P' => 'Ensino pré-vestibular',
-		'A' => 'Ensino Superior Graduação Licenciatura/ Bacharelado',
+		'A' => 'Ensino Superior Graduação Licenciatura / Bacharelado',
 		'B' => 'Ensino Superior Graduação Tecnologia',
 		'D' => 'Ensino Superior Pós-graduação Stricto sensu',
 		'F' => 'Ensino Superior Pós-graduação Lato sensu',

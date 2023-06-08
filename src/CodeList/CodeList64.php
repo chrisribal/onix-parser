@@ -35,6 +35,7 @@ class CodeList64 extends CodeList implements CodeListInterface
 		'15' => 'Recalled',
 		'16' => 'Temporarily withdrawn from sale',
 		'17' => 'Permanently withdrawn from sale',
+		'18' => 'Active, but not sold as set',
 	];
 
 	/**
@@ -61,6 +62,7 @@ class CodeList64 extends CodeList implements CodeListInterface
 		'15' => 'Retirado',
 		'16' => 'Temporalmente retirado de la venta',
 		'17' => 'Retirado de la venta definitivamente',
+		'18' => 'Activo, pero no se vende como conjunto',
 	];
 
 	/**
@@ -70,23 +72,24 @@ class CodeList64 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/64
 	 */
 	protected static $de = [
-		'00' => 'Nicht angegeben',
-		'01' => 'Abgebrochen',
-		'02' => 'In Kürze',
-		'03' => 'Auf unbestimmte Zeit verschoben',
-		'04' => 'Aktiv',
-		'05' => 'Nicht mehr unser Produkt',
-		'06' => 'Auf unbestimmte Zeit vergriffen',
-		'07' => 'Vergriffen',
-		'08' => 'Inaktiv',
-		'09' => 'Unbekannt',
-		'10' => 'Restposten',
-		'11' => 'Vom Verkauf zurückgezogen',
-		'12' => 'Zurückgerufen',
-		'13' => 'Aktiv, aber nicht separat erhältlich',
-		'15' => 'Zurückgerufen',
-		'16' => 'Vorübergehend aus dem Verkauf genommen',
-		'17' => 'Dauerhaft aus dem Verkauf genommen',
+		'00' => 'Unspecified',
+		'01' => 'Cancelled',
+		'02' => 'Forthcoming',
+		'03' => 'Postponed indefinitely',
+		'04' => 'Active',
+		'05' => 'No longer our product',
+		'06' => 'Out of stock indefinitely',
+		'07' => 'Out of print',
+		'08' => 'Inactive',
+		'09' => 'Unknown',
+		'10' => 'Remaindered',
+		'11' => 'Withdrawn from sale',
+		'12' => 'Recalled',
+		'13' => 'Active, but not sold separately',
+		'15' => 'Recalled',
+		'16' => 'Temporarily withdrawn from sale',
+		'17' => 'Permanently withdrawn from sale',
+		'18' => 'Active, but not sold as set',
 	];
 
 	/**
@@ -113,6 +116,7 @@ class CodeList64 extends CodeList implements CodeListInterface
 		'15' => 'Rappelé',
 		'16' => 'Retiré momentanément de la vente',
 		'17' => 'Retiré définitivement de la vente',
+		'18' => 'Actif, mais non vendu comme un ensemble',
 	];
 
 	/**
@@ -139,6 +143,7 @@ class CodeList64 extends CodeList implements CodeListInterface
 		'15' => 'Richiamato',
 		'16' => 'Temporaneamente ritirato dal commercio',
 		'17' => 'Ritirato dalla vendita definitivamente',
+		'18' => 'Attivo, ma non venduto come insieme',
 	];
 
 	/**
@@ -165,6 +170,7 @@ class CodeList64 extends CodeList implements CodeListInterface
 		'15' => 'Recalled',
 		'16' => 'Temporarily withdrawn from sale',
 		'17' => 'Permanently withdrawn from sale',
+		'18' => 'Active, but not sold as set',
 	];
 
 	/**
@@ -191,5 +197,6 @@ class CodeList64 extends CodeList implements CodeListInterface
 		'15' => 'Geri çağırıldı',
 		'16' => 'Geçici olarak satıştan çekildi',
 		'17' => 'Kalıcı olarak satıştan çekildi',
+		'18' => 'Active, but not sold as set',
 	];
 }

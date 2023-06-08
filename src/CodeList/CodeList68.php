@@ -35,6 +35,8 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'Active, with market restrictions',
 		'15' => 'Recalled',
 		'16' => 'Temporarily withdrawn from sale',
+		'17' => 'Permanently withdrawn from sale',
+		'18' => 'Active, but not sold as set',
 	];
 
 	/**
@@ -61,6 +63,8 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'Activo, con restricciones de venta',
 		'15' => 'Retirado de la venta',
 		'16' => 'Temporalmente retirado de la venta',
+		'17' => 'Retirado de la venta definitivamente',
+		'18' => 'Activo, pero no se vende como conjunto',
 	];
 
 	/**
@@ -87,6 +91,8 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'Active, with market restrictions',
 		'15' => 'Recalled',
 		'16' => 'Temporarily withdrawn from sale',
+		'17' => 'Permanently withdrawn from sale',
+		'18' => 'Active, but not sold as set',
 	];
 
 	/**
@@ -113,6 +119,8 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'Actif, avec restrictions de marché',
 		'15' => 'Rappelé',
 		'16' => 'Retiré momentanément de la vente',
+		'17' => 'Retiré définitivement de la vente',
+		'18' => 'Actif, mais non vendu comme un ensemble',
 	];
 
 	/**
@@ -139,6 +147,8 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'Attivo, con restrizioni alla vendita',
 		'15' => 'Richiamato',
 		'16' => 'Temporaneamente ritirato dal mercato',
+		'17' => 'Ritirato dalla vendita definitivamente',
+		'18' => 'Attivo, ma non venduto come insieme',
 	];
 
 	/**
@@ -165,6 +175,8 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'I salg, med restiksjoner',
 		'15' => 'Tilbakekalt',
 		'16' => 'Midlertidig trukket tilbake fra salg',
+		'17' => 'Ikke lenger i salg',
+		'18' => 'Selges kun enkeltvis',
 	];
 
 	/**
@@ -191,5 +203,7 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'14' => 'Etkin, pazar kısıtlamaları var',
 		'15' => 'Geri çağırıldı',
 		'16' => 'Geçici olarak satıştan çekildi',
+		'17' => 'Permanently withdrawn from sale',
+		'18' => 'Active, but not sold as set',
 	];
 }

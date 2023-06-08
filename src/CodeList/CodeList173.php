@@ -92,6 +92,6 @@ class CodeList173 extends CodeList implements CodeListInterface
 	protected static $tr = [
 		'14' => 'Şu tarihten itibaren',
 		'15' => 'Şu tarihe kadar',
-		'24' => 'Şu tarihten … şu tarihe kadar',
+		'24' => 'Şu tarihten ... şu tarihe kadar',
 	];
 }

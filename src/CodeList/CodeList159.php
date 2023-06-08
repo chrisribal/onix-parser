@@ -48,9 +48,9 @@ class CodeList159 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/159
 	 */
 	protected static $de = [
-		'01' => 'Applikation',
+		'01' => 'Application',
 		'02' => 'Audio',
-		'03' => 'Bild',
+		'03' => 'Image',
 		'04' => 'Text',
 		'05' => 'Video',
 		'06' => 'Multi-mode',

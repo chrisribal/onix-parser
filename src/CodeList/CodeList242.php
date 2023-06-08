@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 242
  *
- * Used with <ProductFormFeatureValue> <x541>
+ * Used with <ProductFormFeatureValue> <x541>See List 79
  *
  * @see https://ns.editeur.org/onix/en/242
  */

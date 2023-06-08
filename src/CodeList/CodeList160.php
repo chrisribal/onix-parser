@@ -24,6 +24,10 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Length in minutes',
 		'05' => 'ISNI of resource contributor',
 		'06' => 'Proprietary ID of resource contributor',
+		'07' => 'Resource alternative text',
+		'08' => 'Background color of image resource',
+		'09' => 'Attribute of product image resource',
+		'10' => 'Background color of page',
 	];
 
 	/**
@@ -39,6 +43,10 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Duración en minutos',
 		'05' => 'ISNI del autor mencionado en el recurso',
 		'06' => 'Identificador propio de un autor del recurso',
+		'07' => 'Texto alternativo para el recurso',
+		'08' => 'Color del fondo de la imagen de recurso',
+		'09' => 'Atributo de la imagen de recurso del producto',
+		'10' => 'Color del fondo de la página web',
 	];
 
 	/**
@@ -54,6 +62,10 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Length in minutes',
 		'05' => 'ISNI of resource contributor',
 		'06' => 'Proprietary ID of resource contributor',
+		'07' => 'Resource alternative text',
+		'08' => 'Background color of image resource',
+		'09' => 'Attribute of product image resource',
+		'10' => 'Background color of page',
 	];
 
 	/**
@@ -69,6 +81,10 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Durée en minutes',
 		'05' => 'ISNI du contributeur de la ressource',
 		'06' => 'ID propriétaire du contributeur de la ressource',
+		'07' => 'Texte alternatif de la ressource',
+		'08' => 'Couleur d’arrière-plan de l’image de la ressource',
+		'09' => 'Attribut de la ressource image du produit',
+		'10' => 'Couleur d’arrière-plan de la page',
 	];
 
 	/**
@@ -84,6 +100,10 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Durata in minuti',
 		'05' => 'ISNI del contributore della risorsa',
 		'06' => 'Identificativo proprietario del contributore della risorsa',
+		'07' => 'Testo alternativo per la risorsa',
+		'08' => 'Colore di sfondo della risorsa immagine',
+		'09' => 'Attributo della risorsa immagine del prodotto',
+		'10' => 'Colore di sfondo della pagina',
 	];
 
 	/**
@@ -99,6 +119,10 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Length in minutes',
 		'05' => 'ISNI of resource contributor',
 		'06' => 'Proprietary ID of resource contributor',
+		'07' => 'Resource alternative text',
+		'08' => 'Background color of image resource',
+		'09' => 'Attribute of product image resource',
+		'10' => 'Background color of page',
 	];
 
 	/**
@@ -114,5 +138,9 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'04' => 'Dakika olarak süre',
 		'05' => 'Kaynak katkı sahibine ait ISNI',
 		'06' => 'Kaynak katkı sahibine ait özel kimlik',
+		'07' => 'Resource alternative text',
+		'08' => 'Background color of image resource',
+		'09' => 'Attribute of product image resource',
+		'10' => 'Background color of page',
 	];
 }

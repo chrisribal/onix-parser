@@ -22,6 +22,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Includes',
 		'02' => 'Is part of',
 		'03' => 'Replaces',
+		'04' => 'Has companion product',
 		'05' => 'Replaced by',
 		'06' => 'Alternative format',
 		'07' => 'Has ancillary product',
@@ -31,7 +32,6 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'Is other-language version of',
 		'12' => 'Publisher’s suggested alternative',
 		'13' => 'Epublication based on (print product)',
-		'14' => 'Epublication is distributed as',
 		'16' => 'POD replacement for',
 		'17' => 'Replaced by POD',
 		'18' => 'Is special edition of',
@@ -60,6 +60,10 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'Is later edition of first edition',
 		'43' => 'Adapted from',
 		'44' => 'Adapted as',
+		'45' => 'Has linked product offer',
+		'46' => 'May be substituted by',
+		'47' => 'May be substituted for',
+		'48' => 'Is linked product offer',
 	];
 
 	/**
@@ -73,6 +77,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Incluye a',
 		'02' => 'Es parte de',
 		'03' => 'Sustituye',
+		'04' => 'Tiene un producto complementario',
 		'05' => 'Sustituido por',
 		'06' => 'Formato alternativo',
 		'07' => 'Tiene como complemento',
@@ -82,7 +87,6 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'Versión en otro idioma',
 		'12' => 'Alternativa sugerida por la editorial',
 		'13' => 'Publicación digital basada en (producto impreso)',
-		'14' => 'Epublication is distributed as',
 		'16' => 'Versión POD sustituta de',
 		'17' => 'Sustituido por una versión POD',
 		'18' => 'Es una edición especial de',
@@ -111,6 +115,10 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'Es una edición posterior a la primera edición',
 		'43' => 'Adaptado de',
 		'44' => 'Adaptado como',
+		'45' => 'Oferta con producto relacionado',
+		'46' => 'Puede ser sustituido por',
+		'47' => 'Puede sustituirse por',
+		'48' => 'Es una oferta de producto vinculado',
 	];
 
 	/**
@@ -124,6 +132,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Includes',
 		'02' => 'Is part of',
 		'03' => 'Replaces',
+		'04' => 'Has companion product',
 		'05' => 'Replaced by',
 		'06' => 'Alternative format',
 		'07' => 'Has ancillary product',
@@ -133,7 +142,6 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'Is other-language version of',
 		'12' => 'Publisher’s suggested alternative',
 		'13' => 'Epublication based on (print product)',
-		'14' => 'Epublication is distributed as',
 		'16' => 'POD replacement for',
 		'17' => 'Replaced by POD',
 		'18' => 'Is special edition of',
@@ -162,6 +170,10 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'Is later edition of first edition',
 		'43' => 'Adapted from',
 		'44' => 'Adapted as',
+		'45' => 'Has linked product offer',
+		'46' => 'May be substituted by',
+		'47' => 'May be substituted for',
+		'48' => 'Is linked product offer',
 	];
 
 	/**
@@ -175,6 +187,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Inclut',
 		'02' => 'Fait partie de',
 		'03' => 'Remplace',
+		'04' => 'A un produit d’accompagnement',
 		'05' => 'Remplacé par',
 		'06' => 'Autre format',
 		'07' => 'Possède un produit d’accompagnement',
@@ -184,7 +197,6 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'Est une version dans une autre langue de',
 		'12' => 'Alternative suggérée par l’éditeur',
 		'13' => 'Publication numérique basée sur (édition papier)',
-		'14' => 'Epublication is distributed as',
 		'16' => 'POD de remplacement pour',
 		'17' => 'Remplacé par POD',
 		'18' => 'Est une édition spéciale de',
@@ -213,6 +225,10 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'Est une édition ultérieure de la première édition',
 		'43' => 'Adapté de',
 		'44' => 'Adapté comme',
+		'45' => 'Offre produit lié',
+		'46' => 'Peut être remplacé par',
+		'47' => 'May be substituted for',
+		'48' => 'Is linked product offer',
 	];
 
 	/**
@@ -226,6 +242,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Include',
 		'02' => 'Fa parte di',
 		'03' => 'Sostituisce',
+		'04' => 'Ha come prodotto complementare',
 		'05' => 'È sostituito da',
 		'06' => 'Ha come formato alternativo',
 		'07' => 'Ha come prodotto secondario o di supporto',
@@ -235,7 +252,6 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'È la versione in un’altra lingua di',
 		'12' => 'Ha come prodotto alternativo suggerito dall’editore',
 		'13' => 'È una pubblicazione elettronica basata su (prodotto a stampa)',
-		'14' => 'Epublication is distributed as',
 		'16' => 'È un prodotto POD sostitutivo di',
 		'17' => 'È sostituito da un prodotto POD',
 		'18' => 'È l’edizione speciale di',
@@ -264,6 +280,10 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'È un’edizione successiva della prima edizione',
 		'43' => 'È la versione adattata di',
 		'44' => 'Ha come edizione adattata',
+		'45' => 'Ha come prodotto collegato in offerta',
+		'46' => 'Può essere sostituito da',
+		'47' => 'Può essere il sostituto di',
+		'48' => 'È il prodotto collegato in offerta',
 	];
 
 	/**
@@ -277,6 +297,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Inkluderer',
 		'02' => 'Er del av',
 		'03' => 'Erstatter',
+		'04' => 'Har ledsagende produkt',
 		'05' => 'Erstattet av',
 		'06' => 'Alternativt format',
 		'07' => 'Har tilleggsprodukt',
@@ -286,13 +307,12 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'Er versjon på annet språk av',
 		'12' => 'Utgivers/vareeiers foreslåtte alternativ',
 		'13' => 'E-bok basert på (trykt publikasjon)',
-		'14' => 'Epublication is distributed as',
 		'16' => 'POD erstatning for',
 		'17' => 'Erstattet av POD',
 		'18' => 'Er spesialutgave av',
 		'19' => 'Har spesialutgave',
-		'20' => 'Is prebound edition of',
-		'21' => 'Is original of prebound edition',
+		'20' => 'Er reinnbundet utgave av',
+		'21' => 'Er originalen til reinnbundet utgave',
 		'22' => 'Produkt av samme forfatter',
 		'23' => 'Lignende produkt',
 		'24' => 'Er faksimile av',
@@ -315,6 +335,10 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'Er senere utgave av første utgave',
 		'43' => 'Tilpasset/bearbeidet fra',
 		'44' => 'Tilbasset/bearbeidet som',
+		'45' => 'Tilleggstilbud (‘på kjøpet’)',
+		'46' => 'May be substituted by',
+		'47' => 'Kan være erstatning for',
+		'48' => 'Har tilleggstilbud (‘på kjøpet’)',
 	];
 
 	/**
@@ -328,6 +352,7 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'01' => 'Kapsar',
 		'02' => 'Parçası',
 		'03' => 'Yerine geçer',
+		'04' => 'Has companion product',
 		'05' => 'Yerini bırakır',
 		'06' => 'Alternatif format',
 		'07' => 'Ek ürüne sahip',
@@ -337,7 +362,6 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'11' => 'Başka dildeki sürümü',
 		'12' => 'Yayımcının alternatif önerisi',
 		'13' => 'E-yayın (baskı ürünü) dayanmaktadır',
-		'14' => 'Epublication is distributed as',
 		'16' => 'TGB ikame ürün',
 		'17' => 'Yerine TGB geçer',
 		'18' => 'Özel basım',
@@ -366,5 +390,9 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'42' => 'İlk basımın sonraki basımı',
 		'43' => 'Adapted from',
 		'44' => 'Adapted as',
+		'45' => 'Has linked product offer',
+		'46' => 'May be substituted by',
+		'47' => 'May be substituted for',
+		'48' => 'Is linked product offer',
 	];
 }

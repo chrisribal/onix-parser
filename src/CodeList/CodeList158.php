@@ -35,7 +35,7 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'15' => 'Sample content',
 		'16' => 'Widget',
 		'17' => 'Review',
-		'18' => 'Other commentary / discussion',
+		'18' => 'Commentary / discussion',
 		'19' => 'Reading group guide',
 		'20' => 'Teacher’s guide',
 		'21' => 'Feature article',
@@ -64,6 +64,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'44' => 'Abstract',
 		'45' => 'Cover holding image',
 		'46' => 'Rules or instructions',
+		'47' => 'Transcript',
+		'48' => 'Full cast and credit list',
 		'99' => 'License',
 	];
 
@@ -86,7 +88,7 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'10' => 'Logo del sello editorial',
 		'11' => 'Entrevista con un autor, ilustrador…',
 		'12' => 'Presentación de un autor, ilustrador…',
-		'13' => 'Lectura por el autor, ilustrador, etc.',
+		'13' => 'Lectura por el autor, ilustrador, etc',
 		'14' => 'Calendario de un evento con un autor',
 		'15' => 'Muestra de contenido',
 		'16' => '«Widget»',
@@ -120,6 +122,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'44' => 'Abstract / Resumen',
 		'45' => 'Imagen de cubierta provisional',
 		'46' => 'Reglas o instrucciones',
+		'47' => 'Transcripción',
+		'48' => 'Lista completa de reparto y créditos',
 		'99' => 'Licencia',
 	];
 
@@ -130,16 +134,16 @@ class CodeList158 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/158
 	 */
 	protected static $de = [
-		'01' => 'Frontcover',
-		'02' => 'Backcover',
-		'03' => 'Cover / Pack',
+		'01' => 'Front cover',
+		'02' => 'Back cover',
+		'03' => 'Cover / pack',
 		'04' => 'Contributor picture',
-		'05' => 'Serienbild / Artwork',
-		'06' => 'Serienlogo',
-		'07' => 'Produktbild / Artwork',
-		'08' => 'Produktlogo',
-		'09' => 'Verlagslogo',
-		'10' => 'Imprintlogo',
+		'05' => 'Series image / artwork',
+		'06' => 'Series logo',
+		'07' => 'Product image / artwork',
+		'08' => 'Product logo',
+		'09' => 'Publisher logo',
+		'10' => 'Imprint logo',
 		'11' => 'Contributor interview',
 		'12' => 'Contributor presentation',
 		'13' => 'Contributor reading',
@@ -147,7 +151,7 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'15' => 'Sample content',
 		'16' => 'Widget',
 		'17' => 'Review',
-		'18' => 'Other commentary / discussion',
+		'18' => 'Commentary / discussion',
 		'19' => 'Reading group guide',
 		'20' => 'Teacher’s guide',
 		'21' => 'Feature article',
@@ -176,6 +180,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'44' => 'Abstract',
 		'45' => 'Cover holding image',
 		'46' => 'Rules or instructions',
+		'47' => 'Transcript',
+		'48' => 'Full cast and credit list',
 		'99' => 'License',
 	];
 
@@ -231,7 +237,9 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'43' => 'Bibliographie',
 		'44' => 'Abstract',
 		'45' => 'Image de couverture de substitution',
-		'46' => 'Rules or instructions',
+		'46' => 'Règles ou instructions',
+		'47' => 'Transcription',
+		'48' => 'Distribution et générique',
 		'99' => 'Licence',
 	];
 
@@ -256,7 +264,7 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'12' => 'Presentazione dell’autore/contributore',
 		'13' => 'Lettura dell’autore/contributore',
 		'14' => 'Calendario degli eventi dell’autore/contributore',
-		'15' => 'Contenuto di prova',
+		'15' => 'Contenuto di esempio',
 		'16' => 'Widget',
 		'17' => 'Recensione',
 		'18' => 'Altri commenti/discussioni',
@@ -279,7 +287,7 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'35' => 'Pannello pubblicitario online',
 		'36' => 'Pagina pubblicitaria online',
 		'37' => 'Materiale per evento promozionale',
-		'38' => 'Copia digitale per recensione',
+		'38' => 'Copia digitale per revisione',
 		'39' => 'Materiale informativo',
 		'40' => 'Errata corrige',
 		'41' => 'Introduzione',
@@ -288,6 +296,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'44' => 'Abstract',
 		'45' => 'Immagine temporanea della copertina',
 		'46' => 'Regole o istruzioni',
+		'47' => 'Trascrizione',
+		'48' => 'Cast completo e credits',
 		'99' => 'Licenza',
 	];
 
@@ -344,6 +354,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'44' => 'Sammendrag',
 		'45' => 'Midlertidig bilde',
 		'46' => 'Regler eller instruksjoner',
+		'47' => 'Transkripsjon',
+		'48' => 'Komplett rolle- og krediteringsliste',
 		'99' => 'Lisens',
 	];
 
@@ -400,6 +412,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'44' => 'Abstract',
 		'45' => 'Cover holding image',
 		'46' => 'Rules or instructions',
+		'47' => 'Transcript',
+		'48' => 'Full cast and credit list',
 		'99' => 'Lisans',
 	];
 }

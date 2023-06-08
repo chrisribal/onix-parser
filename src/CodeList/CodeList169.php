@@ -23,6 +23,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Weeks',
 		'09' => 'Months',
 		'10' => 'Years',
+		'20' => 'Classes',
 	];
 
 	/**
@@ -37,6 +38,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Semanas',
 		'09' => 'Meses',
 		'10' => 'Años',
+		'20' => 'Para clases',
 	];
 
 	/**
@@ -51,6 +53,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Weeks',
 		'09' => 'Months',
 		'10' => 'Years',
+		'20' => 'Classes',
 	];
 
 	/**
@@ -65,6 +68,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Semaines',
 		'09' => 'Mois',
 		'10' => 'Années',
+		'20' => 'Classes',
 	];
 
 	/**
@@ -79,6 +83,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Settimane',
 		'09' => 'Mesi',
 		'10' => 'Anni',
+		'20' => 'Classi',
 	];
 
 	/**
@@ -93,6 +98,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Weeks',
 		'09' => 'Months',
 		'10' => 'Years',
+		'20' => 'Classes',
 	];
 
 	/**
@@ -107,5 +113,6 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Hafta',
 		'09' => 'Ay',
 		'10' => 'Yıl',
+		'20' => 'Classes',
 	];
 }

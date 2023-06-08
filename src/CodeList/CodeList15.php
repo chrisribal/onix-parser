@@ -32,6 +32,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'Alternative title on back',
 		'13' => 'Expanded title',
 		'14' => 'Alternative title',
+		'15' => 'Alternative title on spine',
 	];
 
 	/**
@@ -55,6 +56,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'Título alternativo en contracubierta',
 		'13' => 'Título expandido para libro de texto',
 		'14' => 'Título alternativo',
+		'15' => 'Título alternativo en el lomo',
 	];
 
 	/**
@@ -64,20 +66,21 @@ class CodeList15 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/15
 	 */
 	protected static $de = [
-		'00' => 'Undefiniert',
-		'01' => 'Einzigartiger Titel (Buch); Covertitel (Serie); Titel auf Artikel (serieller Inhaltsartikel oder überprüfte Ressource)',
-		'02' => 'ISSN-Schlüsseltitel der Serie',
-		'03' => 'Titel in Originalsprache',
-		'04' => 'Titelakronym oder Initialismus',
-		'05' => 'Kurztitel',
-		'06' => 'Titel in anderer Sprache',
-		'07' => 'Thematischer Titel der Zeitschriftenausgabe',
-		'08' => 'Ehemaliger Titel',
-		'10' => 'Titel des Händlers',
-		'11' => 'Alternativer Titel auf dem Cover',
-		'12' => 'Alternativer Titel auf der Rückseite',
-		'13' => 'Erweiterter Titel',
-		'14' => 'Alternativer Titel',
+		'00' => 'Undefined',
+		'01' => 'Distinctive title (book); Cover title (serial); Title on item (serial content item or reviewed resource)',
+		'02' => 'ISSN key title of serial',
+		'03' => 'Title in original language',
+		'04' => 'Title acronym or initialism',
+		'05' => 'Abbreviated title',
+		'06' => 'Title in other language',
+		'07' => 'Thematic title of journal issue',
+		'08' => 'Former title',
+		'10' => 'Distributor’s title',
+		'11' => 'Alternative title on cover',
+		'12' => 'Alternative title on back',
+		'13' => 'Expanded title',
+		'14' => 'Alternative title',
+		'15' => 'Alternative title on spine',
 	];
 
 	/**
@@ -101,6 +104,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'titre de 4e de couverture',
 		'13' => 'Titre développé',
 		'14' => 'Variante de titre',
+		'15' => 'Alternative title on spine',
 	];
 
 	/**
@@ -124,6 +128,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'Titolo alternativo sul retro di copertina',
 		'13' => 'Titolo esteso',
 		'14' => 'Titolo alternativo',
+		'15' => 'Titolo alternativo sul dorso di copertina',
 	];
 
 	/**
@@ -147,6 +152,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'Alternativ tittel på baksiden',
 		'13' => 'Utvidet tittel',
 		'14' => 'Alternativ tittel',
+		'15' => 'Ryggtittel',
 	];
 
 	/**
@@ -170,5 +176,6 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'Arka kapakta alternatif başlık',
 		'13' => 'Genişletilmiş başlık',
 		'14' => 'Alternatif başlık',
+		'15' => 'Alternative title on spine',
 	];
 }

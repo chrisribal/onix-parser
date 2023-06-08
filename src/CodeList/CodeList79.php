@@ -19,6 +19,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'01' => 'Color of cover',
+		'26' => 'Color of spine',
+		'27' => 'Color of foil',
 		'02' => 'Color of page edge',
 		'03' => 'Text font',
 		'04' => 'Special cover material',
@@ -28,19 +30,20 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'08' => '‘Point and listen’ device compatibility',
 		'09' => 'E-publication accessibility detail',
 		'10' => 'E-publication format version',
-		'12' => 'CPSIA or other US hazard warning',
+		'12' => 'US CPSIA or other international hazard warning',
 		'13' => 'EU Toy Safety Hazard warning',
 		'14' => 'IATA Dangerous Goods warning',
 		'15' => 'E-publication format version code',
 		'16' => 'E-publication format validator version',
 		'17' => '‘Point and watch’ device/app compatibility',
 		'18' => 'E-publication authentication and access control',
-		'19' => 'Battery type',
+		'19' => 'Battery type and safety',
 		'20' => 'Battery capacity',
 		'21' => 'Dangerous goods',
 		'22' => 'Game pieces',
 		'23' => 'Game players',
 		'24' => 'Game play time',
+		'25' => 'Personal data requirements',
 		'30' => 'Not FSC or PEFC certified',
 		'31' => 'FSC certified – pure',
 		'32' => 'FSC certified – mixed sources',
@@ -49,6 +52,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'PEFC recycled',
 		'36' => 'FSC or PEFC certified Pre- and Post-Consumer Waste (PCW) percentage',
 		'37' => 'Claimed Pre- and Post-Consumer Waste (PCW) percentage',
+		'38' => '‘Green’ inks',
+		'39' => '‘Green’ adhesives',
 		'40' => 'Paper produced by ‘green’ technology',
 	];
 
@@ -60,6 +65,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'01' => 'Color de cubierta',
+		'26' => 'Color del lomo',
+		'27' => 'Color de la lámina',
 		'02' => 'Color de los cantos',
 		'03' => 'Fuente del texto',
 		'04' => 'Material especial de la cubierta',
@@ -82,6 +89,7 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'22' => 'Piezas de un juego',
 		'23' => 'Jugadores de un juego',
 		'24' => 'Tiempo de juego',
+		'25' => 'Requisitos de datos personales',
 		'30' => 'Sin certificación FSC o PEFC',
 		'31' => 'Certificado FSC – puro',
 		'32' => 'Certificado FSC – fuentes mixtas',
@@ -90,6 +98,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'Reciclado PEFC',
 		'36' => 'Porcentaje de PCW («Post Consumer Waste») certificado por FSC o PEFC',
 		'37' => 'Porcentaje declarado de PCW («Post Consumer Waste»)',
+		'38' => 'Tintas «verdes»',
+		'39' => 'Adhesivos «verdes»',
 		'40' => 'Papel elaborado con tecnologías «verdes»',
 	];
 
@@ -101,6 +111,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'01' => 'Color of cover',
+		'26' => 'Color of spine',
+		'27' => 'Color of foil',
 		'02' => 'Color of page edge',
 		'03' => 'Text font',
 		'04' => 'Special cover material',
@@ -110,19 +122,20 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'08' => '‘Point and listen’ device compatibility',
 		'09' => 'E-publication accessibility detail',
 		'10' => 'E-publication format version',
-		'12' => 'CPSIA or other US hazard warning',
+		'12' => 'US CPSIA or other international hazard warning',
 		'13' => 'EU Toy Safety Hazard warning',
 		'14' => 'IATA Dangerous Goods warning',
 		'15' => 'E-publication format version code',
 		'16' => 'E-publication format validator version',
 		'17' => '‘Point and watch’ device/app compatibility',
 		'18' => 'E-publication authentication and access control',
-		'19' => 'Battery type',
+		'19' => 'Battery type and safety',
 		'20' => 'Battery capacity',
 		'21' => 'Dangerous goods',
 		'22' => 'Game pieces',
 		'23' => 'Game players',
 		'24' => 'Game play time',
+		'25' => 'Personal data requirements',
 		'30' => 'Not FSC or PEFC certified',
 		'31' => 'FSC certified – pure',
 		'32' => 'FSC certified – mixed sources',
@@ -131,6 +144,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'PEFC recycled',
 		'36' => 'FSC or PEFC certified Pre- and Post-Consumer Waste (PCW) percentage',
 		'37' => 'Claimed Pre- and Post-Consumer Waste (PCW) percentage',
+		'38' => '‘Green’ inks',
+		'39' => '‘Green’ adhesives',
 		'40' => 'Paper produced by ‘green’ technology',
 	];
 
@@ -142,6 +157,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'01' => 'Couleur de couverture',
+		'26' => 'Couleur du dos',
+		'27' => 'Color of foil',
 		'02' => 'Couleur de tranche',
 		'03' => 'Police de caractères',
 		'04' => 'Matériau spécial de couverture',
@@ -158,12 +175,13 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'16' => 'Version du validateur du format de publication numérique',
 		'17' => 'Compatibilité avec le dispositif/app « Point and watch »',
 		'18' => 'Authentification et contrôle d’accès à la publication numérique',
-		'19' => 'Type de batterie',
+		'19' => 'Type de batterie et sécurité',
 		'20' => 'Capacité de la batterie',
 		'21' => 'Articles dangereux',
-		'22' => 'Game pieces',
-		'23' => 'Game players',
-		'24' => 'Game play time',
+		'22' => 'Pièces de jeu',
+		'23' => 'Joueurs',
+		'24' => 'Temps de jeu',
+		'25' => 'Niveau de protection des données personnelles',
 		'30' => 'Non certifié FSC ou PEFC',
 		'31' => 'Certification FSC Pur',
 		'32' => 'Certifié FSC – sources mixtes',
@@ -172,6 +190,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'Recyclé PEFC',
 		'36' => 'Certifié FSC ou PEFC – Pourcentage PCW (Post-Consumer-Waste)',
 		'37' => 'Pourcentage PCW (Pre-Consumer Waste et Post-Consumer Waste) déclaré',
+		'38' => 'Encres « vertes »',
+		'39' => 'Adhésifs « verts »',
 		'40' => 'Papier produit selon les technologies « vertes »',
 	];
 
@@ -183,6 +203,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'01' => 'Colore della copertina',
+		'26' => 'Colore del dorso',
+		'27' => 'Colore della lamina',
 		'02' => 'Colore del bordo pagina',
 		'03' => 'Carattere del testo',
 		'04' => 'Copertina in materiale speciale',
@@ -199,12 +221,13 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'16' => 'Versione del validatore del formato della pubblicazione elettronica',
 		'17' => 'Compatibilità con dispositivo o applicazione «point and watch»',
 		'18' => 'Autenticazione e controllo dell’accesso alla pubblicazione elettronica',
-		'19' => 'Tipo di batteria',
+		'19' => 'Tipo di batteria e sicurezza',
 		'20' => 'Capacità della batteria',
 		'21' => 'Merci pericolose',
 		'22' => 'Pezzi del gioco',
 		'23' => 'Giocatori',
 		'24' => 'Durata del gioco',
+		'25' => 'Dati personali richiesti',
 		'30' => 'Senza etichetta FSC o PEFC',
 		'31' => 'Etichetta FSC – puro',
 		'32' => 'Etichetta FSC – misto',
@@ -213,7 +236,9 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'Etichetta PEFC riciclato',
 		'36' => 'Percentuale di scarti pre e post consumo (PCW) su etichette FSC o PEFC',
 		'37' => 'Percentuale di scarti pre e post consumo (PCW) dichiarata',
-		'40' => 'Carta prodotta con tecnologia verde',
+		'38' => 'Inchiostri ecocompatibili',
+		'39' => 'Collanti ecocompatibili',
+		'40' => 'Carta prodotta con tecnologia ecocompatibile',
 	];
 
 	/**
@@ -224,6 +249,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'01' => 'Innbindingsfarge',
+		'26' => 'Ryggfarge',
+		'27' => 'Foliefarge',
 		'02' => 'Papirkantfarge',
 		'03' => 'Typesnitt',
 		'04' => 'Spesielt innbindingsmateriale',
@@ -246,6 +273,7 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'22' => 'Spillbrikker',
 		'23' => 'Spilldeltakere',
 		'24' => 'Spilletid',
+		'25' => 'Krav til personopplysninger',
 		'30' => 'Ikke FSC- eller PEFC-sertifisert',
 		'31' => 'FSC certified – pure',
 		'32' => 'FSC certified – mixed sources',
@@ -254,6 +282,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'PEFC recycled',
 		'36' => 'FSC or PEFC certified Pre- and Post-Consumer Waste (PCW) percentage',
 		'37' => 'Claimed Pre- and Post-Consumer Waste (PCW) percentage',
+		'38' => '‘Grønt’ blekk',
+		'39' => '‘Grønt’ lim',
 		'40' => 'Papir produsert ved bruk av ‘grønn’ teknologi',
 	];
 
@@ -265,6 +295,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 	 */
 	protected static $tr = [
 		'01' => 'Kapak rengi',
+		'26' => 'Color of spine',
+		'27' => 'Color of foil',
 		'02' => 'Sayfa kenarı rengi',
 		'03' => 'Metin yazı karakteri',
 		'04' => 'Özel kapak malzemesi',
@@ -281,12 +313,13 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'16' => 'E-publication format validator version',
 		'17' => '‘Seç-izle’ aygıt/program uyumluluğu',
 		'18' => 'E-publication authentication and access control',
-		'19' => 'Battery type',
+		'19' => 'Battery type and safety',
 		'20' => 'Battery capacity',
 		'21' => 'Dangerous goods',
 		'22' => 'Game pieces',
 		'23' => 'Game players',
 		'24' => 'Game play time',
+		'25' => 'Personal data requirements',
 		'30' => 'FSC ya da PEFC onaylı değil',
 		'31' => 'FSC onaylı – saf',
 		'32' => 'FSC onaylı – karışık kaynak',
@@ -295,6 +328,8 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'35' => 'PEFC geri kazanılmış',
 		'36' => 'FSC ya da PEFC onaylı Geri Dönüşüm ve Tüketici Atıkları (PCW) yüzdesi',
 		'37' => 'Beyan edilen Geri Dönüşüm ve Tüketici Atıkları (PCW) yüzdesi',
+		'38' => '‘Green’ inks',
+		'39' => '‘Green’ adhesives',
 		'40' => '‘Yeşil’ teknoloji ile üretilmiş kağıt',
 	];
 }

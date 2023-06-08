@@ -49,6 +49,7 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'GPS grids',
 		'29' => 'Glossary',
 		'30' => 'Table of contents',
+		'31' => 'Gazetteer',
 	];
 
 	/**
@@ -89,6 +90,7 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'Mallas o tramas GPS',
 		'29' => 'Glosario',
 		'30' => 'Tabla de contenidos',
+		'31' => 'Gazetteer',
 	];
 
 	/**
@@ -129,6 +131,7 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'GPS grids',
 		'29' => 'Glossary',
 		'30' => 'Table of contents',
+		'31' => 'Gazetteer',
 	];
 
 	/**
@@ -169,6 +172,7 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'Grilles GPS',
 		'29' => 'Glossaire',
 		'30' => 'Table des matières',
+		'31' => 'Gazetteer',
 	];
 
 	/**
@@ -181,17 +185,17 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'00' => 'Non specificato, vedere la descrizione',
 		'01' => 'Illustrazioni in bianco e nero',
 		'02' => 'Illustrazioni a colori',
-		'03' => 'Incisioni in bianco e nero',
-		'04' => 'Incisioni a colori',
+		'03' => 'Immagini a mezzatinta in bianco e nero',
+		'04' => 'Immagini a mezzatinta a colori',
 		'05' => 'Disegni in bianco e nero',
 		'06' => 'Disegni a colori',
 		'07' => 'Tabelle in bianco e nero',
 		'08' => 'Tabelle a colori',
 		'09' => 'Illustrazioni di tipo non specificato',
-		'10' => 'Incisioni di tipo non specificato',
+		'10' => 'Immagini a mezzatinta di tipo non specificato',
 		'11' => 'Tabelle di tipo non specificato',
 		'12' => 'Disegni di tipo non specificato',
-		'13' => 'Incisioni in bianco e colore (duotone)',
+		'13' => 'Immagini a mezzatinta in due colori',
 		'14' => 'Carte geografiche',
 		'15' => 'Frontespizio',
 		'16' => 'Diagrammi',
@@ -209,6 +213,7 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'Griglie GPS',
 		'29' => 'Glossario',
 		'30' => 'Indice',
+		'31' => 'Indice geografico',
 	];
 
 	/**
@@ -249,6 +254,7 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'GPS grids',
 		'29' => 'Glossary',
 		'30' => 'Table of contents',
+		'31' => 'Gazetteer',
 	];
 
 	/**
@@ -289,5 +295,6 @@ class CodeList25 extends CodeList implements CodeListInterface
 		'28' => 'GPS kılavuzları',
 		'29' => 'Sözlük',
 		'30' => 'Table of contents',
+		'31' => 'Gazetteer',
 	];
 }

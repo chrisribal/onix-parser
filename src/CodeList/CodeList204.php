@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 204
  *
- * Used with <ReturnsCode> <j269>
+ * Used with <ReturnsCode> <j269>See List 53
  *
  * @see https://ns.editeur.org/onix/en/204
  */

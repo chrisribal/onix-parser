@@ -36,7 +36,7 @@ class CodeList20 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/20
 	 */
 	protected static $es = [
-		'01' => 'Publicación relacionada con un congreso, un simposio, etc.',
+		'01' => 'Publicación relacionada con un congreso, un simposio, etc',
 		'02' => 'Actas o conclusiones completas de un congreso o simposio',
 		'03' => 'Ponencias seleccionadas de un congreso o simposio',
 		'11' => 'Publicación relacionada con un evento deportivo',

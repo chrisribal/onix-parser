@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 90
  *
- * Used with <ReligiousTextFeatureCode> <b359>
+ * Used with <ReligiousTextFeatureCode> <b359>See List 89
  *
  * @see https://ns.editeur.org/onix/en/90
  */

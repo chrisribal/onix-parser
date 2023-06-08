@@ -23,6 +23,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Media mention',
 		'04' => '‘One locality, one book’ program',
 		'05' => 'Curated list',
+		'06' => 'Commentary / discussion',
 	];
 
 	/**
@@ -37,6 +38,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Mención en algún medio',
 		'04' => 'Programa «One locality, one book» (Una localidad, un libro)',
 		'05' => 'Lista seleccionada',
+		'06' => 'Comentario / debate',
 	];
 
 	/**
@@ -51,6 +53,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Media mention',
 		'04' => '‘One locality, one book’ program',
 		'05' => 'Curated list',
+		'06' => 'Commentary / discussion',
 	];
 
 	/**
@@ -65,6 +68,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Mention par les médias',
 		'04' => 'Programme « Une ville, un livre »',
 		'05' => 'Bibliographie sélective',
+		'06' => 'Commentaire/discussion',
 	];
 
 	/**
@@ -79,6 +83,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Menzione nei mezzi di comunicazione',
 		'04' => 'Programma «One locality, one book»',
 		'05' => 'Lista selezionata',
+		'06' => 'Commento/discussione',
 	];
 
 	/**
@@ -93,6 +98,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Nevnt i media',
 		'04' => '‘One locality, one book’ program',
 		'05' => 'Redigert liste',
+		'06' => 'Kommentar / diskusjon',
 	];
 
 	/**
@@ -107,5 +113,6 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'03' => 'Medyada yer alma',
 		'04' => '‘Bir yer, bir kitap’ programı',
 		'05' => 'Seçilmiş liste',
+		'06' => 'Commentary / discussion',
 	];
 }

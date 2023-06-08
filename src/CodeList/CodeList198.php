@@ -40,7 +40,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'01' => 'Contacto para solicitudes de accesibilidad',
 		'02' => 'Contacto promocional',
 		'03' => 'Contacto de publicidad',
-		'04' => 'Contacto para ejemplares para revisión/crítica',
+		'04' => 'Contacto para ejemplares para revisión / crítica',
 		'05' => 'Contacto para ejemplares de evaluación',
 		'06' => 'Contacto para permisos',
 		'07' => 'Contacto para autorizaciones de devoluciones',
@@ -126,7 +126,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/tr/198
 	 */
 	protected static $tr = [
-		'00' => 'Metadata contact',
+		'00' => 'Meta veri iletişimi',
 		'01' => 'Erişilebilirlik talep iletişimi',
 		'02' => 'Promosyon iletişimi',
 		'03' => 'Reklam iletişimi',

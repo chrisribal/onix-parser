@@ -70,7 +70,7 @@ class CodeList157 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/157
 	 */
 	protected static $it = [
-		'01' => 'Mezzi di comunicazione (stampa)',
+		'01' => 'Stampa',
 		'02' => 'Sito internet',
 		'03' => 'Radio',
 		'04' => 'TV',

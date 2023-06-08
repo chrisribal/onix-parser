@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 77
  *
- * Used with <AudienceRangeValue> <b076>
+ * Used with <AudienceRangeValue> <b076>See List 30
  *
  * @see https://ns.editeur.org/onix/en/77
  */

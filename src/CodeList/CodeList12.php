@@ -36,6 +36,8 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Beau-livre',
 		'17' => 'Podcast',
 		'18' => 'Periodical',
+		'19' => 'Catalog',
+		'20' => 'Atlas',
 	];
 
 	/**
@@ -63,6 +65,8 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Beau-livre',
 		'17' => 'Podcast',
 		'18' => 'Publicación periódica',
+		'19' => 'Catálogo',
+		'20' => 'Atlas',
 	];
 
 	/**
@@ -90,6 +94,8 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Beau-livre',
 		'17' => 'Podcast',
 		'18' => 'Periodical',
+		'19' => 'Catalog',
+		'20' => 'Atlas',
 	];
 
 	/**
@@ -117,6 +123,8 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Beau livre',
 		'17' => 'Podcast',
 		'18' => 'Périodique',
+		'19' => 'Catalogue',
+		'20' => 'Atlas',
 	];
 
 	/**
@@ -144,6 +152,8 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Libro illustrato patinato',
 		'17' => 'Podcast',
 		'18' => 'Periodico',
+		'19' => 'Catalogo',
+		'20' => 'Atlante',
 	];
 
 	/**
@@ -171,6 +181,8 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Beau-livre',
 		'17' => 'Podcast',
 		'18' => 'Periodical',
+		'19' => 'Catalog',
+		'20' => 'Atlas',
 	];
 
 	/**
@@ -198,5 +210,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'16' => 'Beau-livre',
 		'17' => 'Podcast',
 		'18' => 'Periodical',
+		'19' => 'Catalog',
+		'20' => 'Atlas',
 	];
 }

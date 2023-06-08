@@ -137,7 +137,7 @@ class CodeList155 extends CodeList implements CodeListInterface
 		'14' => 'Şu tarihten itibaren',
 		'15' => 'Şu tarihe kadar',
 		'17' => 'Son güncelleme',
-		'24' => 'Şu tarihten … şu tarihe kadar',
+		'24' => 'Şu tarihten ... şu tarihe kadar',
 		'27' => 'Erişilebilirlik başlangıcı',
 		'28' => 'Erişilebilirlik sonu',
 		'31' => 'İlişkili başlangıç tarihi',

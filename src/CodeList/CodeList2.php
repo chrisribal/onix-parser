@@ -19,6 +19,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'00' => 'Single-component retail product',
+		'01' => 'Single-component, not available separately',
 		'10' => 'Multiple-component retail product',
 		'11' => 'Multiple-item collection, retailed as separate parts',
 		'20' => 'Trade-only product',
@@ -34,6 +35,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'00' => 'Producto a la venta formado por un único componente',
+		'01' => 'Componente único. No se vende por separado',
 		'10' => 'Producto a la venta formado por varios componentes',
 		'11' => 'Conjunto de múltiples elementos que se venden por separado',
 		'20' => 'Producto solo para los agentes de la cadena',
@@ -49,6 +51,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'00' => 'Einteiliges Produkt',
+		'01' => 'Single-component, not available separately',
 		'10' => 'Mehrteiliges Produkt',
 		'11' => 'Multiple-item collection, retailed as separate parts',
 		'20' => 'Trade-only product',
@@ -64,6 +67,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'00' => 'Produit proposé à la vente en un seul article',
+		'01' => 'Produit non vendu séparément',
 		'10' => 'Produit proposé à la vente en plusieurs articles',
 		'11' => 'Ensemble de plusieurs articles, vendu sous forme de parties distinctes',
 		'20' => 'Produit à utilisation commerciale uniquement',
@@ -79,6 +83,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'00' => 'Prodotto singolo per la vendita al dettaglio',
+		'01' => 'Prodotto singolo non disponibile separatamente',
 		'10' => 'Prodotto composito per la vendita al dettaglio',
 		'11' => 'Collezione composita, venduta in parti',
 		'20' => 'Materiale per il punto vendita',
@@ -94,6 +99,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'00' => 'Enkeltprodukt',
+		'01' => 'Enkeltprodukt, ikke tilgjengelig enkeltvis',
 		'10' => 'Produkt bestående av flere enkeltprodukter',
 		'11' => 'Produkt bestående av flere enkeltprodukter, solgt separat',
 		'20' => 'Forhandlerprodukt',
@@ -109,6 +115,7 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 */
 	protected static $tr = [
 		'00' => 'Tek bileşenli perakende ürünü',
+		'01' => 'Single-component, not available separately',
 		'10' => 'Çok bileşenli perakende ürünü',
 		'11' => 'Çok bileşenli koleksiyon, ayrı kalemler olarak satılır',
 		'20' => 'Sadece mağaza ürünü',

@@ -19,10 +19,10 @@ class CodeList93 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'00' => 'Unspecified',
-		'01' => 'Publisher to retailers',
-		'02' => 'Publisher’s exclusive distributor to retailers',
-		'03' => 'Publisher’s non-exclusive distributor to retailers',
-		'04' => 'Wholesaler',
+		'01' => 'Publisher to resellers',
+		'02' => 'Publisher’s exclusive distributor to resellers',
+		'03' => 'Publisher’s non-exclusive distributor to resellers',
+		'04' => 'Wholesaler to retailers',
 		'05' => 'Sales agent',
 		'06' => 'Publisher’s distributor to retailers',
 		'07' => 'POD supplier',
@@ -31,9 +31,9 @@ class CodeList93 extends CodeList implements CodeListInterface
 		'10' => 'Exclusive distributor to end-customers',
 		'11' => 'Non-exclusive distributor to end-customers',
 		'12' => 'Distributor to end-customers',
-		'13' => 'Exclusive distributor to retailers and end-customers',
-		'14' => 'Non-exclusive distributor to retailers and end-customers',
-		'15' => 'Distributor to retailers and end-customers',
+		'13' => 'Exclusive distributor to resellers and end-customers',
+		'14' => 'Non-exclusive distributor to resellers and end-customers',
+		'15' => 'Distributor to resellers and end-customers',
 	];
 
 	/**
@@ -68,22 +68,22 @@ class CodeList93 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/93
 	 */
 	protected static $de = [
-		'00' => 'Nicht spezifiziert',
-		'01' => 'Verlag an Einzelhändler',
-		'02' => 'Exklusiver Distributor des Verlags an Einzelhändler',
-		'03' => 'Nicht exklusiver Distributor des Verlags an Einzelhändler',
-		'04' => 'Großhändler',
-		'05' => 'Handelsvertreter',
-		'06' => 'Verlagshändler an Einzelhändler',
-		'07' => 'POD-Lieferant',
-		'08' => 'Einzelhändler',
-		'09' => 'Publisher an Endkunden',
-		'10' => 'Exklusiver Distributor an Endkunden',
-		'11' => 'Nicht exklusiver Distributor an Endkunden',
-		'12' => 'Händler an Endkunden',
-		'13' => 'Exklusiver Distributor für Einzelhändler und Endkunden',
-		'14' => 'Nicht exklusiver Distributor für Einzelhändler und Endkunden',
-		'15' => 'Händler an Einzelhändler und Endkunden',
+		'00' => 'Unspecified',
+		'01' => 'Publisher to resellers',
+		'02' => 'Publisher’s exclusive distributor to resellers',
+		'03' => 'Publisher’s non-exclusive distributor to resellers',
+		'04' => 'Wholesaler to retailers',
+		'05' => 'Sales agent',
+		'06' => 'Publisher’s distributor to retailers',
+		'07' => 'POD supplier',
+		'08' => 'Retailer',
+		'09' => 'Publisher to end-customers',
+		'10' => 'Exclusive distributor to end-customers',
+		'11' => 'Non-exclusive distributor to end-customers',
+		'12' => 'Distributor to end-customers',
+		'13' => 'Exclusive distributor to resellers and end-customers',
+		'14' => 'Non-exclusive distributor to resellers and end-customers',
+		'15' => 'Distributor to resellers and end-customers',
 	];
 
 	/**
