@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 166
  *
- * Used with <SupplyDateRole> <x491>
+ * Used with <SupplyDateRole> <x461>
  *
  * @see https://ns.editeur.org/onix/en/166
  */

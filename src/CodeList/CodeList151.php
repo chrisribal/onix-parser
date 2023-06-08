@@ -18,6 +18,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/151
 	 */
 	protected static $en = [
+		'00' => 'Associated with',
 		'01' => 'Born in',
 		'02' => 'Died in',
 		'03' => 'Formerly resided in',
@@ -28,6 +29,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Citizen of',
 		'09' => 'Registered in',
 		'10' => 'Operating from',
+		'11' => 'Eligible for geographical marketing programs',
 	];
 
 	/**
@@ -37,6 +39,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/151
 	 */
 	protected static $es = [
+		'00' => 'Relacionado con',
 		'01' => 'Nacido en',
 		'02' => 'Fallecido en',
 		'03' => 'Anteriormente residió en',
@@ -47,6 +50,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Ciudadano de',
 		'09' => 'Registrada en',
 		'10' => 'Opera desde',
+		'11' => 'Elegible para programas de marketing geográfico',
 	];
 
 	/**
@@ -56,6 +60,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/151
 	 */
 	protected static $de = [
+		'00' => 'Associated with',
 		'01' => 'Born in',
 		'02' => 'Died in',
 		'03' => 'Formerly resided in',
@@ -66,6 +71,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Citizen of',
 		'09' => 'Registered in',
 		'10' => 'Operating from',
+		'11' => 'Eligible for geographical marketing programs',
 	];
 
 	/**
@@ -75,16 +81,18 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/151
 	 */
 	protected static $fr = [
-		'01' => 'Né€ en/à',
-		'02' => 'Mort€ en/à',
+		'00' => 'Associé(e) à',
+		'01' => 'Né(e) en/à',
+		'02' => 'Mort(e) en/à',
 		'03' => 'A vécu à/en',
 		'04' => 'Vit à/en',
-		'05' => 'Formé€ à/en',
+		'05' => 'Formé(e) à/en',
 		'06' => 'A travaillé à/en',
 		'07' => 'A grandi à/en',
 		'08' => 'Citoyen de',
 		'09' => 'Enregistré(e) à/en',
 		'10' => 'Opère depuis',
+		'11' => 'Eligible aux programmes de marketing géographique',
 	];
 
 	/**
@@ -94,6 +102,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/151
 	 */
 	protected static $it = [
+		'00' => 'Collegato a',
 		'01' => 'Luogo di nascita',
 		'02' => 'Luogo di morte',
 		'03' => 'Residenza precedente',
@@ -104,6 +113,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Cittadinanza',
 		'09' => 'Registrato a',
 		'10' => 'Operativo a',
+		'11' => 'Idoneo per programmi di marketing geografico',
 	];
 
 	/**
@@ -113,6 +123,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/151
 	 */
 	protected static $nb = [
+		'00' => 'Forbundet med',
 		'01' => 'Født i',
 		'02' => 'Døde i',
 		'03' => 'Bodde tidligere i',
@@ -123,6 +134,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Innbygger i',
 		'09' => 'Registrert i',
 		'10' => 'Opererer fra',
+		'11' => 'Eligible for geographical marketing programs',
 	];
 
 	/**
@@ -132,6 +144,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/tr/151
 	 */
 	protected static $tr = [
+		'00' => 'Associated with',
 		'01' => 'Doğum yeri',
 		'02' => 'Ölüm yeri',
 		'03' => 'Daha önce yaşadığı yer',
@@ -142,5 +155,6 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Vatandaşlık',
 		'09' => 'Registered in',
 		'10' => 'Operating from',
+		'11' => 'Eligible for geographical marketing programs',
 	];
 }

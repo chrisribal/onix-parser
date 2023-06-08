@@ -52,14 +52,14 @@ class CodeList50 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/50
 	 */
 	protected static $de = [
-		'cm' => 'Zentimeter',
-		'gr' => 'Gramm',
-		'in' => 'Zoll (US)',
-		'kg' => 'Kilogramm',
-		'lb' => 'Pfund (US)',
-		'mm' => 'Millimeter',
-		'oz' => 'Unzen (US)',
-		'px' => 'Pixel',
+		'cm' => 'Centimeters',
+		'gr' => 'Grams',
+		'in' => 'Inches (US)',
+		'kg' => 'Kilograms',
+		'lb' => 'Pounds (US)',
+		'mm' => 'Millimeters',
+		'oz' => 'Ounces (US)',
+		'px' => 'Pixels',
 	];
 
 	/**

@@ -35,6 +35,9 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'School library price',
 		'15' => 'Academic library price',
 		'16' => 'Public library price',
+		'17' => 'Introductory price',
+		'18' => 'Consortial price',
+		'19' => 'Education price for alternative provision',
 	];
 
 	/**
@@ -61,6 +64,9 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'Precio para biblioteca escolar',
 		'15' => 'Precio para biblioteca académica',
 		'16' => 'Precio para bibliotecas públicas',
+		'17' => 'Precio de introducción',
+		'18' => 'Precio para consorcios',
+		'19' => 'Precio para educación espacializada (Francia)',
 	];
 
 	/**
@@ -87,6 +93,9 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'School library price',
 		'15' => 'Academic library price',
 		'16' => 'Public library price',
+		'17' => 'Introductory price',
+		'18' => 'Consortial price',
+		'19' => 'Education price for alternative provision',
 	];
 
 	/**
@@ -113,6 +122,9 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'Prix bibliothèque scolaire',
 		'15' => 'Prix bibliothèque universitaire',
 		'16' => 'Prix bibliothèque publique',
+		'17' => 'Prix de lancement',
+		'18' => 'Prix pour les consortiums',
+		'19' => 'Education price for alternative provision',
 	];
 
 	/**
@@ -139,6 +151,9 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'Prezzo per le biblioteche scolastiche',
 		'15' => 'Prezzo per le biblioteche accademiche',
 		'16' => 'Prezzo per le biblioteche pubbliche',
+		'17' => 'Prezzo di lancio',
+		'18' => 'Prezzo per consorzi',
+		'19' => 'Prezzo per istituzioni educative alternative',
 	];
 
 	/**
@@ -165,6 +180,9 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'Skolebibliotekpris',
 		'15' => 'Pris for akademiske bibliotek',
 		'16' => 'Folkebibliotekpris',
+		'17' => 'Introduksjonspris',
+		'18' => 'Konsortiumspris',
+		'19' => 'Pris for utdanningsinstitusjoner; alternativt tilbud',
 	];
 
 	/**
@@ -191,5 +209,8 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'14' => 'School library price',
 		'15' => 'Academic library price',
 		'16' => 'Public library price',
+		'17' => 'Introductory price',
+		'18' => 'Consortial price',
+		'19' => 'Education price for alternative provision',
 	];
 }

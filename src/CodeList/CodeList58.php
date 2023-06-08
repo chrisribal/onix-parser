@@ -43,6 +43,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => 'Freight-pass-through billing price excluding tax',
 		'33' => 'Importer’s Fixed retail price excluding tax',
 		'34' => 'Importer’s Fixed retail price including tax',
+		'35' => 'Nominal gratis copy value for customs purposes, excluding tax',
+		'36' => 'Nominal value for claims purposes, excluding tax',
 		'41' => 'Publishers retail price excluding tax',
 		'42' => 'Publishers retail price including tax',
 	];
@@ -79,6 +81,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => '«Freight-pass-through billing price excluding tax»',
 		'33' => 'Precio fijo del importador sin impuestos',
 		'34' => 'Precio fijo del importador con impuestos',
+		'35' => 'Valor nominal de ejemplares gratuitos a efectos de trámites aduaneros',
+		'36' => 'Valor nominal a efectos de reclamaciones, sin impuestos',
 		'41' => 'Precio de venta del editor, sin impuestos (Contrato de mandato, «Agency»)',
 		'42' => 'Precio de venta del editor, incluyendo impuestos (Contrato de mandato, «Agency»)',
 	];
@@ -115,6 +119,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => 'Freight-pass-through billing price excluding tax',
 		'33' => 'Importer’s Fixed retail price excluding tax',
 		'34' => 'Importer’s Fixed retail price including tax',
+		'35' => 'Nominal gratis copy value for customs purposes, excluding tax',
+		'36' => 'Nominal value for claims purposes, excluding tax',
 		'41' => 'Publishers retail price excluding tax',
 		'42' => 'Publishers retail price including tax',
 	];
@@ -151,6 +157,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => 'Prix de facturation « freight-pass-through » hors taxes',
 		'33' => 'Prix de vente imposé hors taxes de l’importateur',
 		'34' => 'Prix de vente imposé taxes incluses de l’importateur',
+		'35' => 'Valeur nominale des exemplaires gratuits pour la douane, hors taxes',
+		'36' => 'Valeur nominale pour les réclamations hors taxes',
 		'41' => 'Prix de vente éditeur hors taxes',
 		'42' => 'Prix de vente éditeur taxes incluses',
 	];
@@ -187,6 +195,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => 'Prezzo al rivenditore, Freight-pass-through, tasse escluse',
 		'33' => 'Prezzo fisso al pubblico dell’importatore, tasse escluse',
 		'34' => 'Prezzo fisso al pubblico dell’importatore, tasse incluse',
+		'35' => 'Valore nominale della copia gratuita per fini doganali, tasse escluse',
+		'36' => 'Valore nominale in caso di reclami, tasse escluse',
 		'41' => 'Prezzo di vendita dell’editore, tasse escluse',
 		'42' => 'Prezzo di vendita dell’editore, tasse incluse',
 	];
@@ -223,6 +233,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => 'Freight-pass-through billing price excluding tax',
 		'33' => 'Importørens foreløpig foreslåtte fastpris eks. mva.',
 		'34' => 'Importørens foreløpige enhetspris inkl. mva.',
+		'35' => 'Nominell gratis kopiverdi for tollformål, eksklusive avgifter',
+		'36' => 'Nominal value for claims purposes, excluding tax',
 		'41' => 'Utgivers/vareeiers utsalgspris eks. mva.',
 		'42' => 'Utgivers/vareeiers utsalgspris inkl. mva.',
 	];
@@ -259,6 +271,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'32' => 'Nakliyesiz fatura fiyatı, vergi hariç',
 		'33' => 'İthalatçının Vergi hariç sabit perakende fiyatı',
 		'34' => 'İthalatçının Vergi dahil sabit perakende fiyatı',
+		'35' => 'Nominal gratis copy value for customs purposes, excluding tax',
+		'36' => 'Nominal value for claims purposes, excluding tax',
 		'41' => 'Yayımcının perakende fiyatı, vergi hariç',
 		'42' => 'Yayımcının perakende fiyatı, vergi dahil',
 	];

@@ -35,9 +35,11 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'27' => 'Finnish school grade range',
 		'28' => 'Finnish Upper secondary school course',
 		'29' => 'Chinese School Grade range',
-		'30' => 'Nomenclature niveaux éducatif détaillé',
+		'30' => 'French school cycles / classes',
 		'31' => 'Brazil Education level',
-		'32' => 'Nomenclature niveaux éducatif de base',
+		'32' => 'French educational levels',
+		'33' => 'Finnish Upper secondary school course (2021+)',
+		'34' => 'Detailed French educational levels',
 	];
 
 	/**
@@ -64,9 +66,11 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'27' => 'Niveles educativos en Finlandia',
 		'28' => 'Secundaria superior en Finlandia',
 		'29' => 'Niveles escolares en China',
-		'30' => '«Nomenclature niveau éducatif détaillé»',
+		'30' => 'Ciclos y clases en Francia',
 		'31' => 'Nivel educativo en Brasil',
 		'32' => '«Nomenclature niveau éducatif de base»',
+		'33' => 'Curso escolar avanzado de secundaria en Finlandia (2021+)',
+		'34' => 'Niveles educativos franceses detallados',
 	];
 
 	/**
@@ -93,9 +97,11 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'27' => 'Finnish school grade range',
 		'28' => 'Finnish Upper secondary school course',
 		'29' => 'Chinese School Grade range',
-		'30' => 'Nomenclature niveaux éducatif détaillé',
+		'30' => 'French school cycles / classes',
 		'31' => 'Brazil Education level',
-		'32' => 'Nomenclature niveaux éducatif de base',
+		'32' => 'French educational levels',
+		'33' => 'Finnish Upper secondary school course (2021+)',
+		'34' => 'Detailed French educational levels',
 	];
 
 	/**
@@ -122,9 +128,11 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'27' => 'Niveau d’enseignement finlandais',
 		'28' => 'Deuxième cycle d’enseignement secondaire finlandais',
 		'29' => 'Niveau d’enseignement chinois',
-		'30' => 'Nomenclature niveaux scolaires',
+		'30' => 'Cycles scolaires français/classes',
 		'31' => 'Niveau d’enseignement brésilien',
-		'32' => 'Nomenclature niveaux éducatif de base',
+		'32' => 'Niveau d’enseignement français',
+		'33' => 'Deuxième cycle d’enseignement secondaire finlandais (2021+)',
+		'34' => 'Niveau éducatif détaillé',
 	];
 
 	/**
@@ -151,9 +159,11 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'27' => 'Grado scolastico della Finlandia',
 		'28' => 'Corso scuola media superiore finlandese',
 		'29' => 'Codice del grado scolastico della Cina',
-		'30' => 'Nomenclature niveaux éducatif détaillé',
+		'30' => 'Cicli/classi scolastiche francesi',
 		'31' => 'Grado scolastico del Brasile',
-		'32' => 'Nomenclature niveaux éducatif de base',
+		'32' => 'Livelli di istruzione francesi',
+		'33' => 'Corso di scuola secondaria superiore finlandese (2021+)',
+		'34' => 'Livelli di istruzione francesi dettagliati',
 	];
 
 	/**
@@ -180,9 +190,11 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'27' => 'Finnish school grade range',
 		'28' => 'Finnish Upper secondary school course',
 		'29' => 'Chinese School Grade code',
-		'30' => 'Nomenclature niveaux éducatif détaillé',
+		'30' => 'Franske utdanningsnivå / klasser',
 		'31' => 'Brazil Education level',
-		'32' => 'Nomenclature niveaux éducatif de base',
+		'32' => 'Franske skoletrinn',
+		'33' => 'Finnish Upper secondary school course (2021+)',
+		'34' => 'Detailed French educational levels',
 	];
 
 	/**
@@ -211,6 +223,8 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'29' => 'Çin Okul Düzeyi kodu',
 		'30' => 'Nomenclature niveaux',
 		'31' => 'Brezilya Eğitim düzeyi',
-		'32' => 'Nomenclature niveaux éducatif de base',
+		'32' => 'French educational levels',
+		'33' => 'Finnish Upper secondary school course (2021+)',
+		'34' => 'Detailed French educational levels',
 	];
 }

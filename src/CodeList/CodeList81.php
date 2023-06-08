@@ -60,6 +60,8 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Advertising – third party display',
 		'39' => 'Advertising – third party textual',
 		'40' => 'Scripting',
+		'43' => 'Scripted pop-ups',
+		'44' => 'Sequential art',
 	];
 
 	/**
@@ -111,6 +113,8 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Publicidad gráfica, terceras partes',
 		'39' => 'Publicidad textual, terceras partes',
 		'40' => '«Scripting»',
+		'43' => 'Incluye ventanas emergentes',
+		'44' => 'Arte secuencial',
 	];
 
 	/**
@@ -162,6 +166,8 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Advertising – third party display',
 		'39' => 'Advertising – third party textual',
 		'40' => 'Scripting',
+		'43' => 'Scripted pop-ups',
+		'44' => 'Sequential art',
 	];
 
 	/**
@@ -213,6 +219,8 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Publicité – affichage tiers',
 		'39' => 'Publicité – texte tiers',
 		'40' => 'Scripting',
+		'43' => 'Fenêtres contextuelles programmées',
+		'44' => 'Sequential art',
 	];
 
 	/**
@@ -264,6 +272,8 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Contenuto pubblicitario – campagne display di terzi',
 		'39' => 'Contenuto pubblicitario – campagne testuali di terzi',
 		'40' => 'Scripting',
+		'43' => 'Scripted pop-up',
+		'44' => 'Arte sequenziale',
 	];
 
 	/**
@@ -315,6 +325,8 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Reklame – andre produkter (visuell)',
 		'39' => 'Reklame – andre produkter (tekst)',
 		'40' => 'Scripting',
+		'43' => 'Popups',
+		'44' => 'Bilder i sekvens',
 	];
 
 	/**
@@ -366,5 +378,7 @@ class CodeList81 extends CodeList implements CodeListInterface
 		'38' => 'Reklam – üçüncü taraf görüntü',
 		'39' => 'Reklam – üçüncü taraf metin',
 		'40' => 'Betik',
+		'43' => 'Scripted pop-ups',
+		'44' => 'Sequential art',
 	];
 }

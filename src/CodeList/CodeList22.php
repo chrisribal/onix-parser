@@ -28,6 +28,9 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Language of original audio track',
 		'11' => 'Original language audio track in a multilingual product',
 		'12' => 'Language of notes',
+		'13' => 'Language of introduction / end matter',
+		'14' => 'Target language of teaching / learning',
+		'15' => 'Additional vocabulary / text in this language',
 	];
 
 	/**
@@ -47,6 +50,9 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Idioma de la pista original de audio',
 		'11' => 'Idioma original en un producto de audio multidioma',
 		'12' => 'Idioma de las notas',
+		'13' => 'Idioma de los preliminares o de las partes finales',
+		'14' => 'Lengua objetivo de enseñanza / aprendizaje',
+		'15' => 'Vocabulario adicional o textos en este idioma',
 	];
 
 	/**
@@ -66,6 +72,9 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Language of original audio track',
 		'11' => 'Original language audio track in a multilingual product',
 		'12' => 'Language of notes',
+		'13' => 'Language of introduction / end matter',
+		'14' => 'Target language of teaching / learning',
+		'15' => 'Additional vocabulary / text in this language',
 	];
 
 	/**
@@ -85,6 +94,9 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Langue audio originale',
 		'11' => 'Langue audio originale d’un produit multilingue',
 		'12' => 'Langue des notes',
+		'13' => 'Langue de la préface/postface',
+		'14' => 'Langue cible de l’apprentissage',
+		'15' => 'Vocabulaire additionnel/texte dans cette langue',
 	];
 
 	/**
@@ -104,6 +116,9 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Lingua della traccia audio originale',
 		'11' => 'Lingua della traccia audio originale in un prodotto multilingue',
 		'12' => 'Lingua delle note',
+		'13' => 'Lingua del testo introduttivo/conclusivo',
+		'14' => 'Lingua oggetto dell’insegnamento/apprendimento',
+		'15' => 'Lingua extra di vocaboli/testi',
 	];
 
 	/**
@@ -123,6 +138,9 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Språk på originalt lydspor',
 		'11' => 'Originalspråk i et produkt med lydspor på flere språk',
 		'12' => 'Språk i noter',
+		'13' => 'Språk i forord / etterord',
+		'14' => 'Målspråk for undervisning/læring',
+		'15' => 'Ytterligere ordforråd / tekst på dette språket',
 	];
 
 	/**
@@ -142,5 +160,8 @@ class CodeList22 extends CodeList implements CodeListInterface
 		'10' => 'Orijinal ses parçasının dili',
 		'11' => 'Çok dilli bir ses ürünündeki orijinal dil',
 		'12' => 'Not dili',
+		'13' => 'Language of introduction / end matter',
+		'14' => 'Target language of teaching / learning',
+		'15' => 'Additional vocabulary / text in this language',
 	];
 }

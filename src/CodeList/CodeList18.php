@@ -23,7 +23,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'02' => 'Authority-controlled name',
 		'03' => 'Earlier name',
 		'04' => '‘Real’ name',
-		'05' => 'Transliterated form of primary name',
+		'05' => 'Transliterated / translated form of primary name',
 		'06' => 'Later name',
 		'07' => 'Fictional character name',
 	];
@@ -40,9 +40,9 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'02' => 'Nombre controlado por una autoridad',
 		'03' => 'Nombre anterior',
 		'04' => 'Nombre real',
-		'05' => 'Forma transliterada del nombre principal',
+		'05' => 'Forma transliterada / traducida del nombre principal',
 		'06' => 'Nombre posterior',
-		'07' => 'Fictional character name',
+		'07' => 'Nombre de personaje ficticio',
 	];
 
 	/**
@@ -57,7 +57,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'02' => 'Authority-controlled name',
 		'03' => 'Earlier name',
 		'04' => '‘Real’ name',
-		'05' => 'Transliterated form of primary name',
+		'05' => 'Transliterated / translated form of primary name',
 		'06' => 'Later name',
 		'07' => 'Fictional character name',
 	];
@@ -74,9 +74,9 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'02' => 'Nom autorité contrôlé',
 		'03' => 'Nom antérieur',
 		'04' => 'Nom « réel »',
-		'05' => 'Forme transcrite du nom principal',
+		'05' => 'Forme transcrite/traduite du nom principal',
 		'06' => 'Dernière forme du nom',
-		'07' => 'Fictional character name',
+		'07' => 'Nom de personnage de fiction',
 	];
 
 	/**
@@ -91,9 +91,9 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'02' => 'Nome controllato appartenente a una lista di autorità',
 		'03' => 'Nome precedente',
 		'04' => 'Nome «reale»',
-		'05' => 'Nome traslitterato',
+		'05' => 'Nome traslitterato/tradotto',
 		'06' => 'Nome successivo',
-		'07' => 'Fictional character name',
+		'07' => 'Nome del personaggio di fantasia',
 	];
 
 	/**
@@ -108,9 +108,9 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'02' => 'Autoritetskontrollert navn',
 		'03' => 'Tidligere navn',
 		'04' => 'Virkelig navn',
-		'05' => 'Transkripsjon fra primært navn',
+		'05' => 'Transkripsjon / oversettelse fra primært navn',
 		'06' => 'Senere navn',
-		'07' => 'Fictional character name',
+		'07' => 'Navn på fiktiv karakter',
 	];
 
 	/**

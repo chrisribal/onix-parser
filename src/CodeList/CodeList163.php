@@ -24,7 +24,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'10' => 'Trade announcement date',
 		'11' => 'Date of first publication',
 		'12' => 'Last reprint date',
-		'13' => 'Out-of-print / deletion date',
+		'13' => 'Out-of-print / permanently withdrawn date',
 		'16' => 'Last reissue date',
 		'19' => 'Publication date of print counterpart',
 		'20' => 'Date of first publication in original language',
@@ -38,6 +38,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date of production',
 		'30' => 'Streaming embargo date',
 		'31' => 'Subscription embargo date',
+		'35' => 'CIP date',
 	];
 
 	/**
@@ -53,7 +54,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'10' => 'Fecha de anuncio para el sector',
 		'11' => 'Fecha de primera publicación de la obra',
 		'12' => 'Fecha de última impresión',
-		'13' => 'Fecha de descatalogación o desactivación',
+		'13' => 'Fecha de descatalogación, desactivación o retirada de la venta',
 		'16' => 'Fecha de última reedición',
 		'19' => 'Fecha de publicación de la versión impresa',
 		'20' => 'Fecha de primera publicación en lengua original',
@@ -67,6 +68,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Fecha de producción',
 		'30' => 'Fecha de embargo para «streaming»',
 		'31' => 'Fecha de embargo para suscripciones',
+		'35' => 'Fecha de la «catalogación en publicación» (CIP)',
 	];
 
 	/**
@@ -76,26 +78,27 @@ class CodeList163 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/163
 	 */
 	protected static $de = [
-		'01' => 'Erscheinungsdatum',
-		'02' => 'Verkaufsembargodatum',
-		'09' => 'Datum der öffentlichen Bekanntgabe',
-		'10' => 'Handelsankündigungsdatum',
-		'11' => 'Datum der Erstveröffentlichung',
-		'12' => 'Datum des letzten Nachdrucks',
-		'13' => 'Vergriffenes / Löschdatum',
-		'16' => 'Datum der letzten Neuausstellung',
-		'19' => 'Erscheinungsdatum des Druckgegenstücks',
-		'20' => 'Datum der Erstveröffentlichung in Originalsprache',
-		'21' => 'Bevorstehendes Neuausstellungsdatum',
-		'22' => 'Voraussichtliches Verfügbarkeitsdatum nach vorübergehender Auszahlung',
-		'23' => 'Embargodatum überprüfen',
-		'25' => 'Bestellschluss für die Reservierung des Herausgebers',
-		'26' => 'Bevorstehendes Nachdruckdatum',
-		'27' => 'Embargodatum vorbestellen',
-		'28' => 'Überweisungsdatum',
-		'29' => 'Produktionsdatum',
-		'30' => 'Datum des Streaming-Embargos',
-		'31' => 'Datum des Abonnementembargos',
+		'01' => 'Publication date',
+		'02' => 'Sales embargo date',
+		'09' => 'Public announcement date',
+		'10' => 'Trade announcement date',
+		'11' => 'Date of first publication',
+		'12' => 'Last reprint date',
+		'13' => 'Out-of-print / permanently withdrawn date',
+		'16' => 'Last reissue date',
+		'19' => 'Publication date of print counterpart',
+		'20' => 'Date of first publication in original language',
+		'21' => 'Forthcoming reissue date',
+		'22' => 'Expected availability date after temporary withdrawal',
+		'23' => 'Review embargo date',
+		'25' => 'Publisher’s reservation order deadline',
+		'26' => 'Forthcoming reprint date',
+		'27' => 'Preorder embargo date',
+		'28' => 'Transfer date',
+		'29' => 'Date of production',
+		'30' => 'Streaming embargo date',
+		'31' => 'Subscription embargo date',
+		'35' => 'CIP date',
 	];
 
 	/**
@@ -111,7 +114,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'10' => 'Date d’annonce commerciale',
 		'11' => 'Date de première publication',
 		'12' => 'Dernière date de réimpression',
-		'13' => 'Date de passage en épuisé / arrêt de commercialisation',
+		'13' => 'Date de passage en épuisé / arrêt définitif de commercialisation',
 		'16' => 'Dernière date de réédition',
 		'19' => 'Date de publication de l’équivalent imprimé',
 		'20' => 'Date de première publication dans la langue d’origine',
@@ -125,6 +128,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date de production',
 		'30' => 'Date d’embargo pour le streaming',
 		'31' => 'Date d’embargo pour la souscription',
+		'35' => 'Date du catalogage avant publication',
 	];
 
 	/**
@@ -140,7 +144,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'10' => 'Data di annuncio al settore',
 		'11' => 'Data della prima pubblicazione',
 		'12' => 'Data dell’ultima ristampa',
-		'13' => 'Data di fuori catalogo/di cancellazione',
+		'13' => 'Data di fuori catalogo/di ritiro definitivo dalla vendita',
 		'16' => 'Data dell’ultima ripubblicazione',
 		'19' => 'Data di pubblicazione della versione a stampa',
 		'20' => 'Data della prima pubblicazione in lingua originale',
@@ -154,6 +158,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Data di produzione',
 		'30' => 'Data di embargo dello streaming',
 		'31' => 'Data di embargo dell’abbonamento',
+		'35' => 'Data del CIP (Cataloguing in publication)',
 	];
 
 	/**
@@ -183,6 +188,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Produksjonsdato',
 		'30' => 'Sperredato for strømming',
 		'31' => 'Sperredato for abonnement',
+		'35' => 'CIP-dato',
 	];
 
 	/**
@@ -212,5 +218,6 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date of production',
 		'30' => 'Streaming embargo date',
 		'31' => 'Subscription embargo date',
+		'35' => 'CIP date',
 	];
 }

@@ -34,7 +34,10 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'14' => 'Duration of main content',
 		'15' => 'Duration of back matter',
 		'16' => 'Production duration',
+		'17' => 'Number of cards',
+		'18' => 'Number of write-in pages',
 		'22' => 'Filesize',
+		'23' => 'Storage filesize',
 	];
 
 	/**
@@ -45,7 +48,7 @@ class CodeList23 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'00' => 'Número de páginas del contenido principal',
-		'02' => 'Número de palabras',
+		'02' => 'Longitud total del texto',
 		'03' => 'Número de páginas previas al contenido principal',
 		'04' => 'Número de páginas posteriores al contenido principal',
 		'05' => 'Total de páginas numeradas',
@@ -60,7 +63,10 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'14' => 'Duración del contenido principal',
 		'15' => 'Duración de las partes finales',
 		'16' => 'Duración de la producción',
+		'17' => 'Número de cartas, fichas o tarjetas',
+		'18' => 'Número de páginas en blanco',
 		'22' => 'Tamaño del archivo',
+		'23' => 'Tamaño del archivo',
 	];
 
 	/**
@@ -70,23 +76,26 @@ class CodeList23 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/23
 	 */
 	protected static $de = [
-		'00' => 'Anzahl der Hauptinhaltsseiten',
-		'02' => 'Gesamttextlänge',
-		'03' => 'Seitenzahl der Titelseite',
-		'04' => 'Seitenanzahl der Hintergrundsachen',
-		'05' => 'Gesamtzahl der nummerierten Seiten',
-		'06' => 'Anzahl der Produktionsseiten',
-		'07' => 'Absolute Seitenzahl',
-		'08' => 'Anzahl der Seiten im gedruckten Gegenstück',
-		'09' => 'Dauer',
-		'10' => 'Nennzahl der Seiten im digitalen Produkt',
-		'11' => 'Anzahl der Inhaltsseiten',
-		'12' => 'Gesamtzahl der nicht nummerierten Seiten einfügen',
-		'13' => 'Dauer der einleitenden Angelegenheit',
-		'14' => 'Dauer des Hauptinhalts',
-		'15' => 'Dauer der Hintergrundsache',
-		'16' => 'Produktionsdauer',
-		'22' => 'Dateigröße',
+		'00' => 'Main content page count',
+		'02' => 'Total text length',
+		'03' => 'Front matter page count',
+		'04' => 'Back matter page count',
+		'05' => 'Total numbered pages',
+		'06' => 'Production page count',
+		'07' => 'Absolute page count',
+		'08' => 'Number of pages in print counterpart',
+		'09' => 'Duration',
+		'10' => 'Notional number of pages in digital product',
+		'11' => 'Content page count',
+		'12' => 'Total unnumbered insert page count',
+		'13' => 'Duration of introductory matter',
+		'14' => 'Duration of main content',
+		'15' => 'Duration of back matter',
+		'16' => 'Production duration',
+		'17' => 'Number of cards',
+		'18' => 'Number of write-in pages',
+		'22' => 'Filesize',
+		'23' => 'Storage filesize',
 	];
 
 	/**
@@ -97,7 +106,7 @@ class CodeList23 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'00' => 'Nombre de pages du contenu principal',
-		'02' => 'Nombre de mots',
+		'02' => 'Longueur totale du texte',
 		'03' => 'Nombre de pages liminaires',
 		'04' => 'Nombre de pages annexes',
 		'05' => 'Nombre total de pages',
@@ -112,7 +121,10 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'14' => 'Durée du contenu principal',
 		'15' => 'Durée des annexes',
 		'16' => 'Durée du contenu produit',
+		'17' => 'Nombre de fiches/cartes',
+		'18' => 'Number of write-in pages',
 		'22' => 'Taille du fichier',
+		'23' => 'Taille de stockage du fichier',
 	];
 
 	/**
@@ -123,7 +135,7 @@ class CodeList23 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'00' => 'Numero di pagine del contenuto principale',
-		'02' => 'Numero di parole',
+		'02' => 'Lunghezza totale del testo',
 		'03' => 'Numero di pagine del testo preliminare',
 		'04' => 'Numero di pagine del testo conclusivo',
 		'05' => 'Numero totale delle pagine numerate',
@@ -138,7 +150,10 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'14' => 'Durata del contenuto principale',
 		'15' => 'Durata del materiale aggiuntivo',
 		'16' => 'Durata della produzione',
+		'17' => 'Numero di carte',
+		'18' => 'Numero di pagine da scrivere',
 		'22' => 'Dimensione del file',
+		'23' => 'Dimensione del file di archivio',
 	];
 
 	/**
@@ -149,7 +164,7 @@ class CodeList23 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'00' => 'Sidetall (bokas hovedinnhold)',
-		'02' => 'Antall ord',
+		'02' => 'Fullstendig tekstlengde',
 		'03' => 'Sidetall for innledende stoff',
 		'04' => 'Sidetall for avsluttende stoff',
 		'05' => 'Totalt antall nummererte sider',
@@ -164,7 +179,10 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'14' => 'Spilletid for hovedinnhold',
 		'15' => 'Spilletid for avsluttende stoff',
 		'16' => 'Spilletid for produksjon',
+		'17' => 'Antall kort',
+		'18' => 'Antall blanke notatsider',
 		'22' => 'Filstørrelse',
+		'23' => 'Filstørrelse for lagring',
 	];
 
 	/**
@@ -190,6 +208,9 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'14' => 'Ana içeriğin süresi',
 		'15' => 'Duration of back matter',
 		'16' => 'Yapım süresi',
+		'17' => 'Number of cards',
+		'18' => 'Number of write-in pages',
 		'22' => 'Dosya büyüklüğü',
+		'23' => 'Storage filesize',
 	];
 }

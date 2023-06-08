@@ -30,6 +30,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWiU',
+		'13' => 'HTSUS',
+		'14' => 'US Schedule B',
+		'15' => 'Clave SAT',
 		'50' => 'Electre genre',
 	];
 
@@ -52,6 +55,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWIU',
+		'13' => 'HTSUS',
+		'14' => 'Schedule 8',
+		'15' => 'Clave SAT',
 		'50' => 'Electre genre',
 	];
 
@@ -74,6 +80,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWiU',
+		'13' => 'HTSUS',
+		'14' => 'US Schedule B',
+		'15' => 'Clave SAT',
 		'50' => 'Electre genre',
 	];
 
@@ -85,7 +94,7 @@ class CodeList9 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'01' => 'Système harmonisé WCO',
-		'02' => 'UNSPSC',
+		'02' => 'UN SPSC',
 		'03' => 'HMRC',
 		'04' => 'Warenverzeichnis für die Außenhandelsstatistik',
 		'05' => 'TARIC',
@@ -96,6 +105,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWiU',
+		'13' => 'HTSUS',
+		'14' => 'Schedule B',
+		'15' => 'Clave SAT',
 		'50' => 'Genre Electre',
 	];
 
@@ -118,6 +130,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWiU',
+		'13' => 'HTSUS',
+		'14' => 'US Schedule B',
+		'15' => 'Clave SAT',
 		'50' => 'Electre genre',
 	];
 
@@ -140,6 +155,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWiU',
+		'13' => 'HTSUS',
+		'14' => 'US Schedule B',
+		'15' => 'Clave SAT',
 		'50' => 'Electre genre',
 	];
 
@@ -162,6 +180,9 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'10' => 'NCM',
 		'11' => 'CPV',
 		'12' => 'PKWiU',
+		'13' => 'HTSUS',
+		'14' => 'US Schedule B',
+		'15' => 'Clave SAT',
 		'50' => 'Electre türü',
 	];
 }

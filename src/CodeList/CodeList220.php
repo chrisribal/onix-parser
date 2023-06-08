@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 220
  *
- * Used with <ProductFormFeatureValue> <b335>
+ * Used with <ProductFormFeatureValue> <b335>See List 79
  *
  * @see https://ns.editeur.org/onix/en/220
  */
@@ -23,6 +23,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'Kindle mobi 7',
 		'116B' => 'Kindle KF8',
 		'116C' => 'Kindle KFX',
@@ -40,6 +41,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'Kindle mobi 7',
 		'116B' => 'Kindle KF 8',
 		'116C' => 'Kindle KFX',
@@ -57,6 +59,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'Kindle mobi 7',
 		'116B' => 'Kindle KF8',
 		'116C' => 'Kindle KFX',
@@ -74,6 +77,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'MOBI 7',
 		'116B' => 'KF8',
 		'116C' => 'Kindle KFX',
@@ -91,6 +95,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'Kindle mobi 7',
 		'116B' => 'Kindle KF8',
 		'116C' => 'Kindle KFX',
@@ -108,6 +113,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'Kindle mobi 7',
 		'116B' => 'Kindle KF8',
 		'116C' => 'Kindle KFX',
@@ -125,6 +131,7 @@ class CodeList220 extends CodeList implements CodeListInterface
 		'101C' => 'EPUB 3.0.1',
 		'101D' => 'EPUB 3.1',
 		'101E' => 'EPUB 3.2',
+		'101F' => 'EPUB 3.3',
 		'116A' => 'Kindle mobi 7',
 		'116B' => 'Kindle KF8',
 		'116C' => 'Kindle KFX',

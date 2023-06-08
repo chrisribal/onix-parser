@@ -47,6 +47,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'27' => 'Intended audience language',
 		'28' => 'PEGI rating',
 		'29' => 'Gymnasieprogram',
+		'30' => 'ISCED 2011',
 	];
 
 	/**
@@ -76,15 +77,16 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'18' => 'AVI (Revisado)',
 		'19' => 'Medida Lexile',
 		'20' => 'Puntuación de legibilidad Fry',
-		'21' => 'Código de público infantil/juvenil en Japón',
+		'21' => 'Código de público infantil / juvenil en Japón',
 		'22' => 'Código de calificación ONIX para audiencia adulta',
 		'23' => 'Marco común europeo de referencia para las lenguas',
 		'24' => 'Calificación de la Korean Publication Ethics Commission',
 		'25' => 'IoE Book Band',
-		'26' => 'FSK Lehr/infoprogramm',
+		'26' => 'FSK Lehr / Infoprogramm',
 		'27' => 'Idioma del destinatario de la obra',
 		'28' => 'Clasificación PEGI',
 		'29' => 'Gymnasieprogram',
+		'30' => 'CINE 2011',
 	];
 
 	/**
@@ -116,13 +118,14 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'20' => 'Fry Readability score',
 		'21' => 'Japanese Children’s audience code',
 		'22' => 'ONIX Adult audience rating',
-		'23' => 'Common European Framework of Reference for Language Learning (CEFR)',
+		'23' => 'Der Gemeinsame europäische Referenzrahmen für Sprachen (GER oder GERS)',
 		'24' => 'Korean Publication Ethics Commission rating',
 		'25' => 'IoE Book Band',
 		'26' => 'FSK Lehr-/Infoprogramm',
 		'27' => 'Intended audience language',
 		'28' => 'PEGI rating',
 		'29' => 'Gymnasieprogram',
+		'30' => 'ISCED 2011',
 	];
 
 	/**
@@ -161,6 +164,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'27' => 'Langue du public visé',
 		'28' => 'Mesure PEGI',
 		'29' => 'Gymnasieprogram',
+		'30' => 'CITE 2011',
 	];
 
 	/**
@@ -177,7 +181,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'05' => 'FSK rating',
 		'06' => 'BTLF audience code',
 		'07' => 'Electre audience code',
-		'08' => 'USK rating',
+		'08' => 'ANELE Tipo',
 		'09' => 'AVI',
 		'10' => 'USK rating',
 		'11' => 'AWS',
@@ -199,6 +203,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'27' => 'Lingua del destinatario previsto',
 		'28' => 'PEGI rating',
 		'29' => 'Gymnasieprogram',
+		'30' => 'ISCED 2011',
 	];
 
 	/**
@@ -237,6 +242,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'27' => 'Intended audience language',
 		'28' => 'PEGI rating',
 		'29' => 'Gymnasieprogram',
+		'30' => 'ISCED 2011',
 	];
 
 	/**
@@ -275,5 +281,6 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'27' => 'Hedef izlerkitle dili',
 		'28' => 'PEGI derecelendirmesi',
 		'29' => 'Gymnasieprogram',
+		'30' => 'ISCED 2011',
 	];
 }

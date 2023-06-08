@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 98
  *
- * Used with <ProductFormFeatureValue> <b335>
+ * Used with <ProductFormFeatureValue> <b335>See List 79
  *
  * @see https://ns.editeur.org/onix/en/98
  */
@@ -23,6 +23,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Brown',
 		'BUR' => 'Burgundy/Maroon',
 		'CEL' => 'Celadon/Pale green',
+		'CPR' => 'Copper',
 		'CRE' => 'Cream',
 		'FCO' => 'Four-color',
 		'FCS' => 'Four-color and spot-color',
@@ -56,6 +57,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Marrón',
 		'BUR' => 'Burdeos / granate',
 		'CEL' => 'Verde pálido / Celadón',
+		'CPR' => 'Cobre',
 		'CRE' => 'Crema',
 		'FCO' => 'Cuatricromía',
 		'FCS' => 'Cuatricromía y colores suplementarios (spot-color)',
@@ -89,6 +91,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Brown',
 		'BUR' => 'Burgundy/Maroon',
 		'CEL' => 'Celadon/Pale green',
+		'CPR' => 'Copper',
 		'CRE' => 'Cream',
 		'FCO' => 'Four-color',
 		'FCS' => 'Four-color and spot-color',
@@ -122,6 +125,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Marron',
 		'BUR' => 'Bordeaux',
 		'CEL' => 'Vert pâle / Céladon',
+		'CPR' => 'Copper',
 		'CRE' => 'Crème',
 		'FCO' => 'Quatre couleurs',
 		'FCS' => 'Quadrichromie et couleur d’accompagnement',
@@ -155,6 +159,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Marrone',
 		'BUR' => 'Rosso borgogna/marrone rossiccio',
 		'CEL' => 'Celadon/verde pallido',
+		'CPR' => 'Rame',
 		'CRE' => 'Crema',
 		'FCO' => 'Quadricromia',
 		'FCS' => 'Quadricromia e quinto colore',
@@ -188,6 +193,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Brun',
 		'BUR' => 'Burgunder',
 		'CEL' => 'Celadon/lys grønn',
+		'CPR' => 'Kobber',
 		'CRE' => 'Krem',
 		'FCO' => 'Four-color',
 		'FCS' => 'Four-color and spot-color',
@@ -221,6 +227,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'BRN' => 'Kahverengi',
 		'BUR' => 'Bordo/şarabi',
 		'CEL' => 'Celadon/Pale green',
+		'CPR' => 'Copper',
 		'CRE' => 'Krem',
 		'FCO' => 'Dört renk',
 		'FCS' => 'Dört renk ve spot renk',

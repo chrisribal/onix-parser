@@ -26,6 +26,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -43,6 +44,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -60,6 +62,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -77,6 +80,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -94,6 +98,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -111,6 +116,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -128,5 +134,6 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'18' => 'ISRC',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
+		'39' => 'ISCC',
 	];
 }

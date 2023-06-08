@@ -42,9 +42,9 @@ class CodeList161 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/161
 	 */
 	protected static $de = [
-		'01' => 'Link',
-		'02' => 'Datei zum Herunterladen',
-		'03' => 'Einbettbare Applikation',
+		'01' => 'Linkable resource',
+		'02' => 'Downloadable file',
+		'03' => 'Embeddable application',
 	];
 
 	/**

@@ -28,6 +28,7 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'07' => 'UPC-12+5 (item-specific)',
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
+		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
 	];
 
 	/**
@@ -40,13 +41,14 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'00' => 'Sin código de barras',
 		'01' => 'Con código de barras',
 		'02' => 'GTIN-13',
-		'03' => 'GTIN-13+5 (Precio en dólares EE.UU. codificado)',
-		'04' => 'GTIN-13+5 (Precio en dólares de Canadá codificado)',
+		'03' => 'GTIN-13+5 (precio codificado en dólares estadounidenses)',
+		'04' => 'GTIN-13+5 (precio codificado en dólares CAN)',
 		'05' => 'GTIN-13+5 (Sin precio codificado)',
 		'06' => 'UPC12 (item-specific)',
 		'07' => 'UPC12+5 (item-specific)',
 		'08' => 'UPC12 (price-point)',
 		'09' => 'UPC12+5 (price-point)',
+		'10' => 'GTIN-13+5 (precio codificado en libras esterlinas)',
 	];
 
 	/**
@@ -66,6 +68,7 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'07' => 'UPC-12+5 (item-specific)',
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
+		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
 	];
 
 	/**
@@ -85,6 +88,7 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'07' => 'UPC-12+5 (spécifique à l’article)',
 		'08' => 'UPC-12 (niveau de prix)',
 		'09' => 'UPC-12+5 (niveau de prix)',
+		'10' => 'GTIN-13+5 (prix codé en Livres Sterling)',
 	];
 
 	/**
@@ -104,6 +108,7 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'07' => 'UPC-12+5 (item-specific)',
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
+		'10' => 'GTIN-13+5 (prezzo in sterline inglesi codificato)',
 	];
 
 	/**
@@ -123,6 +128,7 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'07' => 'UPC-12+5 (item-specific)',
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
+		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
 	];
 
 	/**
@@ -142,5 +148,6 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'07' => 'UPC-12+5 (ürüne özgü)',
 		'08' => 'UPC-12 (fiyat noktası)',
 		'09' => 'UPC-12 +5 (fiyat noktası)',
+		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
 	];
 }

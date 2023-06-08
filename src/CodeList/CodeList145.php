@@ -18,6 +18,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/145
 	 */
 	protected static $en = [
+		'00' => 'No constraints',
 		'01' => 'Preview',
 		'02' => 'Print',
 		'03' => 'Copy / paste',
@@ -37,6 +38,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/145
 	 */
 	protected static $es = [
+		'00' => 'Sin restricciones',
 		'01' => 'Vista previa',
 		'02' => 'Imprimir',
 		'03' => 'Copiar / Pegar',
@@ -56,6 +58,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/145
 	 */
 	protected static $de = [
+		'00' => 'No constraints',
 		'01' => 'Preview',
 		'02' => 'Print',
 		'03' => 'Copy / paste',
@@ -75,6 +78,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/145
 	 */
 	protected static $fr = [
+		'00' => 'Pas de contrainte',
 		'01' => 'Aperçu',
 		'02' => 'Impression',
 		'03' => 'Copier / coller',
@@ -94,6 +98,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/145
 	 */
 	protected static $it = [
+		'00' => 'Nessuna restrizione',
 		'01' => 'Anteprima',
 		'02' => 'Stampa',
 		'03' => 'Copia e incolla',
@@ -113,6 +118,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/145
 	 */
 	protected static $nb = [
+		'00' => 'Ingen begrensninger',
 		'01' => 'Forhåndsvisning',
 		'02' => 'Utskrift',
 		'03' => 'Kopier/lim inn',
@@ -132,6 +138,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/tr/145
 	 */
 	protected static $tr = [
+		'00' => 'No constraints',
 		'01' => 'Önizleme',
 		'02' => 'Baskı',
 		'03' => 'Kopyala / yapıştır',

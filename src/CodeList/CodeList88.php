@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 88
  *
- * Used with    • <ReligiousTextIdentifier> <b376>    • <ReligiouTextID> <b376>
+ * Used with <ReligiousTextIdentifier> <b376>
  *
  * @see https://ns.editeur.org/onix/en/88
  */

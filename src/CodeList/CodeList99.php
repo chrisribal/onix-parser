@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 99
  *
- * Used with <ProductFormFeatureValue> <b335>
+ * Used with <ProductFormFeatureValue> <b335>See List 79
  *
  * @see https://ns.editeur.org/onix/en/99
  */
@@ -40,8 +40,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'20' => 'Velvet',
 		'21' => 'Mother-of-pearl',
 		'22' => 'Papyrus',
-		'23' => 'Géltex',
-		'24' => 'Guaflex',
+		'23' => 'Géltex / Wibalin',
+		'24' => 'Guaflex / Skivertex',
 		'25' => 'Imitation leather',
 		'26' => 'Pigskin',
 		'27' => 'Goatskin',
@@ -76,8 +76,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'20' => 'Terciopelo',
 		'21' => 'Nácar',
 		'22' => 'Papiro',
-		'23' => 'Géltex',
-		'24' => 'Guaflex',
+		'23' => 'Géltex / Wibalin',
+		'24' => 'Guaflex / Skivertex',
 		'25' => 'Imitación piel',
 		'26' => 'Piel de cerdo',
 		'27' => 'Piel de cabra',
@@ -112,8 +112,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'20' => 'Velvet',
 		'21' => 'Mother-of-pearl',
 		'22' => 'Papyrus',
-		'23' => 'Géltex',
-		'24' => 'Guaflex',
+		'23' => 'Géltex / Wibalin',
+		'24' => 'Guaflex / Skivertex',
 		'25' => 'Imitation leather',
 		'26' => 'Pigskin',
 		'27' => 'Goatskin',
@@ -148,8 +148,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'20' => 'Velours',
 		'21' => 'Nacre',
 		'22' => 'Papyrus',
-		'23' => 'Géltex',
-		'24' => 'Guaflex',
+		'23' => 'Géltex / Wibalin',
+		'24' => 'Guaflex / Skivertex',
 		'25' => 'Imitation cuir',
 		'26' => 'Cuir de porc',
 		'27' => 'Cuir de chèvre',
@@ -184,8 +184,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'20' => 'Velluto',
 		'21' => 'Madreperla',
 		'22' => 'Papiro',
-		'23' => 'Géltex',
-		'24' => 'Guaflex',
+		'23' => 'Géltex/Wibalin',
+		'24' => 'Guaflex/Skivertex',
 		'25' => 'Similpelle',
 		'26' => 'Pelle di maiale',
 		'27' => 'Pelle di capra',
@@ -220,8 +220,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'20' => 'Velvet',
 		'21' => 'Mother-of-pearl',
 		'22' => 'Papyrus',
-		'23' => 'Géltex',
-		'24' => 'Guaflex',
+		'23' => 'Géltex / Wibalin',
+		'24' => 'Guaflex / Skivertex',
 		'25' => 'Imitation leather',
 		'26' => 'Pigskin',
 		'27' => 'Goatskin',

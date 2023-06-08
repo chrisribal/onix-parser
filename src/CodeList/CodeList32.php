@@ -28,6 +28,8 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'08' => 'Flesch-Kincaid Grade Level',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',
+		'11' => 'LIX',
+		'12' => 'Lexile Audio measure',
 	];
 
 	/**
@@ -47,6 +49,8 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'08' => 'Nivel de legibilidad Flesch-Kincaid',
 		'09' => 'Nivel de lectura guiada',
 		'10' => 'Nivel de recuperación de lectura',
+		'11' => 'LIX',
+		'12' => 'Nivel de escucha Lexile',
 	];
 
 	/**
@@ -66,6 +70,8 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'08' => 'Flesch-Kincaid Grade Level',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',
+		'11' => 'LIX',
+		'12' => 'Lexile Audio measure',
 	];
 
 	/**
@@ -85,6 +91,8 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'08' => 'Flesch-Kincaid Grade Level',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',
+		'11' => 'LIX',
+		'12' => 'Mesure audio Lexile',
 	];
 
 	/**
@@ -104,6 +112,8 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'08' => 'Flesch-Kincaid Grade Level',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',
+		'11' => 'LIX',
+		'12' => 'Lexile Audio measure',
 	];
 
 	/**
@@ -119,10 +129,12 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'04' => 'IoE Book Band',
 		'05' => 'Fountas and Pinnell Text Level Gradient',
 		'06' => 'Lexile measure',
-		'07' => 'ATOS for books',
+		'07' => 'ATOS for Books',
 		'08' => 'Flesch-Kincaid Grade Level',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',
+		'11' => 'LIX',
+		'12' => 'Lexile Audio measure',
 	];
 
 	/**
@@ -142,5 +154,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'08' => 'Flesch-Kincaid Sözvarlığı Düzeyi',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',
+		'11' => 'LIX',
+		'12' => 'Lexile Audio measure',
 	];
 }

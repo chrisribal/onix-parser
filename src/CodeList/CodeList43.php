@@ -25,6 +25,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -41,6 +42,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -57,6 +59,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -73,6 +76,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -89,6 +93,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -105,6 +110,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 
 	/**
@@ -121,5 +127,6 @@ class CodeList43 extends CodeList implements CodeListInterface
 		'10' => 'SICI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
+		'39' => 'ISCC',
 	];
 }

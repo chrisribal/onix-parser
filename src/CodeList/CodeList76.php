@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 76
  *
- * Used with <ProductFormFeatureValue> <b335>
+ * Used with <ProductFormFeatureValue> <b335>See List 79
  *
  * @see https://ns.editeur.org/onix/en/76
  */

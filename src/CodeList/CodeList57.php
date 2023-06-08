@@ -24,6 +24,8 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Contact supplier',
 		'05' => 'Not sold as set',
 		'06' => 'Revenue share',
+		'07' => 'Calculated from contents',
+		'08' => 'Supplier does not supply',
 	];
 
 	/**
@@ -39,6 +41,8 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Ponerse en contacto con la editorial o el proveedor',
 		'05' => 'No se vende como obra en varios volúmenes',
 		'06' => 'Participación en los ingresos',
+		'07' => 'Calculado a partir de los componentes',
+		'08' => 'El proveedor no suministra',
 	];
 
 	/**
@@ -54,6 +58,8 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Contact supplier',
 		'05' => 'Not sold as set',
 		'06' => 'Revenue share',
+		'07' => 'Calculated from contents',
+		'08' => 'Supplier does not supply',
 	];
 
 	/**
@@ -69,6 +75,8 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Contacter le distributeur',
 		'05' => 'Non vendu comme un ensemble',
 		'06' => 'Revenus partagés',
+		'07' => 'Calculé en fonction du contenu',
+		'08' => 'Le distributeur n’approvisionne pas',
 	];
 
 	/**
@@ -84,6 +92,8 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Contattare il fornitore',
 		'05' => 'Non venduto come insieme',
 		'06' => 'Revenue share',
+		'07' => 'Calcolato in base al contenuto',
+		'08' => 'Il fornitore non tratta il prodotto',
 	];
 
 	/**
@@ -99,6 +109,8 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Kontakt forlag eller distributør',
 		'05' => 'Selges ikke samlet',
 		'06' => 'Inntektsdeling',
+		'07' => 'Beregnet fra innholdet',
+		'08' => 'Distributøren leverer ikke',
 	];
 
 	/**
@@ -114,5 +126,7 @@ class CodeList57 extends CodeList implements CodeListInterface
 		'04' => 'Tedarikçiye başvurunuz',
 		'05' => 'Takım olarak satılmaz',
 		'06' => 'Revenue share',
+		'07' => 'Calculated from contents',
+		'08' => 'Supplier does not supply',
 	];
 }

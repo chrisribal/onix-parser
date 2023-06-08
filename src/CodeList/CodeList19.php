@@ -22,9 +22,9 @@ class CodeList19 extends CodeList implements CodeListInterface
 		'02' => 'Anonymous',
 		'03' => 'et al',
 		'04' => 'Various',
-		'05' => 'Synthesized voice – male',
-		'06' => 'Synthesized voice – female',
-		'07' => 'Synthesized voice – unspecified',
+		'05' => 'Synthesised voice – male',
+		'06' => 'Synthesised voice – female',
+		'07' => 'Synthesised voice – unspecified',
 		'08' => 'Synthesised voice – based on real voice actor',
 	];
 
@@ -38,11 +38,11 @@ class CodeList19 extends CodeList implements CodeListInterface
 		'01' => 'Desconocido',
 		'02' => 'Anónimo',
 		'03' => 'y otros (et al)',
-		'04' => 'Varios autores',
+		'04' => 'Varios',
 		'05' => 'Voz sintetizada: Hombre',
 		'06' => 'Voz sintetizada: Mujer',
 		'07' => 'Voz sintetizada: Sin especificar',
-		'08' => 'Synthesised voice – based on real voice actor',
+		'08' => 'Voz sintetizada, basada en la voz real de una persona',
 	];
 
 	/**
@@ -56,9 +56,9 @@ class CodeList19 extends CodeList implements CodeListInterface
 		'02' => 'Anonymous',
 		'03' => 'et al',
 		'04' => 'Various',
-		'05' => 'Synthesized voice – male',
-		'06' => 'Synthesized voice – female',
-		'07' => 'Synthesized voice – unspecified',
+		'05' => 'Synthesised voice – male',
+		'06' => 'Synthesised voice – female',
+		'07' => 'Synthesised voice – unspecified',
 		'08' => 'Synthesised voice – based on real voice actor',
 	];
 
@@ -76,7 +76,7 @@ class CodeList19 extends CodeList implements CodeListInterface
 		'05' => 'Voix synthétique – homme',
 		'06' => 'Voix synthétique – femme',
 		'07' => 'Voix synthétique – sexe non spécifié',
-		'08' => 'Synthesised voice – based on real voice actor',
+		'08' => 'Voix synthétique – basée sur la voix d’un acteur',
 	];
 
 	/**
@@ -93,7 +93,7 @@ class CodeList19 extends CodeList implements CodeListInterface
 		'05' => 'Voce sintetizzata – maschile',
 		'06' => 'Voce sintetizzata – femminile',
 		'07' => 'Voce sintetizzata – genere non specificato',
-		'08' => 'Synthesised voice – based on real voice actor',
+		'08' => 'Voce sintetizzata – basata su un vero doppiatore',
 	];
 
 	/**
@@ -103,14 +103,14 @@ class CodeList19 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/19
 	 */
 	protected static $nb = [
-		'01' => 'Unknown',
-		'02' => 'Anonymous',
+		'01' => 'Ukjent',
+		'02' => 'Anonym',
 		'03' => 'et al',
-		'04' => 'Various authors',
-		'05' => 'Synthesized voice – male',
-		'06' => 'Synthesized voice – female',
-		'07' => 'Synthesized voice – unspecified',
-		'08' => 'Synthesised voice – based on real voice actor',
+		'04' => 'Forskjellige forfattere',
+		'05' => 'Syntetisk stemme - mannlig',
+		'06' => 'Syntetisk stemme - kvinnelig',
+		'07' => 'Syntetisk stemme - uspesifisert',
+		'08' => 'Syntetisk stemme - basert på en virkelig person',
 	];
 
 	/**

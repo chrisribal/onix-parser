@@ -61,6 +61,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'Social networking URL for specific article, chapter or content item',
 		'45' => 'Publisher’s or third party website for permissions requests',
 		'46' => 'Publisher’s or third party website for privacy statement',
+		'47' => 'Publisher’s website for digital preservation',
+		'48' => 'Third-party website for digital preservation',
+		'49' => 'Product website for environmental responsibility statement',
+		'50' => 'Organisation’s website for environmental responsibility statement',
 	];
 
 	/**
@@ -76,7 +80,7 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'03' => 'Página de inicio de un servicio en línea',
 		'04' => 'Sitio web de una revista',
 		'05' => 'Página de «contenidos disponibles» en línea',
-		'06' => 'Sitio web particular de un autor, ilustrador, etc.',
+		'06' => 'Sitio web particular de un autor, ilustrador, etc',
 		'07' => 'Sitio web de la editorial relacionado con un un autor, ilustrador… concreto',
 		'08' => 'Sitio web de otra editorial relacionado con un un autor, ilustrador… concreto',
 		'09' => 'Sitio web de un tercero relacionado con un un autor, ilustrador… concreto',
@@ -113,6 +117,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'URL de una red social para un artículo, un capítulo u otro elemento de contenido concreto',
 		'45' => 'Sitio web de la editorial o de terceros para solicitud de permisos',
 		'46' => 'Sitio web de la editorial, u otras terceras partes, para declaración de política de privacidad',
+		'47' => 'Sitio web de la editorial para preservación digital',
+		'48' => 'Sitio web de terceros para preservación digital',
+		'49' => 'Sitio web del producto para la declaración de responsabilidad medioambiental',
+		'50' => 'Sitio web de la entidad para la declaración de responsabilidad medioambiental',
 	];
 
 	/**
@@ -165,6 +173,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'Social networking URL for specific article, chapter or content item',
 		'45' => 'Publisher’s or third party website for permissions requests',
 		'46' => 'Publisher’s or third party website for privacy statement',
+		'47' => 'Publisher’s website for digital preservation',
+		'48' => 'Third-party website for digital preservation',
+		'49' => 'Product website for environmental responsibility statement',
+		'50' => 'Organisation’s website for environmental responsibility statement',
 	];
 
 	/**
@@ -217,6 +229,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'URL du réseau social consacré à un article, un chapitre ou un élément de contenu spécifique',
 		'45' => 'Site web d’un éditeur ou d’un tiers dédié aux demandes autorisations',
 		'46' => 'Site d’un éditeur ou d’un tiers pour la politique de confidentialité',
+		'47' => 'Site web d’un éditeur dédié à la conservation numérique',
+		'48' => 'Site web d’un tiers dédié à la conservation numérique',
+		'49' => 'Site web de déclaration de responsabilité environnementale pour le produit',
+		'50' => 'Déclaration de responsabilité environnementale sur le site web de l’organisation',
 	];
 
 	/**
@@ -249,9 +265,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'24' => 'Pagina Internet con la presentazione/i commenti dell’autore',
 		'25' => 'Pagina Internet con intervista all’autore',
 		'26' => 'Pagina Internet con lettura da parte dell’autore',
-		'27' => 'Pagina Internet con materiale da copertina',
-		'28' => 'Pagina Internet con contenuto di prova',
-		'29' => 'Pagina Internet con intero contenuto',
+		'27' => 'Pagina Internet con materiale di copertina',
+		'28' => 'Pagina Internet con contenuto di esempio',
+		'29' => 'Pagina Internet con contenuto completo',
 		'30' => 'Pagina Internet con altri tipi di commenti/discussioni',
 		'31' => 'URL di trasferimento',
 		'32' => 'DOI Website Link',
@@ -269,6 +285,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'URL del social network relativo a un articolo, capitolo o contenuto specifico',
 		'45' => 'Sito Internet dell’editore o di una terza parte per le richieste di autorizzazione',
 		'46' => 'Sito web dell’editore o di una terza parte per l’informativa sulla privacy',
+		'47' => 'Sito web dell’editore per la preservazione digitale',
+		'48' => 'Sito web di terzi per la preservazione digitale',
+		'49' => 'Sito web del prodotto per la dichiarazione di responsabilità ambientale',
+		'50' => 'Sito web aziendale per la dichiarazione di responsabilità ambientale',
 	];
 
 	/**
@@ -321,6 +341,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'URL til sider på sosiale medier for en bestemt artikkel, et kapittel eller et annet innholdselement',
 		'45' => 'Vareeier eller tredjeparts nettsted for forespørsler om tillatelse',
 		'46' => 'Vareeier eller tredjeparts nettsted for personvern',
+		'47' => 'Forlagets nettsted for digital bevaring',
+		'48' => 'Tredjeparts nessted for digital bevaring',
+		'49' => 'Produktnettside for miljøansvarserklæring',
+		'50' => 'Organisasjonens nettside for miljøansvarserklæring',
 	];
 
 	/**
@@ -373,5 +397,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'44' => 'Belirli yazı, bölüm veya içerik ögesi için sosyal ağ URL adresi',
 		'45' => 'İzin istekleri için yayımcı ya da üçüncü taraf web sitesi',
 		'46' => 'Publisher’s or third party website for privacy statement',
+		'47' => 'Publisher’s website for digital preservation',
+		'48' => 'Third-party website for digital preservation',
+		'49' => 'Product website for environmental responsibility statement',
+		'50' => 'Organisation’s website for environmental responsibility statement',
 	];
 }

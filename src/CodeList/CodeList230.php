@@ -18,7 +18,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/230
 	 */
 	protected static $en = [
-		'00' => 'No constraints',
+		'00' => 'No price-specific constraints',
+		'01' => 'Preview',
 		'06' => 'Lend',
 		'07' => 'Time-limited license',
 		'08' => 'Loan renewal',
@@ -33,7 +34,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/230
 	 */
 	protected static $es = [
-		'00' => 'Sin restricciones',
+		'00' => 'Sin restricciones de precio',
+		'01' => 'Vista previa',
 		'06' => 'Préstamo',
 		'07' => 'Licencia por tiempo limitado',
 		'08' => 'Renovación de préstamo',
@@ -48,7 +50,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/230
 	 */
 	protected static $de = [
-		'00' => 'No constraints',
+		'00' => 'No price-specific constraints',
+		'01' => 'Preview',
 		'06' => 'Lend',
 		'07' => 'Time-limited license',
 		'08' => 'Loan renewal',
@@ -63,7 +66,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/230
 	 */
 	protected static $fr = [
-		'00' => 'Pas de contrainte',
+		'00' => 'Pas de contrainte spécifique de prix',
+		'01' => 'Prévisualisation',
 		'06' => 'Prêt',
 		'07' => 'Licence à durée limitée',
 		'08' => 'Renouvellement du prêt',
@@ -78,7 +82,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/230
 	 */
 	protected static $it = [
-		'00' => 'Nessuna restrizione',
+		'00' => 'Nessuna restrizione specifica di prezzo',
+		'01' => 'Anteprima',
 		'06' => 'Prestito',
 		'07' => 'Licenza limitata nel tempo',
 		'08' => 'Rinnovo del prestito',
@@ -93,7 +98,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/230
 	 */
 	protected static $nb = [
-		'00' => 'Ingen begrensninger',
+		'00' => 'Ingen prisspesifikke begrensninger',
+		'01' => 'Forhåndsvisning',
 		'06' => 'Lån',
 		'07' => 'Tidsbegrenset lisens',
 		'08' => 'Fornyelse av lån',
@@ -109,6 +115,7 @@ class CodeList230 extends CodeList implements CodeListInterface
 	 */
 	protected static $tr = [
 		'00' => 'Sınırlama yok',
+		'01' => 'Preview',
 		'06' => 'Ödünç verme',
 		'07' => 'Sınırlı süreli lisans',
 		'08' => 'Ödünç yenileme',

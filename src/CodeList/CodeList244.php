@@ -57,7 +57,7 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/244
 	 */
-	protected static $nb = ['01' => 'Proprietær'];
+	protected static $nb = ['01' => 'Proprietary'];
 
 	/**
 	 * Code List 244 for tr

@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 184
  *
- * Used with <ProductFormFeatureValue> <b335>
+ * Used with <ProductFormFeatureValue> <b335>See List 79
  *
  * @see https://ns.editeur.org/onix/en/184
  */
@@ -27,6 +27,7 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'06' => 'Material Safety Data Sheet available',
 		'07' => 'Declaration of Conformity available',
 		'08' => 'Carries EN71 conformity statement',
+		'09' => 'Carries ‘UKCA’ logo',
 	];
 
 	/**
@@ -43,8 +44,9 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'04' => 'Incluye un aviso de peligro acorde con la Directiva Europea de seguridad de los juguetes',
 		'05' => 'Incluye otro texto relacionado con seguridad de los juguetes',
 		'06' => 'Disponible ficha de datos de seguridad',
-		'07' => 'Disponible declaración CE de conformidad',
+		'07' => 'Disponible declaración de conformidad',
 		'08' => 'Incluye la declaración «Conforme con EN71»',
+		'09' => 'Incluye el logo «UKCA»',
 	];
 
 	/**
@@ -63,6 +65,7 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'06' => 'Material Safety Data Sheet available',
 		'07' => 'Declaration of Conformity available',
 		'08' => 'Carries EN71 conformity statement',
+		'09' => 'Carries ‘UKCA’ logo',
 	];
 
 	/**
@@ -80,7 +83,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'05' => 'Porte un autre texte relatif à la sécurité des jouets',
 		'06' => 'Fiche technique disponible sur la sécurité du matériel',
 		'07' => 'Déclaration de conformité disponible',
-		'08' => 'Carries EN71 conformity statement',
+		'08' => 'Porte la déclaration « Conforme à la norme EN71 »',
+		'09' => 'Porte le logo UKCA',
 	];
 
 	/**
@@ -99,6 +103,7 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'06' => 'Scheda di sicurezza disponibile',
 		'07' => 'Dichiarazione di conformità disponibile',
 		'08' => 'Contiene la dichiarazione di conformità EN71',
+		'09' => 'Riporta il logo «UKCA»',
 	];
 
 	/**
@@ -117,6 +122,7 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'06' => 'Material Safety Data Sheet available',
 		'07' => 'Declaration of Conformity available',
 		'08' => 'Carries EN71 conformity statement',
+		'09' => 'Carries ‘UKCA’ logo',
 	];
 
 	/**
@@ -135,5 +141,6 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'06' => 'Malzeme Güvenlik Bilgi Formu mevcut',
 		'07' => 'Uygunluk Beyanı mevcut',
 		'08' => 'Carries EN71 conformity statement',
+		'09' => 'Carries ‘UKCA’ logo',
 	];
 }

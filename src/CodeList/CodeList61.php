@@ -17,7 +17,11 @@ class CodeList61 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/61
 	 */
-	protected static $en = ['00' => 'Unspecified', '01' => 'Provisional', '02' => 'Firm'];
+	protected static $en = [
+		'00' => 'Unspecified',
+		'01' => 'Provisional',
+		'02' => 'Confirmed',
+	];
 
 	/**
 	 * Code List 61 for es
@@ -28,7 +32,7 @@ class CodeList61 extends CodeList implements CodeListInterface
 	protected static $es = [
 		'00' => 'No especificado',
 		'01' => 'Provisional',
-		'02' => 'Firme',
+		'02' => 'Confirmado',
 	];
 
 	/**
@@ -37,7 +41,11 @@ class CodeList61 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/61
 	 */
-	protected static $de = ['00' => 'Unspecified', '01' => 'Provisional', '02' => 'Firm'];
+	protected static $de = [
+		'00' => 'Unspecified',
+		'01' => 'Provisional',
+		'02' => 'Confirmed',
+	];
 
 	/**
 	 * Code List 61 for fr
@@ -45,7 +53,11 @@ class CodeList61 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/61
 	 */
-	protected static $fr = ['00' => 'Non spécifié', '01' => 'Provisoire', '02' => 'Ferme'];
+	protected static $fr = [
+		'00' => 'Non spécifié',
+		'01' => 'Provisoire',
+		'02' => 'Confirmé',
+	];
 
 	/**
 	 * Code List 61 for it
@@ -56,7 +68,7 @@ class CodeList61 extends CodeList implements CodeListInterface
 	protected static $it = [
 		'00' => 'Non specificato',
 		'01' => 'Provvisorio',
-		'02' => 'Definitivo',
+		'02' => 'Confermato',
 	];
 
 	/**
