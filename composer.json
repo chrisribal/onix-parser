@@ -1,5 +1,5 @@
 {
-    "name": "ribal/onix",
+    "name": "commonknowledge/onix",
     "description": "An ONIX 3.0 Parser",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Chris Ribal",
             "email": "c.ribal@ribal-webentwicklung.de"
+        },
+        {
+            "name": "Common Knowledge",
+            "email": "hello@commonknowledge.coop"
         }
     ],
     "require": {
