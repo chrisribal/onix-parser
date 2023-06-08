@@ -29,7 +29,7 @@ class Contributor
      *
      * @var array|NameIdentifier
      */
-    protected $NameIdentifiers = [];
+    protected $NameIdentifier = [];
 
     /**
      * NamesBeforeKey
@@ -80,9 +80,20 @@ class Contributor
      * @param NameIdentifier $NameIdentifier
      * @return void
      */
-    public function setNameIdentifier(NameIdentifier $NameIdentifier)
+    public function addNameIdentifier(NameIdentifier $NameIdentifier)
     {
-        $this->NameIdentifiers[] = $NameIdentifier;
+        $this->NameIdentifier[] = $NameIdentifier;
+    }
+
+    /**
+     * Remove NameIdentifier
+     *
+     * @param NameIdentifier $NameIdentifier
+     * @return void
+     */
+    public function removeNameIdentifier(NameIdentifier $NameIdentifier)
+    {
+        $this->NameIdentifier[] = $NameIdentifier;
     }
 
     /**
@@ -143,9 +154,19 @@ class Contributor
      *
      * @return array
      */
+    public function getNameIdentifier()
+    {
+        return $this->NameIdentifier;
+    }
+
+    /**
+     * Get NameIdentifiers
+     *
+     * @return array
+     */
     public function getNameIdentifiers()
     {
-        return $this->NameIdentifiers;
+        return $this->NameIdentifier;
     }
 
     /**

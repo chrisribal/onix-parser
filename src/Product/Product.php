@@ -81,9 +81,9 @@ class Product
     /**
      * ProductSupply
      *
-     * @var ProductSupply
+     * @var array|ProductSupply
      */
-    protected $ProductSupply;
+    protected $ProductSupply = [];
 
     /**
      * Set the Products record reference
@@ -207,14 +207,25 @@ class Product
     }
 
     /**
-     * Set ProductSupply
+     * Add a new Product Supply
      *
-     * @param ProductSupply $ProductSupply
+     * @param ProductSupply $productSupply
      * @return void
      */
-    public function setProductSupply(ProductSupply $ProductSupply)
+    public function addProductSupply(ProductSupply $productSupply)
     {
-        $this->ProductSupply = $ProductSupply;
+        $this->ProductSupply[] = $productSupply;
+    }
+
+    /**
+     * Remove Product Supply
+     *
+     * @param ProductSupply $productSupply
+     * @return void
+     */
+    public function removeProductSupply(ProductSupply $productSupply)
+    {
+        $this->ProductSupply[] = $productSupply;
     }
 
     /**
