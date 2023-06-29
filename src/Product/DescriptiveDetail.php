@@ -91,7 +91,7 @@ class DescriptiveDetail
     /**
      * EditionStatement
      *
-     * @var string
+     * @var string|null
      */
     protected $EditionStatement;
 
@@ -301,17 +301,17 @@ class DescriptiveDetail
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getEditionStatement(): string
+    public function getEditionStatement(): ?string
     {
         return $this->EditionStatement;
     }
 
     /**
-     * @param string $EditionStatement
+     * @param string|null $EditionStatement
      */
-    public function setEditionStatement(string $EditionStatement)
+    public function setEditionStatement(?string $EditionStatement)
     {
         $this->EditionStatement = $EditionStatement;
     }
