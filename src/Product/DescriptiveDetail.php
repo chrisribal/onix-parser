@@ -89,6 +89,13 @@ class DescriptiveDetail
     protected $EditionNumber;
 
     /**
+     * EditionStatement
+     *
+     * @var string|null
+     */
+    protected $EditionStatement;
+
+    /**
      * Array of Extents
      *
      * @var array|Extent
@@ -291,6 +298,22 @@ class DescriptiveDetail
     public function setEditionNumber(string $EditionNumber)
     {
         $this->EditionNumber = $EditionNumber;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getEditionStatement(): ?string
+    {
+        return $this->EditionStatement;
+    }
+
+    /**
+     * @param string|null $EditionStatement
+     */
+    public function setEditionStatement(?string $EditionStatement)
+    {
+        $this->EditionStatement = $EditionStatement;
     }
 
     /**

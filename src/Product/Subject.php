@@ -22,6 +22,13 @@ class Subject
     protected $SubjectSchemeIdentifier;
 
     /**
+     * SubjectSchemeName
+     *
+     * @var string
+     */
+    protected $SubjectSchemeName;
+
+    /**
      * SubjectSchemeVersion
      *
      * @var string
@@ -97,6 +104,16 @@ class Subject
     }
 
     /**
+     * Set SubjectSchemeName
+     *
+     * @return string
+     */
+    public function setSubjectSchemeName(string $SubjectSchemeName)
+    {
+        $this->SubjectSchemeName = $SubjectSchemeName;
+    }
+
+    /**
      * Get MainSubject
      *
      * @return boolean
@@ -146,4 +163,11 @@ class Subject
         return $this->SubjectHeadingText;
     }
 
+    /**
+     * @return string
+     */
+    public function getSubjectSchemeName()
+    {
+        return $this->SubjectSchemeName;
+    }
 }
