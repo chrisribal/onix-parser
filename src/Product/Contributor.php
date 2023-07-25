@@ -53,6 +53,12 @@ class Contributor
     protected $KeyNames;
 
     /**
+     * Website
+     *
+     * @var Website
+     */
+    protected $Website;
+    /**
      * Set SequenceNumber
      *
      * @param int $SequenceNumber
@@ -227,6 +233,27 @@ class Contributor
     public function isAuthor()
     {
         return $this->ContributorRole->getCode() === self::CODE_AUTHOR;
+    }
+
+     /**
+     * Set Website
+     *
+     * @param Website $Website
+     * @return void
+     */
+    public function setWebsite(Website $Website)
+    {
+        $this->Website = $Website;
+    }
+
+    /**
+     * Get Website
+     *
+     * @return Website
+     */
+    public function getWebsite()
+    {
+        return $this->Website;
     }
 
 }
