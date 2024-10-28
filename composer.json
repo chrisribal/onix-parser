@@ -7,20 +7,19 @@
         {
             "name": "Chris Ribal",
             "email": "c.ribal@ribal-webentwicklung.de"
-        },
-        {
-            "name": "Common Knowledge",
-            "email": "hello@commonknowledge.coop"
         }
     ],
     "require": {
-        "symfony/serializer": "^5.4",
-        "symfony/property-info": "^5.4",
-        "symfony/property-access": "^5.4"
+        "symfony/serializer": "^7.1",
+        "symfony/property-info": "^7.1",
+        "symfony/property-access": "^7.1"
     },
     "autoload": {
         "psr-4": {
             "Ribal\\Onix\\": "src/"
         }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
     }
 }

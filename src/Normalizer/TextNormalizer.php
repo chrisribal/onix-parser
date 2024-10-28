@@ -13,7 +13,7 @@ class TextNormalizer implements NormalizerInterface, DenormalizerInterface
     /**
      * {@inheritDoc}
      */
-    public function normalize($object, $format = null, array $context = [])
+    public function normalize(mixed $object, ?string $format = null, array $context = []): array|string|int|float|bool|\ArrayObject|null
     {
 
     }
@@ -21,7 +21,7 @@ class TextNormalizer implements NormalizerInterface, DenormalizerInterface
     /**
      * {@inheritDoc}
      */
-    public function denormalize($data, $type, $format = null, array $context = [])
+    public function denormalize(mixed $data, string $type, ?string $format = null, array $context = []): mixed
     {
 
         $textFormat = isset($data['@textformat']) ? $data['@textformat'] : Text::TYPE_DEFAULT;
@@ -39,17 +39,23 @@ class TextNormalizer implements NormalizerInterface, DenormalizerInterface
     /**
      * {@inheritDoc}
      */
-    public function supportsNormalization($data, $format = null)
+    public function supportsNormalization(mixed $data, ?string $format = null, array $context = []): bool
     {
-
+        return true;
     }
 
     /**
      * {@inheritDoc}
      */
-    public function supportsDenormalization($data, $type, $format = null)
+    public function supportsDenormalization(mixed $data, string $type, ?string $format = null, array $context = []): bool
     {
         return $type == Text::class;
     }
 
+    public function getSupportedTypes(?string $format): array
+    {
+        return [
+            Text::class => true
+        ];
+    }
 }

@@ -458,7 +458,7 @@ class ShortTagNameConverter implements NameConverterInterface
      * @param string $propertyName
      * @return string
      */
-    public function normalize($propertyName)
+    public function normalize(string $propertyName): string
     {
         return ($key = array_search($propertyName, self::$shortToRef)) ?
             $key : $propertyName;
@@ -471,7 +471,7 @@ class ShortTagNameConverter implements NameConverterInterface
      * @param string $propertyName
      * @return string
      */
-    public function denormalize($propertyName)
+    public function denormalize(string $propertyName): string
     {
         return array_key_exists($propertyName, self::$shortToRef) ?
             self::$shortToRef[$propertyName] : $propertyName;
