@@ -96,4 +96,13 @@ class Parser
         return $message;
     }
 
+    public function generate(Message $message) : string
+    {
+        return $this->serializer->serialize($message, 'xml', [
+            XmlEncoder::ROOT_NODE_NAME => 'ONIXmessage',
+            XmlEncoder::REMOVE_EMPTY_TAGS => true,
+            XmlEncoder::FORMAT_OUTPUT => true
+        ]);
+    }
+
 }

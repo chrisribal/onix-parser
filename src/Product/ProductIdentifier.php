@@ -70,7 +70,7 @@ class ProductIdentifier
      *
      * @return boolean
      */
-    public function isISBN10()
+    private function isISBN10()
     {
         return $this->ProductIDType->getCode() == self::ISBN10_TYPE;
     }
@@ -80,7 +80,7 @@ class ProductIdentifier
      *
      * @return boolean
      */
-    public function isISBN13()
+    private function isISBN13()
     {
         return $this->ProductIDType->getCode() == self::ISBN13_TYPE;
     }
