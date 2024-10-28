@@ -2,10 +2,10 @@
 
 namespace Ribal\Onix\Product;
 
+use Ribal\Onix\CodeList\CodeList;
 use Ribal\Onix\CodeList\CodeList220;
 use Ribal\Onix\CodeList\CodeList79;
 use Ribal\Onix\CodeList\CodeList98;
-use Ribal\Onix\CodeList\CodeList220;
 
 class ProductFormFeature
 {
@@ -69,7 +69,7 @@ class ProductFormFeature
      *
      * @return CodeList
      */
-    public function getProductFormFeatureType()
+    public function getProductFormFeatureType(): CodeList
     {
         return $this->ProductFormFeatureType;
     }

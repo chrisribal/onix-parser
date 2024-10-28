@@ -13,7 +13,7 @@ class ONIXEncoder extends XmlEncoder
     /**
      * {@inheritdoc}
      */
-    public function decode($data, $format, array $context = [])
+    public function decode(string $data, string $format, array $context = []): mixed
     {
         
         if ('' === trim($data)) {
