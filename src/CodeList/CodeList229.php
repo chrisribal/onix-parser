@@ -17,7 +17,11 @@ class CodeList229 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/229
 	 */
-	protected static $en = ['u' => 'Unknown or unspecified', 'f' => 'Female', 'm' => 'Male'];
+	protected static $en = [
+		'u' => 'Unknown or unspecified',
+		'f' => 'Female',
+		'm' => 'Male',
+	];
 
 	/**
 	 * Code List 229 for es
@@ -37,7 +41,11 @@ class CodeList229 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/229
 	 */
-	protected static $de = ['u' => 'Unknown or unspecified', 'f' => 'Female', 'm' => 'Male'];
+	protected static $de = [
+		'u' => 'Unknown or unspecified',
+		'f' => 'Female',
+		'm' => 'Male',
+	];
 
 	/**
 	 * Code List 229 for fr

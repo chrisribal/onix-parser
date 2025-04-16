@@ -36,8 +36,9 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'27' => 'JP e-code',
 		'28' => 'OLCC number',
 		'29' => 'JP Magazine ID',
-		'30' => 'UPC12+5',
+		'30' => 'UPC-12+5',
 		'31' => 'BNF Control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 
@@ -68,6 +69,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'Identificador JP Magazine',
 		'30' => 'UPC12+5',
 		'31' => 'Número de control de la BNF',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 
@@ -96,8 +98,9 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'27' => 'JP e-code',
 		'28' => 'OLCC number',
 		'29' => 'JP Magazine ID',
-		'30' => 'UPC12+5',
+		'30' => 'UPC-12+5',
 		'31' => 'BNF Control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 
@@ -128,6 +131,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Magazine ID',
 		'30' => 'UPC12+5',
 		'31' => 'Numéro BnF',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 
@@ -158,6 +162,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Magazine ID',
 		'30' => 'UPC12+5',
 		'31' => 'Numero di controllo BNF',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 
@@ -188,6 +193,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Magazine ID',
 		'30' => 'UPC 12+5',
 		'31' => 'BNF control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 
@@ -218,6 +224,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Dergi Tanımlayıcı',
 		'30' => 'UPC12 + 5',
 		'31' => 'BNF Control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
 	];
 }

@@ -133,7 +133,7 @@ class CodeList166 extends CodeList implements CodeListInterface
 		'29' => 'Son yeniden indirme tarihi',
 		'30' => 'Son TPM (Teknik Koruma Önlem) tarihi',
 		'34' => 'Expected warehouse date',
-		'50' => 'Yeni tedarikçi başlangıç ​​tarihi',
+		'50' => "Yeni tedarikçi başlangıç \u{200B}\u{200B}tarihi",
 		'51' => 'Tedarikçi bitiş tarihi',
 	];
 }

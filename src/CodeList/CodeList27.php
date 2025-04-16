@@ -148,6 +148,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
 	];
 
 	/**
@@ -278,8 +279,8 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'C1' => 'Kompetansemål-LK20',
 		'C2' => 'Kompetansemålsett-LK20',
 		'C3' => 'Tverrfaglige temaer-LK20',
-		'C4' => 'CLIL - Type d’article scolaire',
-		'C5' => 'GAR - Type pédagogique',
+		'C4' => 'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 		'C6' => 'CINE-F',
 		'C7' => 'Klassifikationen von Spielen, Puzzles und Spielwaren',
 		'C8' => 'NBVok NTSF',
@@ -287,6 +288,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'Lugares YSO',
+		'D3' => 'Norske emneord',
 	];
 
 	/**
@@ -426,6 +428,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
 	];
 
 	/**
@@ -565,6 +568,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'Kauno',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
 	];
 
 	/**
@@ -704,6 +708,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-luoghi',
+		'D3' => 'Norske emneord',
 	];
 
 	/**
@@ -843,6 +848,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
 	];
 
 	/**
@@ -982,5 +988,6 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
 	];
 }

@@ -84,8 +84,8 @@ class CodeList148 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'00' => 'Uspesifisert (standard)',
-		'10' => 'Forlagsserie / Forlagsdefinert samling',
-		'11' => 'Collection éditoriale',
+		'10' => 'Serie',
+		'11' => 'Forlagsserie',
 		'20' => 'Annen tilknytning / Tillagt samling',
 	];
 

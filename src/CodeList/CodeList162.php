@@ -27,6 +27,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Exact download file size in bytes',
 		'08' => 'SHA-256 hash value',
 		'09' => 'ISCC',
+		'10' => 'Previous filename',
 	];
 
 	/**
@@ -45,6 +46,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Tamaño exacto del archivo («peso») en bytes, para la descarga',
 		'08' => 'Valor «hash» SHA-256',
 		'09' => 'ISCC',
+		'10' => 'Nombre anterior del archivo',
 	];
 
 	/**
@@ -63,6 +65,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Exact download file size in bytes',
 		'08' => 'SHA-256 hash value',
 		'09' => 'ISCC',
+		'10' => 'Previous filename',
 	];
 
 	/**
@@ -81,6 +84,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Taille exacte du fichier téléchargeable en octets',
 		'08' => 'Valeur de hachage SHA-256',
 		'09' => 'ISCC',
+		'10' => 'Nom antérieur de fichier',
 	];
 
 	/**
@@ -99,6 +103,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Dimensioni esatte del file in byte (download)',
 		'08' => 'Valore di hash SHA-256',
 		'09' => 'ISCC',
+		'10' => 'Nome precedente del file',
 	];
 
 	/**
@@ -117,6 +122,7 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Nedlastbar fil: eksakt størrelse i bytes',
 		'08' => 'SHA-256 hash value',
 		'09' => 'ISCC',
+		'10' => 'Tidligere filnavn',
 	];
 
 	/**
@@ -135,5 +141,6 @@ class CodeList162 extends CodeList implements CodeListInterface
 		'07' => 'Bayt olarak indirilecek tam dosya boyutu',
 		'08' => 'SHA-256 karma değeri',
 		'09' => 'ISCC',
+		'10' => 'Previous filename',
 	];
 }

@@ -33,6 +33,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Electre genre',
 	];
 
@@ -43,7 +47,7 @@ class CodeList9 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/9
 	 */
 	protected static $es = [
-		'01' => 'Sistema Armonizado',
+		'01' => 'Sistema armonizado de la OMA',
 		'02' => 'UNSPSC',
 		'03' => 'HMRC',
 		'04' => 'Warenverzeichnis für die Außenhandelsstatistik',
@@ -58,6 +62,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'Schedule 8',
 		'15' => 'Clave SAT',
+		'16' => 'NC EU',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Electre genre',
 	];
 
@@ -83,6 +91,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Electre genre',
 	];
 
@@ -108,6 +120,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'EU NC',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Genre Electre',
 	];
 
@@ -133,6 +149,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Electre genre',
 	];
 
@@ -158,6 +178,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Electre genre',
 	];
 
@@ -183,6 +207,10 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
 		'50' => 'Electre türü',
 	];
 }

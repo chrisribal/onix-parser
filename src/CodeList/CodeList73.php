@@ -64,7 +64,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'47' => 'Publisher’s website for digital preservation',
 		'48' => 'Third-party website for digital preservation',
 		'49' => 'Product website for environmental responsibility statement',
-		'50' => 'Organisation’s website for environmental responsibility statement',
+		'50' => 'Organization’s website for environmental responsibility statement',
+		'51' => 'Legal deposit website for digital preservation',
+		'52' => 'Publisher’s or third party contact form',
+		'53' => 'Organization’s website for corporate social responsibility',
 	];
 
 	/**
@@ -80,7 +83,7 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'03' => 'Página de inicio de un servicio en línea',
 		'04' => 'Sitio web de una revista',
 		'05' => 'Página de «contenidos disponibles» en línea',
-		'06' => 'Sitio web particular de un autor, ilustrador, etc',
+		'06' => 'Sitio web particular de un autor, ilustrador, etc.',
 		'07' => 'Sitio web de la editorial relacionado con un un autor, ilustrador… concreto',
 		'08' => 'Sitio web de otra editorial relacionado con un un autor, ilustrador… concreto',
 		'09' => 'Sitio web de un tercero relacionado con un un autor, ilustrador… concreto',
@@ -121,6 +124,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'48' => 'Sitio web de terceros para preservación digital',
 		'49' => 'Sitio web del producto para la declaración de responsabilidad medioambiental',
 		'50' => 'Sitio web de la entidad para la declaración de responsabilidad medioambiental',
+		'51' => 'Sitio web de depósito legal para preservación digital',
+		'52' => 'Formulario de contacto del editor o de terceros',
+		'53' => 'Organization’s website for corporate social responsibility',
 	];
 
 	/**
@@ -176,7 +182,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'47' => 'Publisher’s website for digital preservation',
 		'48' => 'Third-party website for digital preservation',
 		'49' => 'Product website for environmental responsibility statement',
-		'50' => 'Organisation’s website for environmental responsibility statement',
+		'50' => 'Organization’s website for environmental responsibility statement',
+		'51' => 'Legal deposit website for digital preservation',
+		'52' => 'Publisher’s or third party contact form',
+		'53' => 'Organization’s website for corporate social responsibility',
 	];
 
 	/**
@@ -232,7 +241,10 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'47' => 'Site web d’un éditeur dédié à la conservation numérique',
 		'48' => 'Site web d’un tiers dédié à la conservation numérique',
 		'49' => 'Site web de déclaration de responsabilité environnementale pour le produit',
-		'50' => 'Déclaration de responsabilité environnementale sur le site web de l’organisation',
+		'50' => 'Déclaration de responsabilité environnementale sur le site web de l’organization',
+		'51' => 'Site web de dépôt légal pour la conservation numérique',
+		'52' => 'Formulaire de contact de l’éditeur ou d’un tiers',
+		'53' => 'Site web de l’organisme pour la responsabilité sociale des entreprises',
 	];
 
 	/**
@@ -280,15 +292,18 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'39' => 'Sito Internet del fornitore dedicato a uno specifico gruppo o serie di titoli',
 		'40' => 'URL della descrizione completa dei metadati',
 		'41' => 'URL del social network relativo a un’opera o un prodotto specifico',
-		'42' => 'URL del social network dell’autore',
+		'42' => 'URL del social network dell’autore / contributore',
 		'43' => 'URL del social network dell’editore',
 		'44' => 'URL del social network relativo a un articolo, capitolo o contenuto specifico',
 		'45' => 'Sito Internet dell’editore o di una terza parte per le richieste di autorizzazione',
 		'46' => 'Sito web dell’editore o di una terza parte per l’informativa sulla privacy',
-		'47' => 'Sito web dell’editore per la preservazione digitale',
-		'48' => 'Sito web di terzi per la preservazione digitale',
+		'47' => 'Sito web dell’editore per la conservazione digitale',
+		'48' => 'Sito web di terzi per la conservazione digitale',
 		'49' => 'Sito web del prodotto per la dichiarazione di responsabilità ambientale',
 		'50' => 'Sito web aziendale per la dichiarazione di responsabilità ambientale',
+		'51' => 'Sito web del deposito legale per la conservazione digitale',
+		'52' => 'Modulo di contatto dell’editore o di terze parti',
+		'53' => 'Organization’s website for corporate social responsibility',
 	];
 
 	/**
@@ -342,9 +357,12 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'45' => 'Vareeier eller tredjeparts nettsted for forespørsler om tillatelse',
 		'46' => 'Vareeier eller tredjeparts nettsted for personvern',
 		'47' => 'Forlagets nettsted for digital bevaring',
-		'48' => 'Tredjeparts nessted for digital bevaring',
+		'48' => 'Tredjeparts nettsted for digital bevaring',
 		'49' => 'Produktnettside for miljøansvarserklæring',
 		'50' => 'Organisasjonens nettside for miljøansvarserklæring',
+		'51' => 'Nettsted for digital pliktavlevering',
+		'52' => 'Forlagets eller en tredjeparts kontaktskjema',
+		'53' => 'Organization’s website for corporate social responsibility',
 	];
 
 	/**
@@ -400,6 +418,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'47' => 'Publisher’s website for digital preservation',
 		'48' => 'Third-party website for digital preservation',
 		'49' => 'Product website for environmental responsibility statement',
-		'50' => 'Organisation’s website for environmental responsibility statement',
+		'50' => 'Organization’s website for environmental responsibility statement',
+		'51' => 'Legal deposit website for digital preservation',
+		'52' => 'Publisher’s or third party contact form',
+		'53' => 'Organization’s website for corporate social responsibility',
 	];
 }

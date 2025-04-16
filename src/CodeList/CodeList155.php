@@ -121,8 +121,8 @@ class CodeList155 extends CodeList implements CodeListInterface
 		'24' => 'Fra-til dato',
 		'27' => 'Tilgjengelig fra',
 		'28' => 'Tilgjengelig til',
-		'31' => 'Associated start date',
-		'32' => 'Associated end date',
+		'31' => 'Assosiert startdato',
+		'32' => 'Assosiert sluttdato',
 	];
 
 	/**

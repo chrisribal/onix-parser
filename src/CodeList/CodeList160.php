@@ -28,6 +28,7 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Background color of image resource',
 		'09' => 'Attribute of product image resource',
 		'10' => 'Background color of page',
+		'11' => 'ORCID of resource contributor',
 	];
 
 	/**
@@ -47,6 +48,7 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Color del fondo de la imagen de recurso',
 		'09' => 'Atributo de la imagen de recurso del producto',
 		'10' => 'Color del fondo de la página web',
+		'11' => 'Identificador ORCID de un creador de un recurso',
 	];
 
 	/**
@@ -66,6 +68,7 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Background color of image resource',
 		'09' => 'Attribute of product image resource',
 		'10' => 'Background color of page',
+		'11' => 'ORCID of resource contributor',
 	];
 
 	/**
@@ -85,6 +88,7 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Couleur d’arrière-plan de l’image de la ressource',
 		'09' => 'Attribut de la ressource image du produit',
 		'10' => 'Couleur d’arrière-plan de la page',
+		'11' => 'ORCID du contributeur de la ressource',
 	];
 
 	/**
@@ -104,6 +108,7 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Colore di sfondo della risorsa immagine',
 		'09' => 'Attributo della risorsa immagine del prodotto',
 		'10' => 'Colore di sfondo della pagina',
+		'11' => 'ORCID del contributore della risorsa',
 	];
 
 	/**
@@ -123,6 +128,7 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Background color of image resource',
 		'09' => 'Attribute of product image resource',
 		'10' => 'Background color of page',
+		'11' => 'ORCID of resource contributor',
 	];
 
 	/**
@@ -142,5 +148,6 @@ class CodeList160 extends CodeList implements CodeListInterface
 		'08' => 'Background color of image resource',
 		'09' => 'Attribute of product image resource',
 		'10' => 'Background color of page',
+		'11' => 'ORCID of resource contributor',
 	];
 }

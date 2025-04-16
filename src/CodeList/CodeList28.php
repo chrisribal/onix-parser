@@ -84,10 +84,10 @@ class CodeList28 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/28
 	 */
 	protected static $fr = [
-		'01' => 'Général / adultes',
+		'01' => 'Tous publics',
 		'02' => 'Enfants / jeunesse',
 		'03' => 'Adolescents',
-		'04' => 'Primary and secondary education',
+		'04' => 'Ecole primaire / secondaire',
 		'11' => 'Enseignement maternel',
 		'12' => 'Enseignement primaire',
 		'13' => 'Enseignement secondaire inférieur',

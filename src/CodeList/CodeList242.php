@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 242
  *
- * Used with <ProductFormFeatureValue> <x541>See List 79
+ * Used with <ProductFormFeatureValue> <b335>See List 79
  *
  * @see https://ns.editeur.org/onix/en/242
  */
@@ -127,7 +127,7 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'22' => 'Lithium-polymère',
 		'23' => 'Lithium-métal',
 		'24' => 'Nickel-hydrure métallique',
-		'25' => 'Nickel-cadmium',
+		'25' => 'Nickel-Cadmium',
 		'26' => 'Zinc-dioxyde de manganèse',
 		'27' => 'Zinc-carbone',
 		'28' => 'Zinc-air',

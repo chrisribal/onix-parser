@@ -100,7 +100,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'34' => 'Descripción del sello',
 		'35' => 'Breve descripción/anotación de la editorial',
 		'36' => 'Descripción de la editorial',
-		'37' => 'Línea de cubierta',
+		'37' => '«Cover line»',
 	];
 
 	/**
@@ -192,7 +192,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'34' => 'Description de la marque',
 		'35' => 'Brève description de l’éditeur',
 		'36' => 'Description de l’éditeur',
-		'37' => 'Cover line',
+		'37' => 'Phrase de couverture',
 	];
 
 	/**
@@ -210,7 +210,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'06' => 'Citazione da una recensione',
 		'07' => 'Citazione da una recensione: edizione precedente',
 		'08' => 'Citazione da una recensione: opera precedente',
-		'09' => 'Riconoscimento',
+		'09' => 'Endorsement',
 		'10' => 'Slogan pubblicitario',
 		'11' => 'Caratteristiche particolari',
 		'12' => 'Nota biografica',
@@ -228,7 +228,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'24' => 'Snippet schema.org',
 		'25' => 'Errata corrige',
 		'26' => 'Introduzione',
-		'27' => 'Testo secondario del risvolto di copertina/copertina',
+		'27' => 'Testo secondario del risvolto/quarta di copertina',
 		'28' => 'Cast completo e credits',
 		'29' => 'Bibliografia',
 		'30' => 'Abstract',

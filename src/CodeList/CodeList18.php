@@ -26,6 +26,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Transliterated / translated form of primary name',
 		'06' => 'Later name',
 		'07' => 'Fictional character name',
+		'08' => 'Acronym / initialism',
 	];
 
 	/**
@@ -43,6 +44,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Forma transliterada / traducida del nombre principal',
 		'06' => 'Nombre posterior',
 		'07' => 'Nombre de personaje ficticio',
+		'08' => 'Acrónimo / sigla',
 	];
 
 	/**
@@ -60,6 +62,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Transliterated / translated form of primary name',
 		'06' => 'Later name',
 		'07' => 'Fictional character name',
+		'08' => 'Acronym / initialism',
 	];
 
 	/**
@@ -77,6 +80,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Forme transcrite/traduite du nom principal',
 		'06' => 'Dernière forme du nom',
 		'07' => 'Nom de personnage de fiction',
+		'08' => 'Acronyme/Sigle',
 	];
 
 	/**
@@ -94,6 +98,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Nome traslitterato/tradotto',
 		'06' => 'Nome successivo',
 		'07' => 'Nome del personaggio di fantasia',
+		'08' => 'Acronimo/Sigla',
 	];
 
 	/**
@@ -111,6 +116,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Transkripsjon / oversettelse fra primært navn',
 		'06' => 'Senere navn',
 		'07' => 'Navn på fiktiv karakter',
+		'08' => 'Akronym',
 	];
 
 	/**
@@ -128,5 +134,6 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'05' => 'Asıl ismin çeviriyazım biçimi',
 		'06' => 'Sonraki adı',
 		'07' => 'Fictional character name',
+		'08' => 'Acronym / initialism',
 	];
 }

@@ -30,7 +30,7 @@ class CodeList245 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/245
 	 */
 	protected static $es = [
-		'00' => 'No especificado - Véase la descripción',
+		'00' => 'No especificado – Véase la descripción',
 		'01' => 'Firma de libros',
 		'02' => 'Lectura del libro',
 	];

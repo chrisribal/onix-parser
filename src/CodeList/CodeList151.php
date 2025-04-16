@@ -134,7 +134,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Innbygger i',
 		'09' => 'Registrert i',
 		'10' => 'Opererer fra',
-		'11' => 'Eligible for geographical marketing programs',
+		'11' => 'Kvalifiserer for lokasjonsbaserte markedsføringsprogrammer',
 	];
 
 	/**

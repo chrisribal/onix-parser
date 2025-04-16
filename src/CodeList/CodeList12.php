@@ -38,6 +38,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Periodical',
 		'19' => 'Catalog',
 		'20' => 'Atlas',
+		'21' => 'Newspaper',
 	];
 
 	/**
@@ -67,6 +68,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Publicación periódica',
 		'19' => 'Catálogo',
 		'20' => 'Atlas',
+		'21' => 'Periódico',
 	];
 
 	/**
@@ -96,6 +98,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Periodical',
 		'19' => 'Catalog',
 		'20' => 'Atlas',
+		'21' => 'Newspaper',
 	];
 
 	/**
@@ -125,6 +128,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Périodique',
 		'19' => 'Catalogue',
 		'20' => 'Atlas',
+		'21' => 'Journal',
 	];
 
 	/**
@@ -154,6 +158,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Periodico',
 		'19' => 'Catalogo',
 		'20' => 'Atlante',
+		'21' => 'Giornale',
 	];
 
 	/**
@@ -183,6 +188,7 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Periodical',
 		'19' => 'Catalog',
 		'20' => 'Atlas',
+		'21' => 'Newspaper',
 	];
 
 	/**
@@ -212,5 +218,6 @@ class CodeList12 extends CodeList implements CodeListInterface
 		'18' => 'Periodical',
 		'19' => 'Catalog',
 		'20' => 'Atlas',
+		'21' => 'Newspaper',
 	];
 }

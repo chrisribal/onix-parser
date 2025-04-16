@@ -38,7 +38,7 @@ class CodeList169 extends CodeList implements CodeListInterface
 		'08' => 'Semanas',
 		'09' => 'Meses',
 		'10' => 'Años',
-		'20' => 'Para clases',
+		'20' => 'Clases',
 	];
 
 	/**

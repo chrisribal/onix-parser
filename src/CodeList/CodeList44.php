@@ -43,7 +43,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -56,6 +56,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 
 	/**
@@ -90,7 +94,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'Identificador EIDR',
+		'29' => 'Identificador EIDR de participante',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'Identificador VIAF',
 		'32' => 'Identificador FundRef',
@@ -103,6 +107,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Identificador chino de participante',
 	];
 
 	/**
@@ -137,7 +145,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -150,6 +158,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 
 	/**
@@ -197,6 +209,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Identifiant d’adhérent chinois',
 	];
 
 	/**
@@ -231,7 +247,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -244,6 +260,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Identificativo cinese del partecipante',
 	];
 
 	/**
@@ -278,7 +298,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -291,6 +311,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 
 	/**
@@ -338,5 +362,9 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 }

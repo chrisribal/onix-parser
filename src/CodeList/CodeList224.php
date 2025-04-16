@@ -79,7 +79,7 @@ class CodeList224 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'U' => 'Non classificabile',
-		'I' => 'Informazioni',
+		'I' => 'Informazione',
 		'Q' => 'Richiesta',
 		'W' => 'Avvertimento',
 		'E' => 'Errore',

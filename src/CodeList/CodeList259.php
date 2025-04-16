@@ -20,6 +20,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 	protected static $en = [
 		'u' => 'Unknown',
 		'i' => 'Irregular',
+		'r' => 'Regular',
 		'e' => 'Biennial',
 		'a' => 'Annual',
 		'b' => 'Biannual',
@@ -29,7 +30,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 		'm' => 'Monthly',
 		'f' => 'Fortnightly',
 		'w' => 'Weekly',
-		'd' => 'More frequently than weekly',
+		'd' => 'Daily, or more frequently than weekly',
 		'x' => 'No future publications',
 	];
 
@@ -42,6 +43,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 	protected static $es = [
 		'u' => 'Desconocido',
 		'i' => 'Irregular',
+		'r' => 'Regular',
 		'e' => 'Bienal',
 		'a' => 'Anual',
 		'b' => 'Bianual',
@@ -51,7 +53,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 		'm' => 'Mensual',
 		'f' => 'Quincenal',
 		'w' => 'Semanal',
-		'd' => 'Más frecuente que semanal',
+		'd' => 'Diario o más frecuente que semanal',
 		'x' => 'Sin publicaciones futuras',
 	];
 
@@ -64,6 +66,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 	protected static $de = [
 		'u' => 'Unknown',
 		'i' => 'Irregular',
+		'r' => 'Regular',
 		'e' => 'Biennial',
 		'a' => 'Annual',
 		'b' => 'Biannual',
@@ -73,7 +76,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 		'm' => 'Monthly',
 		'f' => 'Fortnightly',
 		'w' => 'Weekly',
-		'd' => 'More frequently than weekly',
+		'd' => 'Daily, or more frequently than weekly',
 		'x' => 'No future publications',
 	];
 
@@ -84,19 +87,20 @@ class CodeList259 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/259
 	 */
 	protected static $fr = [
-		'u' => 'Unknown',
-		'i' => 'Irregular',
-		'e' => 'Biennial',
-		'a' => 'Annual',
-		'b' => 'Biannual',
-		't' => 'Triannual',
-		'q' => 'Quarterly',
-		's' => 'Bimonthly',
-		'm' => 'Monthly',
-		'f' => 'Fortnightly',
-		'w' => 'Weekly',
-		'd' => 'More frequently than weekly',
-		'x' => 'No future publications',
+		'u' => 'Inconnu',
+		'i' => 'Irrégulier',
+		'r' => 'Régulier',
+		'e' => 'Bisannuel',
+		'a' => 'Annuel',
+		'b' => 'Semestriel',
+		't' => 'Quadrimestriel',
+		'q' => 'Trimestriel',
+		's' => 'Bimestriel',
+		'm' => 'Mensuel',
+		'f' => 'Bimensuel',
+		'w' => 'Hebdomadaire',
+		'd' => 'Plus fréquent qu’hebdomadaire',
+		'x' => 'Pas de publications à venir',
 	];
 
 	/**
@@ -108,6 +112,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 	protected static $it = [
 		'u' => 'Sconosciuta',
 		'i' => 'Irregolare',
+		'r' => 'Regolare',
 		'e' => 'Biennale',
 		'a' => 'Annuale',
 		'b' => 'Semestrale',
@@ -117,7 +122,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 		'm' => 'Mensile',
 		'f' => 'Quindicinale',
 		'w' => 'Settimanale',
-		'd' => 'Più di una volta alla settimana',
+		'd' => 'Quotidiano, o più di una volta alla settimana',
 		'x' => 'Nessuna pubblicazione futura',
 	];
 
@@ -130,6 +135,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 	protected static $nb = [
 		'u' => 'Unknown',
 		'i' => 'Irregular',
+		'r' => 'Regular',
 		'e' => 'Biennial',
 		'a' => 'Annual',
 		'b' => 'Biannual',
@@ -139,7 +145,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 		'm' => 'Monthly',
 		'f' => 'Fortnightly',
 		'w' => 'Weekly',
-		'd' => 'More frequently than weekly',
+		'd' => 'Daily, or more frequently than weekly',
 		'x' => 'No future publications',
 	];
 
@@ -152,6 +158,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 	protected static $tr = [
 		'u' => 'Unknown',
 		'i' => 'Irregular',
+		'r' => 'Regular',
 		'e' => 'Biennial',
 		'a' => 'Annual',
 		'b' => 'Biannual',
@@ -161,7 +168,7 @@ class CodeList259 extends CodeList implements CodeListInterface
 		'm' => 'Monthly',
 		'f' => 'Fortnightly',
 		'w' => 'Weekly',
-		'd' => 'More frequently than weekly',
+		'd' => 'Daily, or more frequently than weekly',
 		'x' => 'No future publications',
 	];
 }

@@ -46,6 +46,8 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'49' => 'Related work is derived from this via translation',
 		'50' => 'Related work is derived from this via adaptation',
 		'51' => 'Derived from this by subtraction (of non-text material)',
+		'98' => 'Manifestation of LRM work',
+		'99' => 'Manifestation of LRM expression',
 	];
 
 	/**
@@ -58,31 +60,33 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'01' => 'Manifestación de',
 		'02' => 'Derivado de',
 		'03' => 'La obra relacionada se deriva de esta',
-		'04' => 'Otra obra en la misma colección bibliográfica',
+		'04' => 'Otra obra en la misma colección',
 		'05' => 'Otra obra con la misma autoría',
 		'06' => 'Manifestación de la obra original',
-		'21' => 'Derivado de por abreviación',
-		'22' => 'Derivado de por anotación',
-		'23' => 'Derivado de por compilación',
-		'24' => 'Derivada de por crítica',
-		'25' => 'Derivado por extracto',
-		'26' => 'Derivado por expurgación',
-		'27' => 'Derivado por adición (de material no textual)',
-		'28' => 'Derivado de por revisión',
+		'21' => 'Derivado mediante abreviación',
+		'22' => 'Derivado mediante anotación',
+		'23' => 'Derivado mediante compilación',
+		'24' => 'Derivada mediante crítica',
+		'25' => 'Derivado mediante extracto',
+		'26' => 'Derivado mediante expurgación',
+		'27' => 'Derivado mediante adición (de material no textual)',
+		'28' => 'Derivado mediante revisión',
 		'29' => 'Derivado mediante traducción',
-		'30' => 'Derivado por adaptación',
-		'31' => 'Derivado por sustracción (de material no textual)',
-		'41' => 'La obra relacionada se deriva de ésta por abreviación',
-		'42' => 'El trabajo relacionado se deriva de éste por anotación',
-		'43' => 'La obra relacionada se deriva de ésta por compilación',
-		'44' => 'El trabajo relacionado se deriva de éste por medio de una crítica',
-		'45' => 'El trabajo relacionado se deriva de éste por excerpción',
-		'46' => 'El trabajo relacionado se deriva de este por expurgación',
-		'47' => 'La obra relacionada se deriva de ésta por adición (de material no textual)',
-		'48' => 'La obra relacionada se deriva de ésta por medio de una revisión',
-		'49' => 'La obra relacionada se deriva de ésta mediante la traducción',
-		'50' => 'La obra relacionada se deriva de ésta mediante la adaptación',
-		'51' => 'Derivada de ésta por sustracción (de material no textual)',
+		'30' => 'Derivado mediante adaptación',
+		'31' => 'Derivado mediante sustracción (de material no textual)',
+		'41' => 'La obra relacionada se deriva de ésta mediante abreviación',
+		'42' => 'El trabajo relacionado se deriva de éste mediante anotación',
+		'43' => 'La obra relacionada se deriva de ésta mediante compilación',
+		'44' => 'El trabajo relacionado se deriva de éste mediante medio de una crítica',
+		'45' => 'El trabajo relacionado se deriva de éste mediante extracto',
+		'46' => 'El trabajo relacionado se deriva de este mediante expurgación',
+		'47' => 'La obra relacionada se deriva de ésta mediante adición (de material no textual)',
+		'48' => 'La obra relacionada se deriva de ésta mediante revisión',
+		'49' => 'La obra relacionada se deriva de ésta mediante traducción',
+		'50' => 'La obra relacionada se deriva de ésta mediante adaptación',
+		'51' => 'Derivada de ésta mediante sustracción (de material no textual)',
+		'98' => 'Manifestación de la obra LRM',
+		'99' => 'Manifestación de expresión LRM',
 	];
 
 	/**
@@ -120,6 +124,8 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'49' => 'Related work is derived from this via translation',
 		'50' => 'Related work is derived from this via adaptation',
 		'51' => 'Derived from this by subtraction (of non-text material)',
+		'98' => 'Manifestation of LRM work',
+		'99' => 'Manifestation of LRM expression',
 	];
 
 	/**
@@ -157,6 +163,8 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'49' => 'Œuvre en relation est dérivée de (sous forme d’œuvre traduite)',
 		'50' => 'Œuvre en relation est dérivée de (sous forme d’œuvre adaptée)',
 		'51' => 'Œuvre en relation est dérivée de (par soustraction de matériel non textuel)',
+		'98' => 'Manifestation de l’œuvre LRM',
+		'99' => 'Manifestation de l’expression LRM',
 	];
 
 	/**
@@ -194,6 +202,8 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'49' => 'L’opera correlata è derivata da questa per traduzione',
 		'50' => 'L’opera correlata è derivata da questa per adattamento',
 		'51' => 'L’opera correlata è derivata da questa per eliminazione (di materiale non testuale)',
+		'98' => 'Manifestazione di un’opera LRM (Library Reference Model)',
+		'99' => 'Manifestazione di un’espressione LRM (Library Reference Model)',
 	];
 
 	/**
@@ -231,6 +241,8 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'49' => 'Related work is derived from this via translation',
 		'50' => 'Related work is derived from this via adaptation',
 		'51' => 'Derived from this by subtraction (of non-text material)',
+		'98' => 'Manifestasjon av LRM-verk',
+		'99' => 'Manifestasjon av LRM-uttrykk',
 	];
 
 	/**
@@ -268,5 +280,7 @@ class CodeList164 extends CodeList implements CodeListInterface
 		'49' => 'Related work is derived from this via translation',
 		'50' => 'Related work is derived from this via adaptation',
 		'51' => 'Derived from this by subtraction (of non-text material)',
+		'98' => 'Manifestation of LRM work',
+		'99' => 'Manifestation of LRM expression',
 	];
 }

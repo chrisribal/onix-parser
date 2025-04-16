@@ -172,7 +172,7 @@ class CodeList68 extends CodeList implements CodeListInterface
 		'11' => 'Trukket tilbake fra salg',
 		'12' => 'Ikke tilgjengelig i dette markedet',
 		'13' => 'Selges ikke enkeltvis',
-		'14' => 'I salg, med restiksjoner',
+		'14' => 'I salg, med restriksjoner',
 		'15' => 'Tilbakekalt',
 		'16' => 'Midlertidig trukket tilbake fra salg',
 		'17' => 'Ikke lenger i salg',

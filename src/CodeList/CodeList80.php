@@ -24,7 +24,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => 'Keep case',
 		'05' => 'Jewel case',
 		'06' => 'Digipak',
-		'09' => 'In box',
+		'08' => 'Shrink-wrapped (biodegradable)',
+		'09' => 'In box (with lid)',
 		'10' => 'Slip-cased',
 		'11' => 'Slip-cased set',
 		'12' => 'Tube',
@@ -40,6 +41,7 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'22' => 'Blister pack',
 		'23' => 'Carry case',
 		'24' => 'In tin',
+		'25' => 'With browse-prevention tape',
 	];
 
 	/**
@@ -55,7 +57,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => '«Keep-case»',
 		'05' => 'Caja transparente de CD',
 		'06' => 'Digipack',
-		'09' => 'Caja cerrada',
+		'08' => 'Retractilado (biodegradable)',
+		'09' => 'En caja (con tapa)',
 		'10' => 'Estuche deslizante / Caja abierta',
 		'11' => 'Estuche deslizante / Caja abierta para varios volúmenes',
 		'12' => 'Tubo',
@@ -71,6 +74,7 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'22' => 'Paquete «blíster»',
 		'23' => 'Estuche de transporte / Cartera',
 		'24' => 'En lata o caja metálica',
+		'25' => 'Con cinta de prevención de lectura',
 	];
 
 	/**
@@ -86,7 +90,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => 'Keep case',
 		'05' => 'Jewel case',
 		'06' => 'Digipak',
-		'09' => 'In box',
+		'08' => 'Shrink-wrapped (biodegradable)',
+		'09' => 'In box (with lid)',
 		'10' => 'Slip-cased',
 		'11' => 'Slip-cased set',
 		'12' => 'Tube',
@@ -102,6 +107,7 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'22' => 'Blister pack',
 		'23' => 'Carry case',
 		'24' => 'In tin',
+		'25' => 'With browse-prevention tape',
 	];
 
 	/**
@@ -117,7 +123,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => 'Boîtier DVD',
 		'05' => 'Boîtier cristal',
 		'06' => 'Digipak',
-		'09' => 'Sous emboîtage',
+		'08' => 'Film biodégradable',
+		'09' => 'Sous emboîtage (avec couvercle)',
 		'10' => 'Sous étui',
 		'11' => 'Ensemble sous étui',
 		'12' => 'Tube',
@@ -133,6 +140,7 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'22' => 'Coque plastique',
 		'23' => 'Valisette',
 		'24' => 'En boîte',
+		'25' => 'Avec ruban de prévention',
 	];
 
 	/**
@@ -148,7 +156,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => 'Keep-case',
 		'05' => 'Scatola trasparente',
 		'06' => 'Digipak',
-		'09' => 'Scatola chiusa',
+		'08' => 'Pacco incellofanato (biodegradabile)',
+		'09' => 'Scatola (con coperchio)',
 		'10' => 'Cofanetto',
 		'11' => 'Cofanetto per opere in più volumi',
 		'12' => 'Tubo',
@@ -163,7 +172,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'21' => 'Pacco incellofanato',
 		'22' => 'Confezione blister',
 		'23' => 'Confezione con maniglia',
-		'24' => 'In latta',
+		'24' => 'Confezione in latta',
+		'25' => 'Con adesivo che impedisce di sfogliare le pagine',
 	];
 
 	/**
@@ -179,7 +189,8 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => 'Keep case',
 		'05' => 'Jewel case',
 		'06' => 'Digipak',
-		'09' => 'In box',
+		'08' => 'Shrink-wrapped (biodegradable)',
+		'09' => 'In box (with lid)',
 		'10' => 'Slip-cased',
 		'11' => 'Slip-cased set',
 		'12' => 'Tube',
@@ -195,6 +206,7 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'22' => 'Blister pack',
 		'23' => 'Carry case',
 		'24' => 'In tin',
+		'25' => 'With browse-prevention tape',
 	];
 
 	/**
@@ -210,6 +222,7 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'03' => 'DVD kutusu',
 		'05' => 'CD kutusu',
 		'06' => 'Digipak',
+		'08' => 'Shrink-wrapped (biodegradable)',
 		'09' => 'Kutulu',
 		'10' => 'Kılıf kutulu',
 		'11' => 'Kılıf kutulu takım',
@@ -226,5 +239,6 @@ class CodeList80 extends CodeList implements CodeListInterface
 		'22' => 'Blister ambalaj',
 		'23' => 'Taşıma kutusu',
 		'24' => 'Teneke kutuda',
+		'25' => 'With browse-prevention tape',
 	];
 }

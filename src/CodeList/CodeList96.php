@@ -206,6 +206,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala',
 		'XAF' => 'CFA Franc BEAC',
 		'XCD' => 'East Caribbean Dollar',
+		'XCG' => 'Caribbean Guilder',
 		'XOF' => 'CFA Franc BCEAO',
 		'XPF' => 'CFP Franc',
 		'YER' => 'Yemeni Rial',
@@ -214,6 +215,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha',
 		'ZMW' => 'Zambian Kwacha',
 		'ZWD' => 'Zimbabwe Dollar',
+		'ZWG' => 'Zimbabwe Gold',
 		'ZWL' => 'Zimbabwe Dollar',
 	];
 
@@ -412,6 +414,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala samoana',
 		'XAF' => 'Franco CFA BEAC',
 		'XCD' => 'Dólar del Caribe Oriental',
+		'XCG' => 'Caribbean Guilder',
 		'XOF' => 'Franco CFA BCEAO',
 		'XPF' => 'Franco CFP',
 		'YER' => 'Rial yemení',
@@ -420,6 +423,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha zambiano',
 		'ZMW' => 'Kwacha zambiano',
 		'ZWD' => 'Dólar zimbabwés',
+		'ZWG' => 'Zimbabwe Gold',
 		'ZWL' => 'Dólar zimbabwés',
 	];
 
@@ -618,6 +622,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala',
 		'XAF' => 'Franc CFA(Teilgebiet)',
 		'XCD' => 'Dollar',
+		'XCG' => 'Caribbean Guilder',
 		'XOF' => 'Franc CFA(Teilgebiet)',
 		'XPF' => 'Franc CFP',
 		'YER' => 'Rial',
@@ -626,6 +631,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha',
 		'ZMW' => 'Kwacha',
 		'ZWD' => 'Zimbabwe Dollar',
+		'ZWG' => 'Zimbabwe Gold',
 		'ZWL' => 'Dollar',
 	];
 
@@ -824,6 +830,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala',
 		'XAF' => 'Franc CFA (BEAC)',
 		'XCD' => 'Dollar (OECO)',
+		'XCG' => 'Florin caribéen',
 		'XOF' => 'Franc CFA (BCEAO)',
 		'XPF' => 'Franc CFP',
 		'YER' => 'Rial',
@@ -832,6 +839,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha',
 		'ZMW' => 'Kwacha zambien',
 		'ZWD' => 'Dollar du Zimbabwe',
+		'ZWG' => 'Or zimbabwéen',
 		'ZWL' => 'Dollar',
 	];
 
@@ -1030,6 +1038,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala samoano',
 		'XAF' => 'Franco CFA BEAC',
 		'XCD' => 'Dollaro dei Caraibi Orientali',
+		'XCG' => 'Caribbean Guilder',
 		'XOF' => 'Franco CFA BCEAO',
 		'XPF' => 'Franco CFP',
 		'YER' => 'Rial yemenita',
@@ -1038,6 +1047,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha',
 		'ZMW' => 'Kwacha zambiano',
 		'ZWD' => 'Dollaro zimbabwiano',
+		'ZWG' => 'Zimbabwe Gold',
 		'ZWL' => 'Dollaro zimbabwiano',
 	];
 
@@ -1125,7 +1135,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'IDR' => 'Rupiah',
 		'IEP' => 'Irske pund',
 		'ILS' => 'Israelsk shekel',
-		'INR' => 'Indisk rupee',
+		'INR' => 'Indisk rupi',
 		'IQD' => 'Irakisk dinar',
 		'IRR' => 'Iransk rial',
 		'ISK' => 'Islandsk krona',
@@ -1236,6 +1246,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala',
 		'XAF' => 'CFA franc BEAC',
 		'XCD' => 'Østkaribisk dollar',
+		'XCG' => 'Caribbean Guilder',
 		'XOF' => 'CFA franc BCEAO',
 		'XPF' => 'CFP franc',
 		'YER' => 'Jemenittisk rial',
@@ -1244,7 +1255,8 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha',
 		'ZMW' => 'Zambisk kwacha',
 		'ZWD' => 'Zimbabwe dollar',
-		'ZWL' => 'Zimbabwe Dollar',
+		'ZWG' => 'Zimbabwe Gold',
+		'ZWL' => 'Zimbabwe dollar',
 	];
 
 	/**
@@ -1442,6 +1454,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'WST' => 'Tala',
 		'XAF' => 'CFA Frangı BEAC',
 		'XCD' => 'Doğu Karayip Doları',
+		'XCG' => 'Caribbean Guilder',
 		'XOF' => 'CFA Frangı BCEAO',
 		'XPF' => 'CFP Frangı',
 		'YER' => 'Yemen Riyali',
@@ -1450,6 +1463,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'ZMK' => 'Kwacha',
 		'ZMW' => 'Zambiya Kwachası',
 		'ZWD' => 'Zimbabve Doları',
+		'ZWG' => 'Zimbabwe Gold',
 		'ZWL' => 'Zimbabve Doları',
 	];
 }

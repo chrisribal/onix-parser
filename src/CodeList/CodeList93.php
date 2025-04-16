@@ -151,7 +151,7 @@ class CodeList93 extends CodeList implements CodeListInterface
 		'05' => 'Salgsagent',
 		'06' => 'Forlagets distributør',
 		'07' => 'POD-leverandør',
-		'08' => 'Retailer',
+		'08' => 'Detaljist',
 		'09' => 'Forlag til sluttkunder',
 		'10' => 'Eksklusiv distributør til sluttkunder',
 		'11' => 'Ikke-eksklusiv distributør til sluttkunder',

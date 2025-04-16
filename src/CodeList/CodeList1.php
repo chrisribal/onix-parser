@@ -56,7 +56,7 @@ class CodeList1 extends CodeList implements CodeListInterface
 	protected static $de = [
 		'01' => 'Early notification',
 		'02' => 'Advance notification (confirmed)',
-		'03' => 'Benachrichtigung bei Veröffentlichung bestätigt',
+		'03' => 'Notification confirmed on publication',
 		'04' => 'Update (partial)',
 		'05' => 'Delete',
 		'08' => 'Notice of sale',

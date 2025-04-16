@@ -27,6 +27,10 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'Permissions contact',
 		'07' => 'Return authorisation contact',
 		'08' => 'CIP / Legal deposit contact',
+		'09' => 'Rights and licensing contact',
+		'10' => 'Product safety contact',
+		'11' => 'Product raw materials contact',
+		'99' => 'Customer services contact',
 	];
 
 	/**
@@ -45,6 +49,10 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'Contacto para permisos',
 		'07' => 'Contacto para autorizaciones de devoluciones',
 		'08' => 'Contacto para depósito legal o catalogación en publicación (CIP)',
+		'09' => 'Contacto para derechos y licencias',
+		'10' => 'Contacto para seguridad del producto',
+		'11' => 'Contacto para materias primas del producto',
+		'99' => 'Customer services contact',
 	];
 
 	/**
@@ -63,6 +71,10 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'Permissions contact',
 		'07' => 'Return authorisation contact',
 		'08' => 'CIP / Legal deposit contact',
+		'09' => 'Rights and licensing contact',
+		'10' => 'Product safety contact',
+		'11' => 'Product raw materials contact',
+		'99' => 'Customer services contact',
 	];
 
 	/**
@@ -81,6 +93,10 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'Contact pour les autorisations',
 		'07' => 'Contact pour les autorisations de retour',
 		'08' => 'Contact pour le Catalogage avant publication (CIP) / le Dépôt légal',
+		'09' => 'Contact pour les droits et licences',
+		'10' => 'Contact pour la sécurité du produit',
+		'11' => 'Contact pour les matières premières du produit',
+		'99' => 'Contact du service clients',
 	];
 
 	/**
@@ -99,6 +115,10 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'Referente per le autorizzazioni',
 		'07' => 'Referente per l’autorizzazione del reso',
 		'08' => 'Referente per CIP (Cataloguing-in-Publication) e deposito legale',
+		'09' => 'Contatto per diritti e licenze',
+		'10' => 'Contatto per la sicurezza del prodotto',
+		'11' => 'Contatto per le materie prime del prodotto',
+		'99' => 'Customer services contact',
 	];
 
 	/**
@@ -117,6 +137,10 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'Permissions contact',
 		'07' => 'Return authorisation contact',
 		'08' => 'CIP / Legal deposit contact',
+		'09' => 'Rights and licensing contact',
+		'10' => 'Product safety contact',
+		'11' => 'Product raw materials contact',
+		'99' => 'Customer services contact',
 	];
 
 	/**
@@ -135,5 +159,9 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'06' => 'İzin iletişimi',
 		'07' => 'İade izin sözleşmesi',
 		'08' => 'CIP / Legal deposit contact',
+		'09' => 'Rights and licensing contact',
+		'10' => 'Product safety contact',
+		'11' => 'Product raw materials contact',
+		'99' => 'Customer services contact',
 	];
 }

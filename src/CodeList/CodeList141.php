@@ -29,6 +29,9 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
 		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
+		'11' => 'GTIN-13+5 (other price encoded)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 
 	/**
@@ -49,6 +52,9 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC12 (price-point)',
 		'09' => 'UPC12+5 (price-point)',
 		'10' => 'GTIN-13+5 (precio codificado en libras esterlinas)',
+		'11' => 'GTIN-13+5 (otro precio codificado)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 
 	/**
@@ -69,6 +75,9 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
 		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
+		'11' => 'GTIN-13+5 (other price encoded)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 
 	/**
@@ -89,6 +98,9 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC-12 (niveau de prix)',
 		'09' => 'UPC-12+5 (niveau de prix)',
 		'10' => 'GTIN-13+5 (prix codé en Livres Sterling)',
+		'11' => 'GTIN-13+5 (autre prix codé)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 
 	/**
@@ -109,6 +121,9 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
 		'10' => 'GTIN-13+5 (prezzo in sterline inglesi codificato)',
+		'11' => 'GTIN-13+5 (altro prezzo codificato)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 
 	/**
@@ -129,6 +144,9 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC-12 (price-point)',
 		'09' => 'UPC-12+5 (price-point)',
 		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
+		'11' => 'GTIN-13+5 (other price encoded)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 
 	/**
@@ -149,5 +167,8 @@ class CodeList141 extends CodeList implements CodeListInterface
 		'08' => 'UPC-12 (fiyat noktası)',
 		'09' => 'UPC-12 +5 (fiyat noktası)',
 		'10' => 'GTIN-13+5 (UK Pound Sterling price encoded)',
+		'11' => 'GTIN-13+5 (other price encoded)',
+		'12' => 'GTIN-13+2',
+		'13' => 'GTIN-13+5',
 	];
 }

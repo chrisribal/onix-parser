@@ -23,12 +23,13 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'02' => 'Content warning',
 		'03' => 'Content warning (sex)',
 		'04' => 'Content warning (violence)',
-		'05' => 'Content warning (drug-taking)',
+		'05' => 'Content warning (drugs)',
 		'06' => 'Content warning (language)',
 		'07' => 'Content warning (intolerance)',
 		'08' => 'Content warning (abuse)',
 		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animals)',
+		'10' => 'Content warning (animal cruelty)',
+		'11' => 'Content warning (illness)',
 	];
 
 	/**
@@ -48,7 +49,8 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'07' => 'Aviso de contenido (intolerancia)',
 		'08' => 'Aviso de contenido (abuso)',
 		'09' => 'Aviso de contenido (autolesiones)',
-		'10' => 'Advertencia de contenido (animales)',
+		'10' => 'Advertencia sobre el contenido (crueldad hacia los animales)',
+		'11' => 'Advertencia de contenido (enfermedad)',
 	];
 
 	/**
@@ -63,12 +65,13 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'02' => 'Content warning',
 		'03' => 'Content warning (sex)',
 		'04' => 'Content warning (violence)',
-		'05' => 'Content warning (drug-taking)',
+		'05' => 'Content warning (drugs)',
 		'06' => 'Content warning (language)',
 		'07' => 'Content warning (intolerance)',
 		'08' => 'Content warning (abuse)',
 		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animals)',
+		'10' => 'Content warning (animal cruelty)',
+		'11' => 'Content warning (illness)',
 	];
 
 	/**
@@ -83,12 +86,13 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'02' => 'Avertissement de contenu',
 		'03' => 'Avertissement de contenu (sexe)',
 		'04' => 'Avertissement de contenu (violence)',
-		'05' => 'Avertissement de contenu (consommation de drogues)',
+		'05' => 'Avertissement de contenu (drogues)',
 		'06' => 'Avertissement de contenu (langage)',
 		'07' => 'Avertissement de contenu (intolérance)',
 		'08' => 'Avertissement de contenu (abus)',
 		'09' => 'Avertissement de contenu (automutilation)',
-		'10' => 'Avertissement de contenu (animaux)',
+		'10' => 'Avertissement de contenu (cruauté envers les animaux)',
+		'11' => 'Avertissement de contenu (maladie)',
 	];
 
 	/**
@@ -99,16 +103,17 @@ class CodeList203 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'00' => 'Privo di classificazione',
-		'01' => 'Pubblico adulto',
-		'02' => 'Avvertenza sul contenuto',
+		'01' => 'Adatto a un pubblico adulto',
+		'02' => 'Avvertenza sul contenuto (generica)',
 		'03' => 'Avvertenza sul contenuto (sessualmente esplicito)',
 		'04' => 'Avvertenza sul contenuto (violenza)',
-		'05' => 'Avvertenza sul contenuto (riferimenti a sostanze stupefacenti)',
+		'05' => 'Avvertenza sul contenuto (sostanze stupefacenti)',
 		'06' => 'Avvertenza sul contenuto (linguaggio)',
 		'07' => 'Avvertenza sul contenuto (intolleranza)',
 		'08' => 'Avvertenza sul contenuto (abuso)',
 		'09' => 'Avvertenza sul contenuto (autolesionismo)',
-		'10' => 'Avvertenza sul contenuto (animali)',
+		'10' => 'Avvertenza sul contenuto (crudeltà verso gli animali)',
+		'11' => 'Avvertenza sul contenuto (malattia)',
 	];
 
 	/**
@@ -123,12 +128,13 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'02' => 'Content warning',
 		'03' => 'Content warning (sex)',
 		'04' => 'Content warning (violence)',
-		'05' => 'Content warning (drug-taking)',
+		'05' => 'Content warning (drugs)',
 		'06' => 'Content warning (language)',
 		'07' => 'Content warning (intolerance)',
 		'08' => 'Content warning (abuse)',
 		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animals)',
+		'10' => 'Content warning (animal cruelty)',
+		'11' => 'Content warning (illness)',
 	];
 
 	/**
@@ -148,6 +154,7 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'07' => 'İçerik uyarısı (hoşgörüsüzlük)',
 		'08' => 'Content warning (abuse)',
 		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animals)',
+		'10' => 'Content warning (animal cruelty)',
+		'11' => 'Content warning (illness)',
 	];
 }

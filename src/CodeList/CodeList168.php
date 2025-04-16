@@ -67,8 +67,8 @@ class CodeList168 extends CodeList implements CodeListInterface
 		'02' => 'Nombre de mises à jour',
 		'03' => 'Nombre de produits liés',
 		'04' => 'Nombre d’exemplaires de ce produit',
-		'05' => 'Minimum number of linked products',
-		'06' => 'Maximum number of copies of this product',
+		'05' => 'Nombre minimum de produits liés',
+		'06' => 'Nombre maximum de copies de ce produit',
 	];
 
 	/**

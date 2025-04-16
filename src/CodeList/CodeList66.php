@@ -33,7 +33,7 @@ class CodeList66 extends CodeList implements CodeListInterface
 	protected static $es = [
 		'N' => 'Devolución no autorizada',
 		'Y' => 'Devolución autorizada, sólo ejemplares completos',
-		'S' => 'Devolución autorizada, cubierta rota',
+		'S' => 'Devolución autorizada, cubiertas arrancadas',
 		'C' => 'Devolución condicionada',
 	];
 

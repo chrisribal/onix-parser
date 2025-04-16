@@ -142,7 +142,7 @@ class CodeList55 extends CodeList implements CodeListInterface
 		'09' => 'YYYYQYYYYQ',
 		'10' => 'YYYYSYYYYS',
 		'11' => 'YYYYYYYY',
-		'12' => 'Stringa di testo libero',
+		'12' => 'Stringa di testo',
 		'13' => 'YYYYMMDDThhmm',
 		'14' => 'YYYYMMDDThhmmss',
 		'20' => 'YYYYMMDD (H)',

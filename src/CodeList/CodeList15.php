@@ -19,7 +19,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'00' => 'Undefined',
-		'01' => 'Distinctive title (book); Cover title (serial); Title on item (serial content item or reviewed resource)',
+		'01' => 'Distinctive title (book); Cover title (serial); Title of content item, collection, or resource',
 		'02' => 'ISSN key title of serial',
 		'03' => 'Title in original language',
 		'04' => 'Title acronym or initialism',
@@ -33,6 +33,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Expanded title',
 		'14' => 'Alternative title',
 		'15' => 'Alternative title on spine',
+		'16' => 'Translated from title',
 	];
 
 	/**
@@ -43,7 +44,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'00' => 'No definido',
-		'01' => 'Título distintivo',
+		'01' => 'Título distintivo (libro); Título de elemento contenido, de un conjunto o de un recurso',
 		'02' => 'Título clave de la publicación periódica atribuido por el ISSN',
 		'03' => 'Título en idioma original',
 		'04' => 'Acrónimo del título',
@@ -57,6 +58,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Título expandido para libro de texto',
 		'14' => 'Título alternativo',
 		'15' => 'Título alternativo en el lomo',
+		'16' => 'Traducido del título',
 	];
 
 	/**
@@ -67,7 +69,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'00' => 'Undefined',
-		'01' => 'Distinctive title (book); Cover title (serial); Title on item (serial content item or reviewed resource)',
+		'01' => 'Distinctive title (book); Cover title (serial); Title of content item, collection, or resource',
 		'02' => 'ISSN key title of serial',
 		'03' => 'Title in original language',
 		'04' => 'Title acronym or initialism',
@@ -81,6 +83,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Expanded title',
 		'14' => 'Alternative title',
 		'15' => 'Alternative title on spine',
+		'16' => 'Translated from title',
 	];
 
 	/**
@@ -104,7 +107,8 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'12' => 'titre de 4e de couverture',
 		'13' => 'Titre développé',
 		'14' => 'Variante de titre',
-		'15' => 'Alternative title on spine',
+		'15' => 'Titre alternatif de dos',
+		'16' => 'Traduction d’une traduction',
 	];
 
 	/**
@@ -115,7 +119,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'00' => 'Non definito',
-		'01' => 'Titolo distintivo (libro); titolo copertina (serie); titolo prodotto (pubblicazione periodica o risorsa rivista)',
+		'01' => 'Titolo distintivo (libro); titolo di copertina (pubblicazione periodica); titolo della parte di contenuto, della collezione o della risorsa',
 		'02' => 'Titolo chiave della pubblicazione periodica attribuito da ISSN',
 		'03' => 'Titolo originale',
 		'04' => 'Acronimo del titolo',
@@ -129,6 +133,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Titolo esteso',
 		'14' => 'Titolo alternativo',
 		'15' => 'Titolo alternativo sul dorso di copertina',
+		'16' => 'Titolo di traduzione intermedia',
 	];
 
 	/**
@@ -140,7 +145,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	protected static $nb = [
 		'00' => 'Udefinert',
 		'01' => 'Fullstendig tittel (bok eller serie)',
-		'02' => 'ISSN-nøkkeltittel for tidskrift',
+		'02' => 'ISSN-nøkkeltittel for tidsskrift',
 		'03' => 'Originaltittel',
 		'04' => 'Tittelakronym',
 		'05' => 'Forkortet tittel',
@@ -153,6 +158,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Utvidet tittel',
 		'14' => 'Alternativ tittel',
 		'15' => 'Ryggtittel',
+		'16' => 'Oversatt fra',
 	];
 
 	/**
@@ -177,5 +183,6 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Genişletilmiş başlık',
 		'14' => 'Alternatif başlık',
 		'15' => 'Alternative title on spine',
+		'16' => 'Translated from title',
 	];
 }

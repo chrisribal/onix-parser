@@ -38,6 +38,8 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => '2D spine',
 		'47' => '3D perspective ‘horizontal’',
 		'48' => '3D perspective ‘vertical’',
+		'49' => '3D perspective ‘open’',
+		'50' => '3D perspective ‘closed’',
 	];
 
 	/**
@@ -67,6 +69,8 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => 'Lomo 2D',
 		'47' => 'Perspectiva 3D: Horizontal',
 		'48' => 'Perspectiva 3D: Vertical',
+		'49' => 'Perspectiva 3D (producto abierto)',
+		'50' => 'Perspectiva 3D (producto cerrado)',
 	];
 
 	/**
@@ -96,6 +100,8 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => '2D spine',
 		'47' => '3D perspective ‘horizontal’',
 		'48' => '3D perspective ‘vertical’',
+		'49' => '3D perspective ‘open’',
+		'50' => '3D perspective ‘closed’',
 	];
 
 	/**
@@ -125,6 +131,8 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => '2D dos',
 		'47' => 'Perspective en 3D horizontale',
 		'48' => 'Perspective en 3D verticale',
+		'49' => 'Perspective en 3D « ouverte »',
+		'50' => 'Perspective en 3D « fermée »',
 	];
 
 	/**
@@ -154,6 +162,8 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => '2D dorso',
 		'47' => 'Prospettiva 3D “orizzontale”',
 		'48' => 'Prospettiva 3D “verticale”',
+		'49' => 'Prospettiva 3D “aperta”',
+		'50' => 'Prospettiva 3D “chiusa”',
 	];
 
 	/**
@@ -183,6 +193,8 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => '2D spine',
 		'47' => '3D perspective ‘horizontal’',
 		'48' => '3D perspective ‘vertical’',
+		'49' => '3D perspective ‘open’',
+		'50' => '3D perspective ‘closed’',
 	];
 
 	/**
@@ -212,5 +224,7 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'43' => '2D spine',
 		'47' => '3D perspective ‘horizontal’',
 		'48' => '3D perspective ‘vertical’',
+		'49' => '3D perspective ‘open’',
+		'50' => '3D perspective ‘closed’',
 	];
 }

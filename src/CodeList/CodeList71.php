@@ -38,6 +38,10 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'17' => 'Through Inventoryless POD',
 		'18' => 'Through Stock Protection POD',
 		'19' => 'Except through POD',
+		'20' => 'Except to some subscription services',
+		'21' => 'Subscription service exclusive',
+		'22' => 'To education only',
+		'23' => 'Except to education',
 		'99' => 'No restrictions on sales',
 	];
 
@@ -68,6 +72,10 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'17' => 'Mediante impresión bajo demanda (POD) sin stock',
 		'18' => 'Mediante impresión bajo demanda (POD) como protección de stock',
 		'19' => 'Exceptuada impresión bajo demanda (POD)',
+		'20' => 'Excepto para algunos servicios de suscripción',
+		'21' => 'Exclusivo para el servicio de suscripción',
+		'22' => 'Solo para educación',
+		'23' => 'Excepto para educación',
 		'99' => 'Sin restricciones de venta',
 	];
 
@@ -98,6 +106,10 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'17' => 'Through Inventoryless POD',
 		'18' => 'Through Stock Protection POD',
 		'19' => 'Except through POD',
+		'20' => 'Except to some subscription services',
+		'21' => 'Subscription service exclusive',
+		'22' => 'To education only',
+		'23' => 'Except to education',
 		'99' => 'No restrictions on sales',
 	];
 
@@ -128,6 +140,10 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'17' => 'IAD uniquement (sans stock physique)',
 		'18' => 'Maintien du stock en IAD uniquement',
 		'19' => 'Sauf par l’utilisation de l’IAD',
+		'20' => 'Sauf pour certains services d’abonnement',
+		'21' => 'Service d’abonnement exclusif',
+		'22' => 'To education only',
+		'23' => 'Except to education',
 		'99' => 'Pas de restrictions sur les ventes',
 	];
 
@@ -157,7 +173,11 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'16' => 'Scuole escluse',
 		'17' => 'Tramite POD senza magazzino',
 		'18' => 'Tramite POD per evitare rotture di stock',
-		'19' => 'POD esclusi',
+		'19' => 'POD esclusa',
+		'20' => 'Esclusi alcuni servizi in abbonamento',
+		'21' => 'Solo per alcuni servizi in abbonamento',
+		'22' => 'Solo per istituti di istruzione',
+		'23' => 'Istituti di istruzione esclusi',
 		'99' => 'Nessuna restrizione alla vendita',
 	];
 
@@ -188,6 +208,10 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'17' => 'Gjennom ikke lagerført POD',
 		'18' => 'Gjennom lagerbeskyttet POD',
 		'19' => 'Bortsett fra som POD',
+		'20' => 'Bortsett fra til angitte abonnementstjenester',
+		'21' => 'Kun til angitte abonnementstjenester',
+		'22' => 'Kun til utdanningsinstitusjoner',
+		'23' => 'Ikke til utdanningsinstitusjoner',
 		'99' => 'Ingen salgsrestriksjoner',
 	];
 
@@ -218,6 +242,10 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'17' => 'Through Inventoryless POD',
 		'18' => 'Through Stock Protection POD',
 		'19' => 'Except through POD',
+		'20' => 'Except to some subscription services',
+		'21' => 'Subscription service exclusive',
+		'22' => 'To education only',
+		'23' => 'Except to education',
 		'99' => 'No restrictions on sales',
 	];
 }

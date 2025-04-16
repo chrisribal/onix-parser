@@ -164,7 +164,7 @@ class CodeList82 extends CodeList implements CodeListInterface
 		'PP' => 'Salmene og ordspråkene',
 		'PS' => 'Salmenes bok',
 		'PT' => 'Mosebøkene',
-		'ZZ' => 'Andre deler',
+		'ZZ' => 'Andre deler av Bibelen',
 	];
 
 	/**

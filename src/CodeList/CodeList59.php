@@ -66,7 +66,7 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'16' => 'Precio para bibliotecas públicas',
 		'17' => 'Precio de introducción',
 		'18' => 'Precio para consorcios',
-		'19' => 'Precio para educación espacializada (Francia)',
+		'19' => 'Precio para educación especializada',
 	];
 
 	/**
@@ -124,7 +124,7 @@ class CodeList59 extends CodeList implements CodeListInterface
 		'16' => 'Prix bibliothèque publique',
 		'17' => 'Prix de lancement',
 		'18' => 'Prix pour les consortiums',
-		'19' => 'Education price for alternative provision',
+		'19' => 'Prix pour l’éducation spécialisée',
 	];
 
 	/**

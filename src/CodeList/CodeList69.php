@@ -18,6 +18,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/69
 	 */
 	protected static $en = [
+		'01' => 'Publisher acts as own sales agent',
 		'05' => 'Exclusive sales agent',
 		'06' => 'Non-exclusive sales agent',
 		'07' => 'Local publisher',
@@ -31,6 +32,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/69
 	 */
 	protected static $es = [
+		'01' => 'La editorial actúa como su propio agente de venta',
 		'05' => 'Agente de venta exclusivo',
 		'06' => 'Agente de venta no exclusivo',
 		'07' => 'Editorial local',
@@ -44,6 +46,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/69
 	 */
 	protected static $de = [
+		'01' => 'Publisher acts as own sales agent',
 		'05' => 'Exclusive sales agent',
 		'06' => 'Non-exclusive sales agent',
 		'07' => 'Local publisher',
@@ -57,6 +60,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/69
 	 */
 	protected static $fr = [
+		'01' => 'Auto-diffuseur',
 		'05' => 'Diffuseur exclusif',
 		'06' => 'Diffuseur non exclusif',
 		'07' => 'Editeur local',
@@ -70,6 +74,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/69
 	 */
 	protected static $it = [
+		'01' => 'Editore come agente di vendita dei propri prodotti',
 		'05' => 'Agente di vendita esclusivo',
 		'06' => 'Agente di vendita non esclusivo',
 		'07' => 'Editore locale',
@@ -83,6 +88,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/69
 	 */
 	protected static $nb = [
+		'01' => 'Publisher acts as own sales agent',
 		'05' => 'Exclusive sales agent',
 		'06' => 'Non-exclusive sales agent',
 		'07' => 'Local publisher',
@@ -96,6 +102,7 @@ class CodeList69 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/tr/69
 	 */
 	protected static $tr = [
+		'01' => 'Publisher acts as own sales agent',
 		'05' => 'İnhisari satış acentesi',
 		'06' => 'İnhisari olmayan satış acentesi',
 		'07' => 'Yerel yayımcı',

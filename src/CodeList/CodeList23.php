@@ -64,9 +64,9 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'15' => 'Duración de las partes finales',
 		'16' => 'Duración de la producción',
 		'17' => 'Número de cartas, fichas o tarjetas',
-		'18' => 'Número de páginas en blanco',
+		'18' => 'Número de páginas para escribir',
 		'22' => 'Tamaño del archivo',
-		'23' => 'Tamaño del archivo',
+		'23' => 'Tamaño del archivo en disco',
 	];
 
 	/**
@@ -122,7 +122,7 @@ class CodeList23 extends CodeList implements CodeListInterface
 		'15' => 'Durée des annexes',
 		'16' => 'Durée du contenu produit',
 		'17' => 'Nombre de fiches/cartes',
-		'18' => 'Number of write-in pages',
+		'18' => 'Nombre de pages à remplir',
 		'22' => 'Taille du fichier',
 		'23' => 'Taille de stockage du fichier',
 	];

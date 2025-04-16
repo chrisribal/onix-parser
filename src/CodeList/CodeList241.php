@@ -24,7 +24,7 @@ class CodeList241 extends CodeList implements CodeListInterface
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -40,7 +40,7 @@ class CodeList241 extends CodeList implements CodeListInterface
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR',
+		'31' => 'EIDR del contenido',
 	];
 
 	/**
@@ -56,7 +56,7 @@ class CodeList241 extends CodeList implements CodeListInterface
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -88,7 +88,7 @@ class CodeList241 extends CodeList implements CodeListInterface
 		'12' => 'IMBD',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -104,7 +104,7 @@ class CodeList241 extends CodeList implements CodeListInterface
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -120,6 +120,6 @@ class CodeList241 extends CodeList implements CodeListInterface
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 }

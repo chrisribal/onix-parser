@@ -21,6 +21,7 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 
 	/**
@@ -33,6 +34,7 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'Legible por usuarios',
 		'02' => 'Legible por profesionales',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 
 	/**
@@ -45,6 +47,7 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 
 	/**
@@ -57,6 +60,7 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 
 	/**
@@ -69,6 +73,7 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'Leggibile da tutti',
 		'02' => 'Leggibile da professionisti',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 
 	/**
@@ -81,6 +86,7 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'For allmenn bruk',
 		'02' => 'For juridiske eksperter',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 
 	/**
@@ -93,5 +99,6 @@ class CodeList218 extends CodeList implements CodeListInterface
 		'01' => 'Gözle okunabilir',
 		'02' => 'Profesyonel okunabilir',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
 	];
 }

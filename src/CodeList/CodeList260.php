@@ -54,9 +54,9 @@ class CodeList260 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/260
 	 */
 	protected static $fr = [
-		'14' => 'Valid from',
-		'15' => 'Valid until',
-		'24' => 'From… until date',
+		'14' => 'Valide à partir de',
+		'15' => 'Valide jusqu’à',
+		'24' => 'Date à partir de… jusqu’à',
 	];
 
 	/**

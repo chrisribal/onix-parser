@@ -126,7 +126,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'05' => 'Lærere',
 		'06' => 'Studenter',
 		'07' => 'Presse',
-		'08' => 'Shopping comparison service',
+		'08' => 'Sammenligningstjeneste',
 		'09' => 'Søkemotorindeks',
 		'10' => 'Bloggere',
 	];

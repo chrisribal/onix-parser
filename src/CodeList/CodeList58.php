@@ -45,6 +45,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'Importer’s Fixed retail price including tax',
 		'35' => 'Nominal gratis copy value for customs purposes, excluding tax',
 		'36' => 'Nominal value for claims purposes, excluding tax',
+		'37' => 'Nominal value for customs purposes, excluding tax',
 		'41' => 'Publishers retail price excluding tax',
 		'42' => 'Publishers retail price including tax',
 	];
@@ -83,6 +84,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'Precio fijo del importador con impuestos',
 		'35' => 'Valor nominal de ejemplares gratuitos a efectos de trámites aduaneros',
 		'36' => 'Valor nominal a efectos de reclamaciones, sin impuestos',
+		'37' => 'Valor nominal sin impuestos, a efectos aduaneros',
 		'41' => 'Precio de venta del editor, sin impuestos (Contrato de mandato, «Agency»)',
 		'42' => 'Precio de venta del editor, incluyendo impuestos (Contrato de mandato, «Agency»)',
 	];
@@ -121,6 +123,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'Importer’s Fixed retail price including tax',
 		'35' => 'Nominal gratis copy value for customs purposes, excluding tax',
 		'36' => 'Nominal value for claims purposes, excluding tax',
+		'37' => 'Nominal value for customs purposes, excluding tax',
 		'41' => 'Publishers retail price excluding tax',
 		'42' => 'Publishers retail price including tax',
 	];
@@ -159,6 +162,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'Prix de vente imposé taxes incluses de l’importateur',
 		'35' => 'Valeur nominale des exemplaires gratuits pour la douane, hors taxes',
 		'36' => 'Valeur nominale pour les réclamations hors taxes',
+		'37' => 'Valeur nominale en douane hors taxes',
 		'41' => 'Prix de vente éditeur hors taxes',
 		'42' => 'Prix de vente éditeur taxes incluses',
 	];
@@ -197,6 +201,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'Prezzo fisso al pubblico dell’importatore, tasse incluse',
 		'35' => 'Valore nominale della copia gratuita per fini doganali, tasse escluse',
 		'36' => 'Valore nominale in caso di reclami, tasse escluse',
+		'37' => 'Valore nominale per fini doganali, tasse escluse',
 		'41' => 'Prezzo di vendita dell’editore, tasse escluse',
 		'42' => 'Prezzo di vendita dell’editore, tasse incluse',
 	];
@@ -208,8 +213,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/58
 	 */
 	protected static $nb = [
-		'01' => 'Veiledende utsalgsspris uten mva.',
-		'02' => 'Veiledende utsalgsspris inklusiv mva.',
+		'01' => 'Veiledende utsalgspris uten mva.',
+		'02' => 'Veiledende utsalgspris inklusiv mva.',
 		'03' => 'Fastpris uten mva.',
 		'04' => 'Fastpris inklusiv mva.',
 		'05' => 'Distributørs enhetspris uten mva.: produkter for salg',
@@ -223,8 +228,8 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'14' => 'Fast spesialpris inklusiv mva.',
 		'15' => 'Distributørs spesialpris per enhet uten mva.',
 		'17' => 'Distributørs spesielle enhetspris inkl. mva.',
-		'21' => 'Foreløpig foreslått utsalgsspris uten mva.',
-		'22' => 'Foreløpig foreslått utsalgsspris inklusiv mva.',
+		'21' => 'Foreløpig foreslått utsalgspris uten mva.',
+		'22' => 'Foreløpig foreslått utsalgspris inklusiv mva.',
 		'23' => 'Foreløpig foreslått fastpris uten mva.',
 		'24' => 'Foreløpig foreslått fastpris inklusiv mva.',
 		'25' => 'Distributørs foreløpige enhetspris uten mva.',
@@ -235,6 +240,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'Importørens foreløpige enhetspris inkl. mva.',
 		'35' => 'Nominell gratis kopiverdi for tollformål, eksklusive avgifter',
 		'36' => 'Nominal value for claims purposes, excluding tax',
+		'37' => 'Nominell verdi i forindelse med tolldeklarasjon, ekskl. mva',
 		'41' => 'Utgivers/vareeiers utsalgspris eks. mva.',
 		'42' => 'Utgivers/vareeiers utsalgspris inkl. mva.',
 	];
@@ -273,6 +279,7 @@ class CodeList58 extends CodeList implements CodeListInterface
 		'34' => 'İthalatçının Vergi dahil sabit perakende fiyatı',
 		'35' => 'Nominal gratis copy value for customs purposes, excluding tax',
 		'36' => 'Nominal value for claims purposes, excluding tax',
+		'37' => 'Nominal value for customs purposes, excluding tax',
 		'41' => 'Yayımcının perakende fiyatı, vergi hariç',
 		'42' => 'Yayımcının perakende fiyatı, vergi dahil',
 	];

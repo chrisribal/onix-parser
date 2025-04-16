@@ -29,6 +29,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Loan renewal',
 		'09' => 'Multi-user license',
 		'10' => 'Preview on premises',
+		'11' => 'Text and data mining',
 	];
 
 	/**
@@ -49,6 +50,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Renovación de préstamo',
 		'09' => 'Licencia multi-usuario',
 		'10' => 'Previsualización en una ubicación física',
+		'11' => 'Minería de texto y datos',
 	];
 
 	/**
@@ -69,6 +71,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Loan renewal',
 		'09' => 'Multi-user license',
 		'10' => 'Preview on premises',
+		'11' => 'Text and data mining',
 	];
 
 	/**
@@ -89,6 +92,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Renouvellement du prêt',
 		'09' => 'Licence multi-utilisateurs',
 		'10' => 'Aperçu sur site',
+		'11' => 'Text and data mining',
 	];
 
 	/**
@@ -109,6 +113,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Rinnovo del prestito',
 		'09' => 'Licenza multiutente',
 		'10' => 'Anteprima in loco',
+		'11' => 'Estrazione di testo e dati (Text and Data mining)',
 	];
 
 	/**
@@ -128,7 +133,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'07' => 'Tidsbegrenset lisens',
 		'08' => 'Fornyelse av lån',
 		'09' => 'Flerbrukerlisens',
-		'10' => 'Forhåndvisning på lokasjon',
+		'10' => 'Forhåndsvisning på lokasjon',
+		'11' => 'Tekst- og dataanalyse',
 	];
 
 	/**
@@ -149,5 +155,6 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Ödünç yenileme',
 		'09' => 'Çok kullanıcılı lisans',
 		'10' => 'Preview on premises',
+		'11' => 'Text and data mining',
 	];
 }

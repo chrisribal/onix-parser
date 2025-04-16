@@ -5,7 +5,7 @@ namespace Ribal\Onix\CodeList;
 /**
  * ONIX Code List 172
  *
- * Used with <CurrencyZone> <x475>Deprecated
+ * Used with <CurrencyZone> <x475>Deprecated in 3.0 – not used in 3.1 or later
  *
  * @see https://ns.editeur.org/onix/en/172
  */

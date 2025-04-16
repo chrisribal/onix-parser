@@ -30,6 +30,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Reading Recovery Level',
 		'11' => 'LIX',
 		'12' => 'Lexile Audio measure',
+		'13' => 'Lexile measure (Spanish)',
 	];
 
 	/**
@@ -51,6 +52,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Nivel de recuperación de lectura',
 		'11' => 'LIX',
 		'12' => 'Nivel de escucha Lexile',
+		'13' => 'Medida Lexile (español)',
 	];
 
 	/**
@@ -72,6 +74,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Reading Recovery Level',
 		'11' => 'LIX',
 		'12' => 'Lexile Audio measure',
+		'13' => 'Lexile measure (Spanish)',
 	];
 
 	/**
@@ -93,6 +96,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Reading Recovery Level',
 		'11' => 'LIX',
 		'12' => 'Mesure audio Lexile',
+		'13' => 'Mesure Lexile (espagnol)',
 	];
 
 	/**
@@ -114,6 +118,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Reading Recovery Level',
 		'11' => 'LIX',
 		'12' => 'Lexile Audio measure',
+		'13' => 'Lexile measure (Spagnolo)',
 	];
 
 	/**
@@ -135,6 +140,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Reading Recovery Level',
 		'11' => 'LIX',
 		'12' => 'Lexile Audio measure',
+		'13' => 'Lexile measure (Spanish)',
 	];
 
 	/**
@@ -156,5 +162,6 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'10' => 'Reading Recovery Level',
 		'11' => 'LIX',
 		'12' => 'Lexile Audio measure',
+		'13' => 'Lexile measure (Spanish)',
 	];
 }

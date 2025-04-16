@@ -17,7 +17,11 @@ class CodeList171 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/171
 	 */
-	protected static $en = ['01' => 'VAT', '02' => 'GST', '03' => 'ECO'];
+	protected static $en = [
+		'01' => 'VAT (Value-added tax)',
+		'02' => 'GST (Sales tax)',
+		'03' => 'ECO',
+	];
 
 	/**
 	 * Code List 171 for es
@@ -33,7 +37,11 @@ class CodeList171 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/171
 	 */
-	protected static $de = ['01' => 'VAT', '02' => 'GST', '03' => 'ECO'];
+	protected static $de = [
+		'01' => 'VAT (Value-added tax)',
+		'02' => 'GST (Sales tax)',
+		'03' => 'ECO',
+	];
 
 	/**
 	 * Code List 171 for fr
@@ -41,7 +49,11 @@ class CodeList171 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/171
 	 */
-	protected static $fr = ['01' => 'TVA', '02' => 'GST', '03' => 'ECO'];
+	protected static $fr = [
+		'01' => 'TVA (Taxe sur la valeur ajoutée)',
+		'02' => 'TPS',
+		'03' => 'ECO',
+	];
 
 	/**
 	 * Code List 171 for it
@@ -49,7 +61,11 @@ class CodeList171 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/171
 	 */
-	protected static $it = ['01' => 'IVA', '02' => 'GST', '03' => 'ECO'];
+	protected static $it = [
+		'01' => 'IVA (Imposta sul valore aggiunto)',
+		'02' => 'GST (Imposta su beni e servizi)',
+		'03' => 'ECO',
+	];
 
 	/**
 	 * Code List 171 for nb
@@ -57,7 +73,7 @@ class CodeList171 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/171
 	 */
-	protected static $nb = ['01' => 'MVA', '02' => 'GST', '03' => 'ECO'];
+	protected static $nb = ['01' => 'MVA (merverdiafgift)', '02' => 'GST', '03' => 'ECO'];
 
 	/**
 	 * Code List 171 for tr

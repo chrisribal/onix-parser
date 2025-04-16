@@ -117,8 +117,8 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'44' => 'Adaptado como',
 		'45' => 'Oferta con producto relacionado',
 		'46' => 'Puede ser sustituido por',
-		'47' => 'Puede sustituirse por',
-		'48' => 'Es una oferta de producto vinculado',
+		'47' => 'Puede sustituir a',
+		'48' => 'Oferta de productos vinculados',
 	];
 
 	/**
@@ -227,8 +227,8 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'44' => 'Adapté comme',
 		'45' => 'Offre produit lié',
 		'46' => 'Peut être remplacé par',
-		'47' => 'May be substituted for',
-		'48' => 'Is linked product offer',
+		'47' => 'Peut être le produit de remplacement de',
+		'48' => 'Offre produit liée',
 	];
 
 	/**
@@ -272,13 +272,13 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'33' => 'Ha come prodotto alternativo in un diverso mercato',
 		'34' => 'Cita',
 		'35' => 'È citato da',
-		'37' => 'È la versione firmata di',
-		'38' => 'Ha come versione firmata',
+		'37' => 'È un’edizione firmata di',
+		'38' => 'Ha come edizione firmata',
 		'39' => 'Ha come materiale corrispondente per lo studente',
 		'40' => 'Ha come materiale corrispondente per l’insegnante',
 		'41' => 'Condivide alcuni contenuti con',
 		'42' => 'È un’edizione successiva della prima edizione',
-		'43' => 'È la versione adattata di',
+		'43' => 'È un’edizione adattata di',
 		'44' => 'Ha come edizione adattata',
 		'45' => 'Ha come prodotto collegato in offerta',
 		'46' => 'Può essere sostituito da',
@@ -334,9 +334,9 @@ class CodeList51 extends CodeList implements CodeListInterface
 		'41' => 'Deler noe innhold med',
 		'42' => 'Er senere utgave av første utgave',
 		'43' => 'Tilpasset/bearbeidet fra',
-		'44' => 'Tilbasset/bearbeidet som',
+		'44' => 'Tilpasset/bearbeidet som',
 		'45' => 'Tilleggstilbud (‘på kjøpet’)',
-		'46' => 'May be substituted by',
+		'46' => 'Kan erstattes av',
 		'47' => 'Kan være erstatning for',
 		'48' => 'Har tilleggstilbud (‘på kjøpet’)',
 	];

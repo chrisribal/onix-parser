@@ -33,6 +33,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Bytes',
 		'18' => 'Kbytes',
 		'19' => 'Mbytes',
+		'31' => 'Chapters',
 	];
 
 	/**
@@ -57,6 +58,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Bytes',
 		'18' => 'Kilobytes (KB)',
 		'19' => 'Megabytes (MB)',
+		'31' => 'Chapters',
 	];
 
 	/**
@@ -81,6 +83,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Bytes',
 		'18' => 'Kbytes',
 		'19' => 'Mbytes',
+		'31' => 'Chapters',
 	];
 
 	/**
@@ -105,6 +108,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Octets',
 		'18' => 'Kilo-octets',
 		'19' => 'Méga-octets',
+		'31' => 'Chapitres',
 	];
 
 	/**
@@ -129,6 +133,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Bytes',
 		'18' => 'Kbytes',
 		'19' => 'Mbytes',
+		'31' => 'Capitoli',
 	];
 
 	/**
@@ -153,6 +158,7 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Bytes',
 		'18' => 'Kilobytes',
 		'19' => 'Megabytes',
+		'31' => 'Kapitler',
 	];
 
 	/**
@@ -177,5 +183,6 @@ class CodeList24 extends CodeList implements CodeListInterface
 		'17' => 'Bayt',
 		'18' => 'Kilobayt',
 		'19' => 'Megabayt',
+		'31' => 'Chapters',
 	];
 }

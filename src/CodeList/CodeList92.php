@@ -28,6 +28,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -47,6 +49,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'Número de identificación fiscal (NIF) europeo («VAT Id number»)',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -66,6 +70,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -85,6 +91,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'Numéro d’identification TVA',
+		'41' => 'EORI',
+		'45' => 'Identifiant d’adhérent chinois',
 	];
 
 	/**
@@ -104,6 +112,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'Numero di partita IVA',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -123,6 +133,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -142,5 +154,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'KDV Kimlik Numarası',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 }

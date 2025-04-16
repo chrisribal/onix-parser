@@ -17,7 +17,11 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/258
 	 */
-	protected static $en = ['01' => 'Overall matt laminate', '02' => 'Overall gloss laminate'];
+	protected static $en = [
+		'01' => 'Overall matt laminate',
+		'02' => 'Overall gloss laminate',
+		'03' => 'Overall textured laminate',
+	];
 
 	/**
 	 * Code List 258 for es
@@ -25,7 +29,11 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/258
 	 */
-	protected static $es = ['01' => 'Laminado mate', '02' => 'Laminado brillante'];
+	protected static $es = [
+		'01' => 'Laminado mate',
+		'02' => 'Laminado brillante',
+		'03' => 'Overall textured laminate',
+	];
 
 	/**
 	 * Code List 258 for de
@@ -33,7 +41,11 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/258
 	 */
-	protected static $de = ['01' => 'Overall matt laminate', '02' => 'Overall gloss laminate'];
+	protected static $de = [
+		'01' => 'Overall matt laminate',
+		'02' => 'Overall gloss laminate',
+		'03' => 'Overall textured laminate',
+	];
 
 	/**
 	 * Code List 258 for fr
@@ -41,7 +53,11 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/258
 	 */
-	protected static $fr = ['01' => 'Pelliculage mat', '02' => 'Pelliculage brillant'];
+	protected static $fr = [
+		'01' => 'Pelliculage mat',
+		'02' => 'Pelliculage brillant',
+		'03' => 'Stratifié texturé',
+	];
 
 	/**
 	 * Code List 258 for it
@@ -49,7 +65,11 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/258
 	 */
-	protected static $it = ['01' => 'Plastificato opaco', '02' => 'Plastificato lucido'];
+	protected static $it = [
+		'01' => 'Plastificato opaco',
+		'02' => 'Plastificato lucido',
+		'03' => 'Overall textured laminate',
+	];
 
 	/**
 	 * Code List 258 for nb
@@ -57,7 +77,11 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/258
 	 */
-	protected static $nb = ['01' => 'Overall matt laminate', '02' => 'Overall gloss laminate'];
+	protected static $nb = [
+		'01' => 'Overall matt laminate',
+		'02' => 'Overall gloss laminate',
+		'03' => 'Overall textured laminate',
+	];
 
 	/**
 	 * Code List 258 for tr
@@ -65,5 +89,9 @@ class CodeList258 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/258
 	 */
-	protected static $tr = ['01' => 'Overall matt laminate', '02' => 'Overall gloss laminate'];
+	protected static $tr = [
+		'01' => 'Overall matt laminate',
+		'02' => 'Overall gloss laminate',
+		'03' => 'Overall textured laminate',
+	];
 }
