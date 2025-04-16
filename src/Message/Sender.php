@@ -41,6 +41,16 @@ class Sender
     }
 
     /**
+     * Get the senders organizational name
+     *
+     * @return string
+     */
+    public function getSenderName()
+    {
+        return $this->SenderName;
+    }
+
+    /**
      * Set the sender's contact name
      *
      * @param string $contactName
@@ -52,6 +62,16 @@ class Sender
     }
 
     /**
+     * Get the sender's contact name
+     *
+     * @return string
+     */
+    public function getContactName()
+    {
+        return $this->ContactName;
+    }
+
+    /**
      * Set the senders email address
      *
      * @param string $emailAddress
@@ -60,6 +80,16 @@ class Sender
     public function setEmailAddress(string $emailAddress)
     {
         $this->EmailAddress = $emailAddress;
+    }
+
+    /**
+     * Get the senders email address
+     *
+     * @return string
+     */
+    public function getEmailAddress()
+    {
+        return $this->EmailAddress;
     }
 
 }

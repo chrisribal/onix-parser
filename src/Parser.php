@@ -21,21 +21,21 @@ class Parser
      *
      * @var XmlEncoder
      */
-    private $encoder;
+    private ONIXEncoder $encoder;
 
     /**
      * Array of normalizers to use
      *
      * @var array
      */
-    private $normalizers = [];
+    private array $normalizers = [];
 
     /**
      * Serializer service
      *
      * @var Serializer;
      */
-    private $serializer;
+    private Serializer $serializer;
 
     /**
      * Constructor function
@@ -96,13 +96,45 @@ class Parser
         return $message;
     }
 
-    public function generate(Message $message) : string
+    /**
+     * Generate an XML string from a Message object
+     *
+     * @param Message $message
+     * @param string $format
+     * @return string
+     */
+    public function generate(Message $message, string $format = 'reference') : string
     {
-        return $this->serializer->serialize($message, 'xml', [
-            XmlEncoder::ROOT_NODE_NAME => 'ONIXmessage',
+        if ($format != 'reference' && $format != 'short') {
+            throw new \InvalidArgumentException('Format must be either reference or short');
+        }
+
+        $this->normalizers[4] = new ObjectNormalizer(
+            null,
+            $format == 'short' ? new ShortTagNameConverter() : null,
+            null,
+            new ReflectionExtractor()
+        );
+
+        $this->serializer = new Serializer(
+            $this->normalizers,
+            [ $this->encoder ]
+        );
+
+        $xmlString = $this->serializer->serialize($message, 'xml', [
+            XmlEncoder::ROOT_NODE_NAME => 'ONIXMessage',
             XmlEncoder::REMOVE_EMPTY_TAGS => true,
             XmlEncoder::FORMAT_OUTPUT => true
         ]);
+
+        $dom = new \DOMDocument();
+        $dom->loadXML($xmlString);
+
+        $root = $dom->documentElement;
+        $root->setAttribute('xmlns', 'http://www.editeur.org/onix/3.0/' . $format);
+        $root->setAttribute('release', '3.0');
+
+        return $dom->saveXML();
     }
 
 }
