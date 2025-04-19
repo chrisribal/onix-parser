@@ -131,7 +131,9 @@ class Parser
         $dom->loadXML($xmlString);
 
         $root = $dom->documentElement;
-        $root->setAttribute('xmlns', 'http://www.editeur.org/onix/3.0/' . $format);
+        $root->setAttribute('xmlns', 'http://ns.editeur.org/onix/3.0/' . $format);
+        $root->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
+        $root->setAttribute('xsi:schemaLocation', 'http://ns.editeur.org/onix/3.0/reference onix.xsd');
         $root->setAttribute('release', '3.0');
 
         return $dom->saveXML();
