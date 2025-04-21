@@ -1,6 +1,6 @@
 <?php
 
-namespace Ribal\Onix\Message;
+namespace Ribal\Onix\Message\Header;
 
 use Ribal\Onix\Date;
 
@@ -13,6 +13,13 @@ class Header
      * @var Sender $sender
      */
     protected $Sender;
+
+    /**
+     * Message Adressee
+     *
+     * @var Adressee
+     */
+    protected Addressee $Addressee;
 
     /**
      * Message Date
@@ -44,6 +51,17 @@ class Header
     public function setSender(Sender $sender)
     {
         $this->Sender = $sender;
+    }
+
+    /**
+     * Set Adressee
+     *
+     * @param Adressee $adressee
+     * @return void
+     */
+    public function setAddressee(Addressee $addressee)
+    {
+        $this->Addressee = $addressee;
     }
 
     /**
@@ -87,6 +105,16 @@ class Header
     public function getSender()
     {
         return $this->Sender;
+    }
+
+    /**
+     * Get Adressee
+     *
+     * @return Adressee
+     */
+    public function getAddressee()
+    {
+        return $this->Addressee;
     }
 
     /**

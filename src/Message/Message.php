@@ -2,7 +2,7 @@
 
 namespace Ribal\Onix\Message;
 
-use Ribal\Onix\Message\Header as Header;
+use Ribal\Onix\Message\Header\Header;
 use Ribal\Onix\Product\Product;
 use Doctrine\Common\Annotations\Annotation\Attribute;
 

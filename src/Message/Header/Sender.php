@@ -1,6 +1,6 @@
 <?php
 
-namespace Ribal\Onix\Message;
+namespace Ribal\Onix\Message\Header;
 
 use Ribal\Onix\XmlIterator;
 
