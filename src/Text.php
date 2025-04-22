@@ -48,7 +48,6 @@ class Text
             throw new InvalidTextFormatException(sprintf('Unknown text format: %s. See ONIX CodeList 34 for more information.', $format));
         }
 
-
         if ($format !== self::TYPE_HTML && $format !== self::TYPE_XML && $format !== self::TYPE_XHTML && $format !== self::TYPE_DEFAULT && $format !== self::TYPE_ASCII) {
 
         }
@@ -90,8 +89,8 @@ class Text
     	if ($this->textFormat == self::TYPE_HTML || $this->textFormat == self::TYPE_XHTML) {
     		return $this->content;
     	}
-    
-    	$content = htmlspecialchars($this->content);
+
+    	$content = htmlentities($this->content);
     	
 		$content = '<p>' . preg_replace(
 			['/\n{2,}/m', '/\n/m'],
@@ -113,4 +112,33 @@ class Text
     	return $this->content;
     }
 
+    /**
+     * Get the content
+     *
+     * @return string
+     */
+    public function getContent() : string
+    {
+        return $this->content;
+    }
+
+    /**
+     * Get the text format
+     *
+     * @return string
+     */
+    public function getTextFormat() : string
+    {
+        return $this->textFormat;
+    }
+
+    /**
+     * Get the language
+     *
+     * @return string|null
+     */
+    public function getLanguage() : ?string
+    {
+        return $this->language;
+    }
 }

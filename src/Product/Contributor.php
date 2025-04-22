@@ -4,6 +4,8 @@ namespace Ribal\Onix\Product;
 
 use Ribal\Onix\CodeList\CodeList17;
 use Ribal\Onix\Text;
+use Symfony\Component\Serializer\Annotation\Ignore;
+use Symfony\Component\Serializer\Annotation\SerializedName;
 
 class Contributor
 {
@@ -58,7 +60,7 @@ class Contributor
      * @param int $SequenceNumber
      * @return void
      */
-    public function setSequenceNumber(string $SequenceNumber)
+    public function setSequenceNumber(int $SequenceNumber)
     {
         $this->SequenceNumber = $SequenceNumber;
     }
@@ -160,16 +162,6 @@ class Contributor
     }
 
     /**
-     * Get NameIdentifiers
-     *
-     * @return array
-     */
-    public function getNameIdentifiers()
-    {
-        return $this->NameIdentifier;
-    }
-
-    /**
      * Get NamesBeforeKey
      *
      * @return void
@@ -204,6 +196,7 @@ class Contributor
      *
      * @return string
      */
+    #[Ignore]
     public function getFirstname()
     {
         return $this->getNamesBeforeKey();
@@ -214,6 +207,7 @@ class Contributor
      *
      * @return string
      */
+    #[Ignore]
     public function getLastname()
     {
         return $this->getKeyNames();
@@ -224,6 +218,7 @@ class Contributor
      *
      * @return boolean
      */
+    #[Ignore]
     public function isAuthor()
     {
         return $this->ContributorRole->getCode() === self::CODE_AUTHOR;

@@ -44,11 +44,11 @@ class Product
     protected $RecordSourceName;
 
     /**
-     * ProductItentifiers
+     * ProductIdentifiers
      *
-     * @var array|ProductItentifier
+     * @var array|ProductIdentifier
      */
-    protected $ProductItentifier = [];
+    protected $ProductIdentifier = [];
 
     /**
      * DescriptiveDetail
@@ -146,9 +146,9 @@ class Product
      * @param ProductIdentifier $productIdentifier
      * @return void
      */
-    public function addProductIdentifier(ProductIdentifier $productIdentifier)
+    public function addProductIdentifier(ProductIdentifier $ProductIdentifier)
     {
-        $this->ProductItentifier[] = $productIdentifier;
+        $this->ProductIdentifier[] = $ProductIdentifier;
     }
 
     /**
@@ -159,7 +159,7 @@ class Product
      */
     public function removeProductIdentifier(ProductIdentifier $productIdentifier)
     {
-        $this->ProductItentifier[] = $productIdentifier;
+        $this->ProductIdentifier[] = $productIdentifier;
     }
 
     /**
@@ -249,6 +249,16 @@ class Product
     }
 
     /**
+     * Get ProductIdentifiers
+     *
+     * @return array
+     */
+    public function getProductIdentifier()
+    {
+        return $this->ProductIdentifier;
+    }
+
+    /**
      * Get DescriptiveDetail
      *
      * @return DescriptiveDetail
@@ -266,16 +276,6 @@ class Product
     public function getCollateralDetail()
     {
         return $this->CollateralDetail;
-    }
-
-    /**
-     * Get ProductIdentifiers
-     *
-     * @return array
-     */
-    public function getProductIdentifier()
-    {
-        return $this->ProductItentifier;
     }
 
     /**

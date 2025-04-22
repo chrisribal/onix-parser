@@ -52,7 +52,7 @@ class Publisher
      * @param PublisherIdentifier $PublisherIdentifier
      * @return void
      */
-    public function setPublisherIdentifier($PublisherIdentifier)
+    public function setPublisherIdentifier(PublisherIdentifier $PublisherIdentifier)
     {
         if (!is_array($PublisherIdentifier)) {
             $PublisherIdentifier = [$PublisherIdentifier];

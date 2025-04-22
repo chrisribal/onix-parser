@@ -2,8 +2,10 @@
 
 namespace Ribal\Onix\Product;
 
+use Ribal\Onix\CodeList\CodeList;
 use Ribal\Onix\CodeList\CodeList48;
 use Ribal\Onix\CodeList\CodeList50;
+use Symfony\Component\Serializer\Annotation\Ignore;
 
 class Measure
 {
@@ -18,21 +20,21 @@ class Measure
      *
      * @var CodeList
      */
-    protected $MeasureType;
+    protected CodeList $MeasureType;
 
     /**
      * Measurement
      *
      * @var string
      */
-    protected $Measurement;
+    protected string $Measurement;
 
     /**
      * MeasureUnitCode
      *
      * @var CodeList
      */
-    protected $MeasureUnitCode;
+    protected CodeList $MeasureUnitCode;
 
     /**
      * Set MeasureType
@@ -102,6 +104,7 @@ class Measure
      *
      * @return boolean
      */
+    #[Ignore]
     public function isHeight()
     {
     	return $this->MeasureType->getCode() === self::CODE_HEIGHT;
@@ -112,6 +115,7 @@ class Measure
      *
      * @return boolean
      */
+    #[Ignore]
     public function isWidth()
     {
     	return $this->MeasureType->getCode() === self::CODE_WIDTH;
@@ -122,6 +126,7 @@ class Measure
      *
      * @return boolean
      */
+    #[Ignore]
     public function isThickness()
     {
     	return $this->MeasureType->getCode() === self::CODE_THICKNESS;
@@ -132,6 +137,7 @@ class Measure
      *
      * @return boolean
      */
+    #[Ignore]
     public function isWeight()
     {
     	return $this->MeasureType->getCode() === self::CODE_WEIGHT;

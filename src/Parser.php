@@ -3,12 +3,15 @@
 namespace Ribal\Onix;
 
 use Ribal\Onix\Message\Message;
+use Ribal\Onix\Normalizer\BooleanNormalizer;
 use Ribal\Onix\Normalizer\CodeListNormalizer;
 use Ribal\Onix\Normalizer\DateNormalizer;
+use Ribal\Onix\Normalizer\EmptyArrayNormalizer;
 use Ribal\Onix\Normalizer\ShortTagNameConverter;
 use Ribal\Onix\Normalizer\TextNormalizer;
 use Symfony\Component\PropertyInfo\Extractor\ReflectionExtractor;
 use Symfony\Component\Serializer\Encoder\XmlEncoder;
+use Symfony\Component\Serializer\Mapping\Factory\ClassMetadataFactory;
 use Symfony\Component\Serializer\Normalizer\ArrayDenormalizer;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
@@ -55,6 +58,7 @@ class Parser
     	}
     
         $this->encoder = new ONIXEncoder();
+        $classMetadataFactory = new ClassMetadataFactory(new AttributeLoader());
 
         $this->normalizers = [
             new ArrayDenormalizer(),
@@ -62,7 +66,7 @@ class Parser
             new DateNormalizer(),
             new TextNormalizer(),
             new ObjectNormalizer(
-                null,
+                $classMetadataFactory,
                 new ShortTagNameConverter(),
                 null,
                 new ReflectionExtractor()
@@ -109,12 +113,21 @@ class Parser
             throw new \InvalidArgumentException('Format must be either reference or short');
         }
 
-        $this->normalizers[4] = new ObjectNormalizer(
-            null,
-            $format == 'short' ? new ShortTagNameConverter() : null,
-            null,
-            new ReflectionExtractor()
-        );
+        $classMetadataFactory = new ClassMetadataFactory(new AttributeLoader());
+
+        $this->normalizers = [
+            new ArrayDenormalizer(),
+            new EmptyArrayNormalizer(),
+            new CodeListNormalizer('de'),
+            new DateNormalizer(),
+            new TextNormalizer(),
+            new ObjectNormalizer(
+                $classMetadataFactory,
+                $format == 'short' ? new ShortTagNameConverter() : null,
+                null,
+                new ReflectionExtractor()
+            ),
+        ];
 
         $this->serializer = new Serializer(
             $this->normalizers,
@@ -122,7 +135,7 @@ class Parser
         );
 
         $xmlString = $this->serializer->serialize($message, 'xml', [
-            XmlEncoder::ROOT_NODE_NAME => 'ONIXMessage',
+            XmlEncoder::ROOT_NODE_NAME => $format == 'reference' ? 'ONIXMessage' : 'ONIXmessage',
             XmlEncoder::REMOVE_EMPTY_TAGS => true,
             XmlEncoder::FORMAT_OUTPUT => true
         ]);
@@ -133,7 +146,7 @@ class Parser
         $root = $dom->documentElement;
         $root->setAttribute('xmlns', 'http://ns.editeur.org/onix/3.0/' . $format);
         $root->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
-        $root->setAttribute('xsi:schemaLocation', 'http://ns.editeur.org/onix/3.0/reference onix.xsd');
+        $root->setAttribute('xsi:schemaLocation', 'http://ns.editeur.org/onix/3.0/' . $format . ' xsd/onix-' . $format . '.xsd');
         $root->setAttribute('release', '3.0');
 
         return $dom->saveXML();

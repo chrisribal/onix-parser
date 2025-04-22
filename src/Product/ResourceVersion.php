@@ -3,6 +3,7 @@
 namespace Ribal\Onix\Product;
 
 use Ribal\Onix\CodeList\CodeList161;
+use Symfony\Component\Serializer\Annotation\Ignore;
 
 class ResourceVersion
 {
@@ -66,6 +67,7 @@ class ResourceVersion
     /**
      * Check if the resource has a link set
      */
+    #[Ignore]
     public function hasLink()
     {
     	return $this->ResourceLink !== null;

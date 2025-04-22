@@ -12,7 +12,7 @@ class Subject
      *
      * @var boolean
      */
-    protected $MainSubject = false;
+    protected $MainSubject = null;
 
     /**
      * SubjectSchemeIdentifier
@@ -49,7 +49,7 @@ class Subject
      */
     public function setMainSubject(string $MainSubject)
     {
-        $this->MainSubject = true;
+        $this->MainSubject = "";
     }
 
     /**
@@ -101,7 +101,7 @@ class Subject
      *
      * @return boolean
      */
-    public function getMainSubject()
+    public function getMainSubject(): ?string
     {
         return $this->MainSubject;
     }

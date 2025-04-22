@@ -5,6 +5,7 @@ namespace Ribal\Onix\Product;
 use Ribal\Onix\CodeList\CodeList154;
 use Ribal\Onix\CodeList\CodeList158;
 use Ribal\Onix\CodeList\CodeList159;
+use Symfony\Component\Serializer\Annotation\Ignore;
 
 class SupportingResource
 {
@@ -132,6 +133,7 @@ class SupportingResource
      *
      * @return boolean
      */
+    #[Ignore]
     public function isFrontCover()
     {
    		return $this->ResourceContentType->getCode() == self::TYPE_FRONTCOVER;
@@ -142,6 +144,7 @@ class SupportingResource
      *
      * @return boolean
      */
+    #[Ignore]
     public function isBackCover()
     {
    		return $this->ResourceContentType->getCode() == self::TYPE_BACKCOVER;
@@ -152,6 +155,7 @@ class SupportingResource
      *
      * @return boolean
      */
+    #[Ignore]
     public function isImage()
     {
     	return $this->ResourceMode->getCode() === self::MODE_IMAGE;
@@ -162,6 +166,7 @@ class SupportingResource
      *
      * @return string
      */
+    #[Ignore]
     public function getLink()
     {
     	if ($this->ResourceVersion && $this->ResourceVersion->hasLink()) {

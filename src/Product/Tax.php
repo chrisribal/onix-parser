@@ -119,6 +119,16 @@ class Tax
     }
 
     /**
+     * Get TaxRatePercent
+     *
+     * @return float
+     */
+    public function getTaxRatePercent()
+    {
+        return $this->TaxRatePercent;
+    }
+
+    /**
      * Get TaxableAmount
      *
      * @return float

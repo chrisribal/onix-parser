@@ -25,6 +25,19 @@ class Date
      */
     protected $dates = [];
 
+    public function __construct(?\DateTime $date = null, ?CodeList55 $formatCode = null)
+    {
+        if ($date) {
+            $this->dates[] = $date;
+        }
+
+        if ($formatCode) {
+            $this->setFormatCode($formatCode);
+        } else {
+            $this->setFormatCode(CodeList55::resolve('00'));
+        }
+    }
+
     /**
      * Set the format code to be used
      *
@@ -176,7 +189,24 @@ class Date
      */
     public function formatOnix()
     {
-        // TODO
+        $output = '';
+
+        $dateFormat = $this->formatCode->getValue();
+        $dateFormat = preg_replace('/(YYYY)/', 'Y', $dateFormat);
+        $dateFormat = preg_replace('/(MM)/', 'm', $dateFormat);
+        $dateFormat = preg_replace('/(DD)/', 'd', $dateFormat);
+        $dateFormat = preg_replace('/(WW)/', 'W', $dateFormat);
+        $dateFormat = preg_replace('/(Q)/', '', $dateFormat);
+        $dateFormat = preg_replace('/(S)/', '', $dateFormat);
+
+        foreach ($this->dates as $i => $date) {
+            if ($i > 0) {
+                $output .= '|';
+            }
+            $output .= $date->format($dateFormat);
+        }
+
+        return $output;
     }
 
 }

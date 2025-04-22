@@ -60,7 +60,7 @@ class PublisherIdentifier
      */
     public function getIDValue()
     {
-        $this->IDValue = $IDValue;
+        return $this->IDValue;
     }
 
 }

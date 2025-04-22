@@ -2,6 +2,8 @@
 
 namespace Ribal\Onix\Product;
 
+use Symfony\Component\Serializer\Annotation\Ignore;
+
 class CollateralDetail
 {
 
@@ -74,6 +76,7 @@ class CollateralDetail
      *
      * @return array
      */
+    #[Ignore]
     public function getTextContents()
     {
     	return $this->TextContent;
@@ -104,6 +107,7 @@ class CollateralDetail
      *
      * @return SupportingResource[]
      */
+    #[Ignore]
     public function getSupportingResources()
     {
     	return $this->SupportingResource;
@@ -144,6 +148,7 @@ class CollateralDetail
      *
      * @return TextContent|null
      */
+    #[Ignore]
     public function getDescriptionText()
     {
     	foreach ($this->TextContent as $textContent) {
@@ -158,6 +163,7 @@ class CollateralDetail
      *
      * @return SupportingResource
      */
+    #[Ignore]
 	public function getFrontCover()
 	{
 		foreach ($this->SupportingResource as $resource) {
@@ -172,6 +178,7 @@ class CollateralDetail
 	 *
 	 * @return SupportingResource[]|array
 	 */
+    #[Ignore]
 	public function getImageResources()
 	{	
 		return array_filter($this->SupportingResource, function($resource) {

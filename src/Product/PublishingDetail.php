@@ -154,6 +154,26 @@ class PublishingDetail
     }
 
     /**
+     * Get Imprint
+     *
+     * @return Imprint
+     */
+    public function getImprint()
+    {
+        return $this->Imprint;
+    }
+
+    /**
+     * Get Publisher
+     *
+     * @return Publisher
+     */
+    public function getPublisher()
+    {
+        return $this->Publisher;
+    }
+
+    /**
      * Get CityOfPublication
      *
      * @return string
@@ -171,16 +191,6 @@ class PublishingDetail
     public function getCountryOfPublication()
     {
         return $this->CountryOfPublication;
-    }
-
-    /**
-     * Get Publisher
-     *
-     * @return Publisher
-     */
-    public function getPublisher()
-    {
-        return $this->Publisher;
     }
 
     /**
@@ -221,16 +231,6 @@ class PublishingDetail
     public function getROWSalesRightsType()
     {
         return $this->ROWSalesRightsType;
-    }
-
-    /**
-     * Get Imprint
-     *
-     * @return Imprint
-     */
-    public function getImprint()
-    {
-        return $this->Imprint;
     }
 
     /**

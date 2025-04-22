@@ -15,7 +15,13 @@ class TextNormalizer implements NormalizerInterface, DenormalizerInterface
      */
     public function normalize(mixed $object, ?string $format = null, array $context = []): array|string|int|float|bool|\ArrayObject|null
     {
+        $data = [
+            '@textformat' => $object->getTextFormat(),
+            '@language' => $object->getLanguage(),
+            '#' => $object->getContent()
+        ];
 
+        return $data;
     }
 
     /**

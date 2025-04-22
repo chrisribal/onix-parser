@@ -48,7 +48,7 @@ class ProductFormFeature
      * @param CodeList220 | CodeList98 $ProductFormFeatureValue
      * @return void
      */
-    public function setProductFormFeatureValue(CodeList220 | CodeList98 $ProductFormFeatureValue)
+    public function setProductFormFeatureValue(CodeList98 $ProductFormFeatureValue)
     {
         $this->ProductFormFeatureValue = $ProductFormFeatureValue;
     }

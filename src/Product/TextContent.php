@@ -6,6 +6,7 @@ use Ribal\Onix\CodeList\CodeList153;
 use Ribal\Onix\CodeList\CodeList154;
 use Ribal\Onix\Text;
 use Ribal\Onix\TextNode;
+use Symfony\Component\Serializer\Annotation\Ignore;
 
 class TextContent
 {
@@ -157,6 +158,7 @@ class TextContent
      *
      * @return boolean
      */
+    #[Ignore]
     public function isDescription()
     {
     	return $this->getTextType()->getCode() === self::CODE_MAINDESCRIPTION;

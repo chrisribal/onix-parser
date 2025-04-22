@@ -109,9 +109,9 @@ class Price
      * @param float $PriceAmount
      * @return void
      */
-    public function setPriceAmount(string $PriceAmount)
+    public function setPriceAmount(float $PriceAmount)
     {
-        $this->PriceAmount = (float) $PriceAmount;
+        $this->PriceAmount = $PriceAmount;
     }
 
     /**
@@ -222,6 +222,16 @@ class Price
     }
 
     /**
+     * Get Tax
+     *
+     * @return Tax
+     */
+    public function getTax()
+    {
+        return $this->Tax;
+    }
+
+    /**
      * Get CurrencyCode
      *
      * @return CodeList
@@ -259,16 +269,6 @@ class Price
     public function getDiscountCoded()
     {
         return $this->DiscountCoded;
-    }
-
-    /**
-     * Get Tax
-     *
-     * @return Tax
-     */
-    public function getTax()
-    {
-        return $this->Tax;
     }
 
     /**

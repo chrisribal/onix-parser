@@ -7,6 +7,7 @@ use Ribal\Onix\CodeList\CodeList81;
 use Ribal\Onix\CodeList\CodeList91;
 use Ribal\Onix\CodeList\CodeList150;
 use Ribal\Onix\CodeList\CodeList175;
+use Symfony\Component\Serializer\Annotation\Ignore;
 
 class DescriptiveDetail
 {
@@ -61,6 +62,13 @@ class DescriptiveDetail
     protected $CountryOfManufacture;
 
     /**
+     * ProductClassification
+     *
+     * @var ProductClassification
+     */
+    protected $ProductClassification;
+
+    /**
      * TitleDetail
      *
      * @var array|TitleDetail
@@ -89,13 +97,6 @@ class DescriptiveDetail
     protected $EditionNumber;
 
     /**
-     * Array of Extents
-     *
-     * @var array|Extent
-     */
-    protected $Extent = [];
-
-    /**
      * Array of Language
      *
      * @var array|Language
@@ -103,18 +104,18 @@ class DescriptiveDetail
     protected $Language = [];
 
     /**
+     * Array of Extents
+     *
+     * @var array|Extent
+     */
+    protected $Extent = [];
+
+    /**
      * Array Subject
      *
      * @var array
      */
     protected $Subject = [];
-
-    /**
-     * ProductClassification
-     *
-     * @var ProductClassification
-     */
-    protected $ProductClassification;
 
     /**
      * Array of Collections
@@ -389,16 +390,6 @@ class DescriptiveDetail
     {
         return $this->ProductForm;
     }
-
-    /**
-     * Get ProductFormDetail
-     *
-     * @return array
-     */
-    public function getProductFormDetail()
-    {
-        return $this->ProductFormDetail;
-    }
     
     /**
      * Remove ProductFormDetail
@@ -421,6 +412,16 @@ class DescriptiveDetail
     }
 
     /**
+     * Get ProductFormDetail
+     *
+     * @return array
+     */
+    public function getProductFormDetail()
+    {
+        return $this->ProductFormDetail;
+    }
+
+    /**
      * Get Measure
      *
      * @return array
@@ -431,16 +432,6 @@ class DescriptiveDetail
     }
     
     /**
-     * Get all Measures
-     *
-     * @return array
-     */
-    public function getMeasures()
-    {
-    	return $this->Measure;
-    }
-
-    /**
      * Get CountryOfManufacture
      *
      * @return CodeList
@@ -448,6 +439,16 @@ class DescriptiveDetail
     public function getCountryOfManufacture()
     {
         return $this->CountryOfManufacture;
+    }
+
+     /**
+     * Get ProductClassification
+     *
+     * @return ProductClassification
+     */
+    public function getProductClassification()
+    {
+        return $this->ProductClassification;
     }
 
     /**
@@ -491,6 +492,16 @@ class DescriptiveDetail
     }
 
     /**
+     * Get Language
+     *
+     * @return array
+     */
+    public function getLanguage()
+    {
+        return $this->Language;
+    }
+
+    /**
      * Get Extent
      *
      * @return array
@@ -525,6 +536,7 @@ class DescriptiveDetail
      *
      * @return Subject[]
      */
+    #[Ignore]
     public function getSubjects()
     {
     	return $this->Subject;
@@ -538,16 +550,6 @@ class DescriptiveDetail
      */
     public function removeSubject(Subject $Subject)
     {
-    }
-
-    /**
-     * Get ProductClassification
-     *
-     * @return ProductClassification
-     */
-    public function getProductClassification()
-    {
-        return $this->ProductClassification;
     }
 
     /**
@@ -591,16 +593,6 @@ class DescriptiveDetail
     }
 
     /**
-     * Get Language
-     *
-     * @return array
-     */
-    public function getLanguage()
-    {
-        return $this->Language;
-    }
-
-    /**
      * Remove Language
      *
      * @param Language $language
@@ -629,6 +621,7 @@ class DescriptiveDetail
      *
      * @return Measure
      */
+    #[Ignore]
     public function getHeight()
     {
     	foreach ($this->Measure as $measure) {
@@ -643,6 +636,7 @@ class DescriptiveDetail
      *
      * @return Measure
      */
+    #[Ignore]
     public function getWidth()
     {
     	foreach ($this->Measure as $measure) {
@@ -657,6 +651,7 @@ class DescriptiveDetail
      *
      * @return Measure
      */
+    #[Ignore]
     public function getThickness()
     {
     	foreach ($this->Measure as $measure) {
@@ -671,6 +666,7 @@ class DescriptiveDetail
      *
      * @return Measure
      */
+    #[Ignore]
     public function getWeight()
     {
     	foreach ($this->Measure as $measure) {
@@ -685,6 +681,7 @@ class DescriptiveDetail
      *
      * @return array
      */
+    #[Ignore]
     public function getAuthors()
     {
     	return array_filter($this->Contributor, function ($contributor) {
