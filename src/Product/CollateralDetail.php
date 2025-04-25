@@ -24,9 +24,9 @@ class CollateralDetail
     /**
      * Array of SupportingResource
      *
-     * @var array|SupportingResource
+     * @var SupportingResource[]
      */
-    protected $SupportingResource = [];
+    protected array $SupportingResource = [];
 
     /**
      * Add a new TextContent
@@ -95,9 +95,9 @@ class CollateralDetail
     /**
      * Get SupportingResources
      *
-     * @return array
+     * @return SupportingResource[]
      */
-    public function getSupportingResource()
+    public function getSupportingResource(): array
     {
         return $this->SupportingResource;
     }

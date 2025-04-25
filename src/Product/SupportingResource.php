@@ -19,23 +19,30 @@ class SupportingResource
     /**
      * ResourceContentType
      *
-     * @var CodeList
+     * @var CodeList158
      */
-    protected $ResourceContentType;
+    protected CodeList158 $ResourceContentType;
 
     /**
      * ContentAudience
      *
-     * @var CodeList
+     * @var CodeList154
      */
-    protected $ContentAudience;
+    protected CodeList154 $ContentAudience;
 
     /**
      * ResourceMode
      *
-     * @var CodeList
+     * @var CodeList159
      */
-    protected $ResourceMode;
+    protected CodeList159 $ResourceMode;
+
+    /**
+     * ResourceLink
+     *
+     * @var string
+     */
+    protected string $ResourceLink;
 
     /**
      * ResourceVersion
@@ -55,6 +62,17 @@ class SupportingResource
         $this->ResourceContentType = $ResourceContentType;
     }
 
+
+    /**
+     * Get ResourceContentType
+     *
+     * @return CodeList
+     */
+    public function getResourceContentType()
+    {
+        return $this->ResourceContentType;
+    }
+
     /**
      * Set ContentAudience
      *
@@ -64,6 +82,16 @@ class SupportingResource
     public function setContentAudience(CodeList154 $ContentAudience)
     {
         $this->ContentAudience = $ContentAudience;
+    }
+
+    /**
+     * Get ContentAudience
+     *
+     * @return CodeList
+     */
+    public function getContentAudience()
+    {
+        return $this->ContentAudience;
     }
 
     /**
@@ -78,37 +106,6 @@ class SupportingResource
     }
 
     /**
-     * Set ResourceVersion
-     *
-     * @param ResourceVersion $ResourceVersion
-     * @return void
-     */
-    public function setResourceVersion(ResourceVersion $ResourceVersion)
-    {
-        $this->ResourceVersion = $ResourceVersion;
-    }
-
-    /**
-     * Get ResourceContentType
-     *
-     * @return CodeList
-     */
-    public function getResourceContentType()
-    {
-        return $this->ResourceContentType;
-    }
-
-    /**
-     * Get ContentAudience
-     *
-     * @return CodeList
-     */
-    public function getContentAudience()
-    {
-        return $this->ContentAudience;
-    }
-
-    /**
      * Get ResourceMode
      *
      * @return CodeList
@@ -118,6 +115,37 @@ class SupportingResource
         return $this->ResourceMode;
     }
 
+    /**
+     * Set ResourceLink
+     *
+     * @return string
+     */
+    public function setResourceLink(string $ResourceLink)
+    {
+        $this->ResourceLink = $ResourceLink;
+    }
+
+    /**
+     * Get ResourceLink
+     *
+     * @return string
+     */
+    public function getResourceLink(): string
+    {
+        return $this->ResourceLink;
+    }
+
+    /**
+     * Set ResourceVersion
+     *
+     * @param ResourceVersion $ResourceVersion
+     * @return void
+     */
+    public function setResourceVersion(ResourceVersion $ResourceVersion)
+    {
+        $this->ResourceVersion = $ResourceVersion;
+    }
+    
     /**
      * Get ResourceVersion
      *

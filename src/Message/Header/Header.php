@@ -22,6 +22,13 @@ class Header
     protected Addressee $Addressee;
 
     /**
+     * Message number
+     *
+     * @var string
+     */
+    protected $MessageNumber;
+
+    /**
      * Message Date
      *
      * @var Date
@@ -36,13 +43,6 @@ class Header
     protected $MessageNote;
 
     /**
-     * Message number
-     *
-     * @var string
-     */
-    protected $MessageNumber;
-
-    /**
      * Set Sender
      *
      * @param Sender $sender
@@ -51,6 +51,16 @@ class Header
     public function setSender(Sender $sender)
     {
         $this->Sender = $sender;
+    }
+
+    /**
+     * Get Sender
+     *
+     * @return Sender
+     */
+    public function getSender()
+    {
+        return $this->Sender;
     }
 
     /**
@@ -65,25 +75,13 @@ class Header
     }
 
     /**
-     * Set SentDateTime
+     * Get Adressee
      *
-     * @param Date $SentDateTime
-     * @return void
+     * @return Adressee
      */
-    public function setSentDateTime(Date $SentDateTime)
+    public function getAddressee()
     {
-        $this->SentDateTime = $SentDateTime;
-    }
-
-    /**
-     * Set MessageNote
-     *
-     * @param string $messageNote
-     * @return void
-     */
-    public function setMessageNote(string $messageNote)
-    {
-        $this->MessageNote = $messageNote;
+        return $this->Addressee;
     }
 
     /**
@@ -98,23 +96,24 @@ class Header
     }
 
     /**
-     * Get Sender
+     * Get MessageNumber
      *
-     * @return Sender
+     * @return string
      */
-    public function getSender()
+    public function getMessageNumber()
     {
-        return $this->Sender;
+        return $this->MessageNumber;
     }
 
     /**
-     * Get Adressee
+     * Set SentDateTime
      *
-     * @return Adressee
+     * @param Date $SentDateTime
+     * @return void
      */
-    public function getAddressee()
+    public function setSentDateTime(Date $SentDateTime)
     {
-        return $this->Addressee;
+        $this->SentDateTime = $SentDateTime;
     }
 
     /**
@@ -128,6 +127,17 @@ class Header
     }
 
     /**
+     * Set MessageNote
+     *
+     * @param string $messageNote
+     * @return void
+     */
+    public function setMessageNote(string $messageNote)
+    {
+        $this->MessageNote = $messageNote;
+    }
+
+    /**
      * Get MessageNote
      *
      * @return string
@@ -135,16 +145,6 @@ class Header
     public function getMessageNote()
     {
         return $this->MessageNote;
-    }
-
-    /**
-     * Get MessageNumber
-     *
-     * @return string
-     */
-    public function getMessageNumber()
-    {
-        return $this->MessageNumber;
     }
 
 }

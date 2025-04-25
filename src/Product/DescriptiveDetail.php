@@ -69,6 +69,13 @@ class DescriptiveDetail
     protected $ProductClassification;
 
     /**
+     * Array of Collections
+     *
+     * @var Collection[]
+     */
+    protected $Collection = [];
+    
+    /**
      * TitleDetail
      *
      * @var array|TitleDetail
@@ -116,13 +123,6 @@ class DescriptiveDetail
      * @var array
      */
     protected $Subject = [];
-
-    /**
-     * Array of Collections
-     *
-     * @var Collection[]
-     */
-    protected $Collection = [];
 
     /**
      * Array of Audiences
@@ -295,17 +295,6 @@ class DescriptiveDetail
     }
 
     /**
-     * Add new Extent
-     *
-     * @param Extent $Extent
-     * @return void
-     */
-    public function addExtent(Extent $Extent)
-    {
-        $this->Extent[] = $Extent;
-    }
-
-    /**
      * Add Subject
      *
      * @param Subject $Subject
@@ -369,6 +358,17 @@ class DescriptiveDetail
     public function addLanguage(Language $Language)
     {
         $this->Language[] = $Language;
+    }
+
+    /**
+     * Add new Extent
+     *
+     * @param Extent $Extent
+     * @return void
+     */
+    public function addExtent(Extent $Extent)
+    {
+        $this->Extent[] = $Extent;
     }
 
     /**

@@ -10,6 +10,20 @@ class PublishingDetail
 {
 
     /**
+     * Imprint
+     *
+     * @var Imprint
+     */
+    protected $Imprint;
+
+    /**
+     * Publisher
+     *
+     * @var Publisher
+     */
+    protected $Publisher;
+
+    /**
      * CityOfPublication
      *
      * @var string
@@ -24,11 +38,11 @@ class PublishingDetail
     protected $CountryOfPublication;
 
     /**
-     * Publisher
+     * Product Contacts
      *
-     * @var Publisher
+     * @var ProductContact[]
      */
-    protected $Publisher;
+    protected array $ProductContact = [];
 
     /**
      * PublishingStatus
@@ -59,90 +73,6 @@ class PublishingDetail
     protected $ROWSalesRightsType;
 
     /**
-     * Imprint
-     *
-     * @var Imprint
-     */
-    protected $Imprint;
-
-    /**
-     * Set CityOfPublication
-     *
-     * @param string|array $CityOfPublication
-     * @return void
-     */
-    public function setCityOfPublication($CityOfPublication)
-    {
-        $this->CityOfPublication = $CityOfPublication;
-    }
-
-    /**
-     * Set CountryOfPublication
-     *
-     * @param CodeList91 $CountryOfPublication
-     * @return void
-     */
-    public function setCountryOfPublication(CodeList91 $CountryOfPublication)
-    {
-        $this->CountryOfPublication = $CountryOfPublication;
-    }
-
-    /**
-     * Set Publisher
-     *
-     * @param Publisher $Publisher
-     * @return void
-     */
-    public function setPublisher(Publisher $Publisher)
-    {
-        $this->Publisher = $Publisher;
-    }
-
-    /**
-     * Set PublishingStatus
-     *
-     * @param CodeList64 $PublishingStatus
-     * @return void
-     */
-    public function setPublishingStatus(CodeList64 $PublishingStatus)
-    {
-        $this->PublishingStatus = $PublishingStatus;
-    }
-
-    /**
-     * Add new PublishingDate
-     *
-     * @param PublishingDate $PublishingDate
-     * @return void
-     */
-    public function addPublishingDate(PublishingDate $PublishingDate)
-    {
-        $this->PublishingDate[] = $PublishingDate;
-    }
-
-    /**
-     * Add SalesRights
-     *
-     * @param SalesRights $SalesRights
-     * @return void
-     */
-    public function addSalesRight(SalesRights $SalesRights)
-    {
-        $this->SalesRights[] = $SalesRights;
-    }
-
-    /**
-     * ROWSalesRightsType
-     *
-     * @param CodeList46 $ROWSalesRightsType
-     * @return void
-     */
-    public function setROWSalesRightsType(CodeList46 $ROWSalesRightsType)
-    {
-        $this->ROWSalesRightsType = $ROWSalesRightsType;
-    }
-
-    /**
      * Set Imprint
      *
      * @param Imprint $Imprint
@@ -164,6 +94,17 @@ class PublishingDetail
     }
 
     /**
+     * Set Publisher
+     *
+     * @param Publisher $Publisher
+     * @return void
+     */
+    public function setPublisher(Publisher $Publisher)
+    {
+        $this->Publisher = $Publisher;
+    }
+
+    /**
      * Get Publisher
      *
      * @return Publisher
@@ -171,6 +112,17 @@ class PublishingDetail
     public function getPublisher()
     {
         return $this->Publisher;
+    }
+
+    /**
+     * Set CityOfPublication
+     *
+     * @param string|array $CityOfPublication
+     * @return void
+     */
+    public function setCityOfPublication($CityOfPublication)
+    {
+        $this->CityOfPublication = $CityOfPublication;
     }
 
     /**
@@ -184,6 +136,17 @@ class PublishingDetail
     }
 
     /**
+     * Set CountryOfPublication
+     *
+     * @param CodeList91 $CountryOfPublication
+     * @return void
+     */
+    public function setCountryOfPublication(CodeList91 $CountryOfPublication)
+    {
+        $this->CountryOfPublication = $CountryOfPublication;
+    }
+
+    /**
      * Get CountryOfPublication
      *
      * @return CodeList
@@ -191,6 +154,38 @@ class PublishingDetail
     public function getCountryOfPublication()
     {
         return $this->CountryOfPublication;
+    }
+
+    /**
+     * Add new ProductContact
+     *
+     * @param ProductContact $ProductContact
+     * @return void
+     */
+    public function addProductContact(ProductContact $ProductContact): void
+    {
+        $this->ProductContact[] = $ProductContact;
+    }
+
+    /**
+     * Get ProductContact
+     *
+     * @return array
+     */
+    public function getProductContact(): array
+    {
+        return $this->ProductContact;
+    }
+
+    /**
+     * Set PublishingStatus
+     *
+     * @param CodeList64 $PublishingStatus
+     * @return void
+     */
+    public function setPublishingStatus(CodeList64 $PublishingStatus)
+    {
+        $this->PublishingStatus = $PublishingStatus;
     }
 
     /**
@@ -204,6 +199,17 @@ class PublishingDetail
     }
 
     /**
+     * Add new PublishingDate
+     *
+     * @param PublishingDate $PublishingDate
+     * @return void
+     */
+    public function addPublishingDate(PublishingDate $PublishingDate)
+    {
+        $this->PublishingDate[] = $PublishingDate;
+    }
+
+    /**
      * Get PublishingDate
      *
      * @return array
@@ -214,6 +220,17 @@ class PublishingDetail
     }
 
     /**
+     * Add SalesRights
+     *
+     * @param SalesRights $SalesRights
+     * @return void
+     */
+    public function addSalesRight(SalesRights $SalesRights)
+    {
+        $this->SalesRights[] = $SalesRights;
+    }
+
+    /**
      * Get SalesRights
      *
      * @return array
@@ -221,6 +238,17 @@ class PublishingDetail
     public function getSalesRights()
     {
         return $this->SalesRights;
+    }
+
+    /**
+     * ROWSalesRightsType
+     *
+     * @param CodeList46 $ROWSalesRightsType
+     * @return void
+     */
+    public function setROWSalesRightsType(CodeList46 $ROWSalesRightsType)
+    {
+        $this->ROWSalesRightsType = $ROWSalesRightsType;
     }
 
     /**
@@ -239,9 +267,7 @@ class PublishingDetail
      * @param PublishingDate $PublishingDate
      * @return void
      */
-    public function removePublishingDate(PublishingDate $PublishingDate)
-    {
-    }
+    public function removePublishingDate(PublishingDate $PublishingDate) {}
 
     /**
      * Remove SalesRights
@@ -249,8 +275,5 @@ class PublishingDetail
      * @param SalesRights $SalesRights
      * @return void
      */
-    public function removeSalesRight(SalesRights $SalesRights)
-    {
-    }
-
+    public function removeSalesRight(SalesRights $SalesRights) {}
 }
