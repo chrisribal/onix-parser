@@ -1,4 +1,5 @@
 /vendor/
+/composer.lock
 
 # Local ONIX schemas and sample files (not distributed)
 /xsd/
