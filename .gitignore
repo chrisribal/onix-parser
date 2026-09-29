@@ -1,3 +1,15 @@
 /vendor/
-onix.xml
-onix30_2024-10-28_19-48-long.xml
+
+# Local ONIX schemas and sample files (not distributed)
+/xsd/
+*.xml
+
+# Local development scripts
+/convert.php
+/decode.php
+/encode.php
+/scraper.php
+
+# Output of scraper.php
+/cache/
+/codelists/

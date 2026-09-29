@@ -1,7 +1,9 @@
 {
     "name": "ribal/onix",
-    "description": "An ONIX 3.0 Parser",
+    "description": "Read and write ONIX for Books 3.0 and 3.1 messages in PHP",
     "type": "library",
+    "keywords": ["onix", "onix-for-books", "onix3", "book", "metadata", "publishing", "editeur", "xml"],
+    "homepage": "https://github.com/chrisribal/onix-parser",
     "license": "MIT",
     "authors": [
         {
@@ -10,6 +12,8 @@
         }
     ],
     "require": {
+        "php": ">=8.2",
+        "ext-dom": "*",
         "symfony/serializer": "^7.1",
         "symfony/property-info": "^7.1",
         "symfony/property-access": "^7.1"
