@@ -11,6 +11,19 @@ class ONIXEncoder extends XmlEncoder
 {
 
     /**
+     * ONIX attributes which are allowed on (almost) any element but are not
+     * part of the object model. They are removed before decoding, otherwise
+     * the element would be decoded as an array instead of its plain value.
+     */
+    private const IGNORED_ATTRIBUTES = ['datestamp', 'sourcename', 'sourcetype', 'collationkey', 'textcase', 'textscript'];
+
+    /**
+     * Elements whose language attribute is kept, as they are mapped to
+     * Ribal\Onix\Text (reference and short tag names)
+     */
+    private const LANGUAGE_ELEMENTS = ['Text', 'd104', 'BiographicalNote', 'b044'];
+
+    /**
      * {@inheritdoc}
      */
     public function decode(string $data, string $format, array $context = []): mixed
@@ -26,6 +39,18 @@ class ONIXEncoder extends XmlEncoder
 
         foreach ($xpath->query("//*[@textformat='02' or @textformat='03' or @textformat='05']") as $textElement) {
             $this->wrapText($textElement);
+        }
+
+        foreach (self::IGNORED_ATTRIBUTES as $attribute) {
+            foreach ($xpath->query("//@" . $attribute) as $node) {
+                $node->ownerElement->removeAttributeNode($node);
+            }
+        }
+
+        foreach ($xpath->query("//@language") as $node) {
+            if (!in_array($node->ownerElement->localName, self::LANGUAGE_ELEMENTS)) {
+                $node->ownerElement->removeAttributeNode($node);
+            }
         }
 
         $data = $dom->saveXML();

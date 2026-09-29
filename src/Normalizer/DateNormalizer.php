@@ -19,7 +19,7 @@ class DateNormalizer implements NormalizerInterface, DenormalizerInterface
     {
         $date = Date::parse(
             is_array($data) ? $data['#'] : $data,
-            is_array($data) ? $data['@dateformat'] : '00'
+            is_array($data) ? ($data['@dateformat'] ?? '00') : '00'
         );
 
         return $date;
