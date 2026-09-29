@@ -3,6 +3,7 @@
 namespace Ribal\Onix\Product;
 
 use Ribal\Onix\CodeList\CodeList2;
+use Ribal\Onix\CodeList\CodeList21;
 use Ribal\Onix\CodeList\CodeList81;
 use Ribal\Onix\CodeList\CodeList91;
 use Ribal\Onix\CodeList\CodeList150;
@@ -97,6 +98,13 @@ class DescriptiveDetail
     protected $ContributorStatement = [];
 
     /**
+     * Array of EditionTypes
+     *
+     * @var CodeList[]
+     */
+    protected $EditionType = [];
+
+    /**
      * EditionNumber
      *
      * @var int
@@ -116,6 +124,13 @@ class DescriptiveDetail
      * @var array|Extent
      */
     protected $Extent = [];
+
+    /**
+     * Array of AncillaryContents (illustrations, maps, tables etc.)
+     *
+     * @var AncillaryContent[]
+     */
+    protected $AncillaryContent = [];
 
     /**
      * Array Subject
@@ -292,6 +307,70 @@ class DescriptiveDetail
     public function setEditionNumber(string $EditionNumber)
     {
         $this->EditionNumber = $EditionNumber;
+    }
+
+    /**
+     * Add EditionType
+     *
+     * @param CodeList21 $EditionType
+     * @return void
+     */
+    public function addEditionType(CodeList21 $EditionType)
+    {
+        $this->EditionType[] = $EditionType;
+    }
+
+    /**
+     * Remove EditionType
+     *
+     * @param CodeList21 $EditionType
+     * @return void
+     */
+    public function removeEditionType(CodeList21 $EditionType)
+    {
+        // void
+    }
+
+    /**
+     * Get EditionTypes
+     *
+     * @return CodeList21[]
+     */
+    public function getEditionType()
+    {
+        return $this->EditionType;
+    }
+
+    /**
+     * Add AncillaryContent
+     *
+     * @param AncillaryContent $AncillaryContent
+     * @return void
+     */
+    public function addAncillaryContent(AncillaryContent $AncillaryContent)
+    {
+        $this->AncillaryContent[] = $AncillaryContent;
+    }
+
+    /**
+     * Remove AncillaryContent
+     *
+     * @param AncillaryContent $AncillaryContent
+     * @return void
+     */
+    public function removeAncillaryContent(AncillaryContent $AncillaryContent)
+    {
+        // void
+    }
+
+    /**
+     * Get AncillaryContents
+     *
+     * @return AncillaryContent[]
+     */
+    public function getAncillaryContent()
+    {
+        return $this->AncillaryContent;
     }
 
     /**

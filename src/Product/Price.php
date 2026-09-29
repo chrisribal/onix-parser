@@ -82,6 +82,13 @@ class Price
     protected $Territory;
 
     /**
+     * Array of PriceDates
+     *
+     * @var PriceDate[]
+     */
+    protected $PriceDate = [];
+
+    /**
      * Set PriceType
      *
      * @param CodeList58 $PriceType
@@ -192,6 +199,28 @@ class Price
     }
 
     /**
+     * Add PriceDate
+     *
+     * @param PriceDate $PriceDate
+     * @return void
+     */
+    public function addPriceDate(PriceDate $PriceDate)
+    {
+        $this->PriceDate[] = $PriceDate;
+    }
+
+    /**
+     * Remove PriceDate
+     *
+     * @param PriceDate $PriceDate
+     * @return void
+     */
+    public function removePriceDate(PriceDate $PriceDate)
+    {
+        // void
+    }
+
+    /**
      * Get PriceType
      *
      * @return CodeList
@@ -199,6 +228,26 @@ class Price
     public function getPriceType()
     {
         return $this->PriceType;
+    }
+
+    /**
+     * Get DiscountCoded
+     *
+     * @return DiscountCoded
+     */
+    public function getDiscountCoded()
+    {
+        return $this->DiscountCoded;
+    }
+
+    /**
+     * Get Discount
+     *
+     * @return Discount
+     */
+    public function getDiscount()
+    {
+        return $this->Discount;
     }
 
     /**
@@ -210,7 +259,7 @@ class Price
     {
         return $this->PriceStatus;
     }
-    
+
     /**
      * PriceAmount
      *
@@ -242,6 +291,26 @@ class Price
     }
 
     /**
+     * Get Territory
+     *
+     * @return Territory
+     */
+    public function getTerritory()
+    {
+        return $this->Territory;
+    }
+
+    /**
+     * Get PriceDates
+     *
+     * @return PriceDate[]
+     */
+    public function getPriceDate()
+    {
+        return $this->PriceDate;
+    }
+
+    /**
      * Get PrintedOnProduct
      *
      * @return CodeList
@@ -259,36 +328,6 @@ class Price
     public function getPositionOnProduct()
     {
         return $this->PositionOnProduct;
-    }
-
-    /**
-     * Get DiscountCoded
-     *
-     * @return DiscountCoded
-     */
-    public function getDiscountCoded()
-    {
-        return $this->DiscountCoded;
-    }
-
-    /**
-     * Get Territory
-     *
-     * @return Territory
-     */
-    public function getTerritory()
-    {
-        return $this->Territory;
-    }
-
-    /**
-     * Get Discount
-     *
-     * @return Discount
-     */
-    public function getDiscount()
-    {
-        return $this->Discount;
     }
 
 }

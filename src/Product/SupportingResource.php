@@ -5,6 +5,7 @@ namespace Ribal\Onix\Product;
 use Ribal\Onix\CodeList\CodeList154;
 use Ribal\Onix\CodeList\CodeList158;
 use Ribal\Onix\CodeList\CodeList159;
+use Ribal\Onix\CodeList\CodeList161;
 use Symfony\Component\Serializer\Annotation\Ignore;
 
 class SupportingResource
@@ -36,13 +37,6 @@ class SupportingResource
      * @var CodeList159
      */
     protected CodeList159 $ResourceMode;
-
-    /**
-     * ResourceLink
-     *
-     * @var string
-     */
-    protected string $ResourceLink;
 
     /**
      * ResourceVersion
@@ -118,21 +112,33 @@ class SupportingResource
     /**
      * Set ResourceLink
      *
-     * @return string
+     * ONIX expects the link inside a <ResourceVersion>, so this is a
+     * shorthand that creates a linkable resource version if necessary.
+     *
+     * @param string $ResourceLink
+     * @param string $ResourceForm Code of code list 161, defaults to "linkable resource"
+     * @return void
      */
-    public function setResourceLink(string $ResourceLink)
+    #[Ignore]
+    public function setResourceLink(string $ResourceLink, string $ResourceForm = '01')
     {
-        $this->ResourceLink = $ResourceLink;
+        if (! $this->ResourceVersion) {
+            $this->ResourceVersion = new ResourceVersion();
+            $this->ResourceVersion->setResourceForm(CodeList161::resolve($ResourceForm));
+        }
+
+        $this->ResourceVersion->setResourceLink($ResourceLink);
     }
 
     /**
      * Get ResourceLink
      *
-     * @return string
+     * @return string|null
      */
-    public function getResourceLink(): string
+    #[Ignore]
+    public function getResourceLink(): ?string
     {
-        return $this->ResourceLink;
+        return $this->getLink();
     }
 
     /**

@@ -154,6 +154,16 @@ class TitleElement
     }
 
     /**
+     * Get PartNumber
+     *
+     * @return int
+     */
+    public function getPartNumber()
+    {
+        return $this->PartNumber;
+    }
+
+    /**
      * Get TitlePrefix
      *
      * @return void
@@ -171,16 +181,6 @@ class TitleElement
     public function getTitleWithoutPrefix()
     {
         return $this->TitleWithoutPrefix;
-    }
-
-    /**
-     * Get PartNumber
-     *
-     * @return int
-     */
-    public function getPartNumber()
-    {
-        return $this->PartNumber;
     }
 
     /**

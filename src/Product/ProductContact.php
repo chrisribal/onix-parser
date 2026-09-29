@@ -29,18 +29,18 @@ class ProductContact
     protected string $ContactName;
 
     /**
-     * Email
-     *
-     * @var string
-     */
-    protected string $EmailAddress;
-
-    /**
      * Telephone
      *
      * @var string
      */
     protected string $TelephoneNumber;
+
+    /**
+     * Email
+     *
+     * @var string
+     */
+    protected string $EmailAddress;
 
     /**
      * Street Address
@@ -134,27 +134,6 @@ class ProductContact
     }
 
     /**
-     * Set EmailAddress
-     *
-     * @param string $EmailAddress
-     * @return void
-     */
-    public function setEmailAddress(string $EmailAddress): void
-    {
-        $this->EmailAddress = $EmailAddress;
-    }
-
-    /**
-     * Get EmailAddress
-     *
-     * @return string
-     */
-    public function getEmailAddress(): string
-    {
-        return $this->EmailAddress;
-    }
-
-    /**
      * Set TelephoneNumber
      *
      * @param string $TelephoneNumber
@@ -173,6 +152,27 @@ class ProductContact
     public function getTelephoneNumber(): string
     {
         return $this->TelephoneNumber;
+    }
+
+    /**
+     * Set EmailAddress
+     *
+     * @param string $EmailAddress
+     * @return void
+     */
+    public function setEmailAddress(string $EmailAddress): void
+    {
+        $this->EmailAddress = $EmailAddress;
+    }
+
+    /**
+     * Get EmailAddress
+     *
+     * @return string
+     */
+    public function getEmailAddress(): string
+    {
+        return $this->EmailAddress;
     }
 
     /**

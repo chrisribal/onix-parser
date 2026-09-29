@@ -6,11 +6,50 @@ class Imprint
 {
 
     /**
+     * Array of ImprintIdentifiers
+     *
+     * @var ImprintIdentifier[]
+     */
+    protected $ImprintIdentifier = [];
+
+    /**
      * ImprintName
      *
      * @var string
      */
     protected $ImprintName;
+
+    /**
+     * Add ImprintIdentifier
+     *
+     * @param ImprintIdentifier $ImprintIdentifier
+     * @return void
+     */
+    public function addImprintIdentifier(ImprintIdentifier $ImprintIdentifier)
+    {
+        $this->ImprintIdentifier[] = $ImprintIdentifier;
+    }
+
+    /**
+     * Remove ImprintIdentifier
+     *
+     * @param ImprintIdentifier $ImprintIdentifier
+     * @return void
+     */
+    public function removeImprintIdentifier(ImprintIdentifier $ImprintIdentifier)
+    {
+        // void
+    }
+
+    /**
+     * Get ImprintIdentifiers
+     *
+     * @return ImprintIdentifier[]
+     */
+    public function getImprintIdentifier()
+    {
+        return $this->ImprintIdentifier;
+    }
 
     /**
      * Set ImprintName

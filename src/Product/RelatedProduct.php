@@ -2,6 +2,7 @@
 
 namespace Ribal\Onix\Product;
 
+use Ribal\Onix\CodeList\CodeList150;
 use Ribal\Onix\CodeList\CodeList51;
 
 class RelatedProduct
@@ -20,7 +21,14 @@ class RelatedProduct
      * @var array|ProductIdentifier
      */
     protected $ProductIdentifier = [];
-    
+
+    /**
+     * ProductForm of the related product
+     *
+     * @var CodeList150
+     */
+    protected $ProductForm;
+
     /**
      * Set ProductRelationCode
      *
@@ -61,6 +69,27 @@ class RelatedProduct
     public function getProductIdentifier()
     {
         return $this->ProductIdentifier;
+    }
+
+    /**
+     * Set ProductForm
+     *
+     * @param CodeList150 $ProductForm
+     * @return void
+     */
+    public function setProductForm(CodeList150 $ProductForm)
+    {
+        $this->ProductForm = $ProductForm;
+    }
+
+    /**
+     * Get ProductForm
+     *
+     * @return CodeList150|null
+     */
+    public function getProductForm()
+    {
+        return $this->ProductForm;
     }
 
     public function removeProductRelationCode(CodeList51 $ProductRelationCode)

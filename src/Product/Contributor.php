@@ -41,6 +41,20 @@ class Contributor
     protected $NamesBeforeKey;
 
     /**
+     * KeyNames
+     *
+     * @var string
+     */
+    protected $KeyNames;
+
+    /**
+     * CorporateName
+     *
+     * @var string
+     */
+    protected $CorporateName;
+
+    /**
      * BiographicalNote
      *
      * @var string
@@ -48,11 +62,25 @@ class Contributor
     protected $BiographicalNote;
 
     /**
-     * KeyNames
+     * Set CorporateName
      *
-     * @var string
+     * @param string $CorporateName
+     * @return void
      */
-    protected $KeyNames;
+    public function setCorporateName(string $CorporateName)
+    {
+        $this->CorporateName = $CorporateName;
+    }
+
+    /**
+     * Get CorporateName
+     *
+     * @return string
+     */
+    public function getCorporateName()
+    {
+        return $this->CorporateName;
+    }
 
     /**
      * Set SequenceNumber

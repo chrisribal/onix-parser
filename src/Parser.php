@@ -105,12 +105,17 @@ class Parser
      *
      * @param Message $message
      * @param string $format
+     * @param string $release ONIX release, either 3.0 or 3.1
      * @return string
      */
-    public function generate(Message $message, string $format = 'reference') : string
+    public function generate(Message $message, string $format = 'reference', string $release = '3.0') : string
     {
         if ($format != 'reference' && $format != 'short') {
             throw new \InvalidArgumentException('Format must be either reference or short');
+        }
+
+        if ($release != '3.0' && $release != '3.1') {
+            throw new \InvalidArgumentException('Release must be either 3.0 or 3.1');
         }
 
         $classMetadataFactory = new ClassMetadataFactory(new AttributeLoader());
@@ -144,10 +149,10 @@ class Parser
         $dom->loadXML($xmlString);
 
         $root = $dom->documentElement;
-        $root->setAttribute('xmlns', 'http://ns.editeur.org/onix/3.0/' . $format);
+        $root->setAttribute('xmlns', 'http://ns.editeur.org/onix/' . $release . '/' . $format);
         $root->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
-        $root->setAttribute('xsi:schemaLocation', 'http://ns.editeur.org/onix/3.0/' . $format . ' xsd/onix-' . $format . '.xsd');
-        $root->setAttribute('release', '3.0');
+        $root->setAttribute('xsi:schemaLocation', 'http://ns.editeur.org/onix/' . $release . '/' . $format . ' xsd/onix-' . $format . '.xsd');
+        $root->setAttribute('release', $release);
 
         return $dom->saveXML();
     }
