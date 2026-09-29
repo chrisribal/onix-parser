@@ -28,11 +28,11 @@ class TextContent
     protected $ContentAudience;
 
     /**
-     * SourceTitle
+     * Text
      *
      * @var string
      */
-    protected $SourceTitle;
+    protected $Text;
 
     /**
      * TextAuthor
@@ -42,11 +42,11 @@ class TextContent
     protected $TextAuthor;
 
     /**
-     * Text
+     * SourceTitle
      *
      * @var string
      */
-    protected $Text;
+    protected $SourceTitle;
 
     /**
      * Set Text Type

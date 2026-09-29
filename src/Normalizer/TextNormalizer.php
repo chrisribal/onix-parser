@@ -17,9 +17,14 @@ class TextNormalizer implements NormalizerInterface, DenormalizerInterface
     {
         $data = [
             '@textformat' => $object->getTextFormat(),
-            '@language' => $object->getLanguage(),
-            '#' => $object->getContent()
         ];
+
+        // An empty language attribute is invalid, so it is only written if set
+        if ($object->getLanguage()) {
+            $data['@language'] = $object->getLanguage();
+        }
+
+        $data['#'] = $object->getContent();
 
         return $data;
     }
